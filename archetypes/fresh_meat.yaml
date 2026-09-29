@@ -1,7 +1,3 @@
-# archetypes/fresh_meat.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
-# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
-# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
-
 archetype: FRESH_MEAT
 name_vi: "Thịt tươi"
 applies_to_groups: ["thịt heo", "thịt bò", "gia cầm"]

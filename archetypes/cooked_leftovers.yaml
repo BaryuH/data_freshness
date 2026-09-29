@@ -1,7 +1,3 @@
-# archetypes/cooked_leftovers.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
-# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
-# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
-
 archetype: COOKED_LEFTOVERS
 name_vi: "Đồ ăn đã nấu chín và thức ăn thừa"
 applies_to_groups: ["cơm nguội", "canh để lại", "món kho để lại", "món xào để lại", "thịt chín", "thức ăn thừa sau bữa ăn"]

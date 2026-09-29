@@ -1,9 +1,3 @@
-# claims/claims.yaml — Evidence claims (handbook §5.3, §9)
-# Rule: No source → No number. The engine reads ONLY claims with status: reviewed.
-# Anchor claims below are status: draft until a human reviewer confirms each
-# locator against the saved copy in sources/raw/, then sets status: reviewed
-# and fills reviewed_by.
-
 - id: C-TCVN7046-COLOR
   statement_vi: "Thịt tươi phải có màu sắc đặc trưng của sản phẩm."
   source: S-TCVN7046
