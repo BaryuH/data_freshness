@@ -1,0 +1,107 @@
+# archetypes/leafy_veg.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: LEAFY_VEG
+name_vi: "Rau ăn lá tươi"
+applies_to_groups: ["rau muống", "rau cải", "cải ngọt", "cải thìa", "xà lách", "mồng tơi", "rau dền", "hành lá", "ngò rí"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Lá xanh mướt đặc trưng, cọng giòn nguyên vẹn, không dập úng, không sâu bệnh"
+    touch: "Cọng bẻ giòn tanh tách, phiến lá căng mọng nước"
+    smell: "Mùi ngái tươi mát tự nhiên của rau xanh, không mùi chua nồng"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Lá hơi héo rũ nhẹ hoặc ngả vàng rải rác ở mép phiến lá, cọng chưa dập"
+    touch: "Mềm dẻo hơn do thoát hơi nước, cọng bẻ còn đàn hồi"
+    smell: "Mùi ngái nhạt dần, không có mùi ủng thối"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Lá úa vàng trên 40-50% diện tích bó rau, cuống cọng ngả nâu, có điểm dập nhẹ"
+    touch: "Cọng mềm nhũn, uốn cong không gãy giòn, phiến lá rũ rượi"
+    smell: "Mùi nồng nặc, thoang thoảng mùi chua lên men của rau ủng"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Lá thâm đen, úng nước nhũn nát diện rộng, có màng nhầy dính hoặc nấm mốc"
+    touch: "Nhũn nát, nhớt ướt chảy dịch hôi khi cầm nắm"
+    smell: "Mùi ủng thối nồng nặc, mùi chua khắm do thối rữa vi khuẩn"
+
+inspection_rubric:
+  - axis: leaf_appearance
+    question_vi: "Quan sát màu sắc và phiến lá rau?"
+    stop_if: [ung_den_nhot_moc]
+    options:
+      - value: xanh_tuoi_cang
+        label_vi: "Xanh mướt tự nhiên, phiến lá nguyên vẹn no nước"
+        penalty: 0.0
+        claim: C-TCVN10738-SENSORY
+      - value: nga_vang_mep_la
+        label_vi: "Hơi héo rũ, ngả vàng lốm đốm ở mép lá hoặc vài lá gốc"
+        penalty: 0.2
+        reason_vi: "Mất nước và suy giảm sắc tố chlorophyll qua khí khổng; nhặt bỏ phần úa vẫn dùng được"
+        claim: C-UCDAVIS-LEAFY-ETHYLENE
+      - value: vang_ua_dien_rong
+        label_vi: "Vàng úa trên diện rộng (>40% diện tích), lá teo tóp"
+        penalty: 0.5
+        reason_vi: "Lão hóa mô tế bào diện rộng do bảo quản lâu hoặc chịu ảnh hưởng khí ethylene"
+        claim: C-UCDAVIS-LEAFY-ETHYLENE
+      - value: ung_den_nhot_moc
+        label_vi: "Thâm đen úng nước, nhũn nát rỉ nhớt hôi hoặc xuất hiện nấm mốc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn thối nhũn thực vật (Pectobacterium carotovorum / Erwinia) phá hủy pectin vách tế bào sinh dịch nhầy độc hại"
+        claim: C-TCVN10738-LEAF-SPOIL
+
+  - axis: stem_texture
+    question_vi: "Bẻ thử cọng/thân rau?"
+    stop_if: [nhun_nat_chay_dich]
+    options:
+      - value: gion_tach
+        label_vi: "Cọng giòn cứng, bẻ nghe tiếng tách rõ ràng"
+        penalty: 0.0
+        claim: C-TCVN10738-SENSORY
+      - value: deo_heo
+        label_vi: "Hơi dẻo héo, cọng uốn cong khó bẻ gãy nhưng chưa úng"
+        penalty: 0.2
+        reason_vi: "Giảm áp suất trương nước của mô tế bào thực vật"
+        claim: C-TCVN10738-SENSORY
+      - value: mem_nhun_khong_dan_hoi
+        label_vi: "Cọng mềm nhũn, dập thâm một phần, mất độ đàn hồi"
+        penalty: 0.55
+        reason_vi: "Mô nâng đỡ bị enzyme thực vật và vi khuẩn ngoại sinh phân giải"
+        claim: C-TCVN10738-SENSORY
+      - value: nhun_nat_chay_dich
+        label_vi: "Cọng nhũn nát hoàn toàn, bóp nhẹ chảy dịch nhớt thối"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Cấu trúc xenluloza và pectin bị tiêu hủy hoàn toàn do vi khuẩn hoại sinh"
+        claim: C-TCVN10738-LEAF-SPOIL
+
+  - axis: smell
+    question_vi: "Ngửi mùi bó rau?"
+    stop_if: [chua_gat_ung_thoi]
+    options:
+      - value: thom_ngai_tuoi
+        label_vi: "Mùi ngái xanh tự nhiên đặc trưng, không mùi lạ"
+        penalty: 0.0
+        claim: C-TCVN10738-ODOR
+      - value: nhat_mui
+        label_vi: "Mùi ngái nhạt, hơi có mùi hầm bí ẩm"
+        penalty: 0.15
+        reason_vi: "Giảm các hợp chất thơm thực vật dễ bay hơi"
+        claim: C-TCVN10738-ODOR
+      - value: chua_gat_ung_thoi
+        label_vi: "Mùi chua gắt, mùi ủng thối khó chịu nồng nặc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Phân hủy yếm khí của vi sinh vật sinh acid hữu cơ bay hơi và hợp chất thối indol/skatol"
+        claim: C-TCVN10738-ODOR
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["TUYỆT ĐỐI KHÔNG rửa nước trước khi cất tủ lạnh (nước ứ đọng tạo ổ ẩm cho vi khuẩn thối nhũn bùng phát)", "Nhặt bỏ lá úng/dập trước khi bảo quản", "Gói rau bằng giấy báo hoặc khăn giấy khô sạch để thấm hút ẩm dư thừa rồi cho vào túi zip thông khí"]
+  bad: ["Để chung túi với trái cây chín sinh nhiều khí ethylene như chuối, cà chua, xoài, táo (khí ethylene làm rau vàng lá và thối úng cực nhanh)", "Để rau đẫm nước vào túi kín buộc chặt"]
+
+business_rules: [no_wash_before_storage, isolate_from_ethylene_sources, tier3_must_cook, tier4_discard]

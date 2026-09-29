@@ -44,3 +44,33 @@
   tier: D
   license: Internal
   accessed: "2026-09-29"
+
+- id: S-TCVN10738
+  title: "TCVN 10738:2015 - Fresh fruits and vegetables: Requirements and sensory evaluation methods"
+  tier: A
+  license: Public Standard
+  accessed: "2026-09-29"
+
+- id: S-FRIEDMAN-SOLANINE
+  title: "Friedman, M. (2006) - Potato Glycoalkaloids (Solanine, Chaconine) and Adverse Effects in Humans. J. Agric. Food Chem."
+  tier: B
+  license: Peer-reviewed
+  accessed: "2026-09-29"
+
+- id: S-USDA-LEFTOVERS
+  title: "USDA FSIS - Leftovers and Food Safety (Danger Zone, 2-Hour Rule, Reheating to 165°F/74°C)"
+  tier: A
+  license: Public Domain
+  accessed: "2026-09-29"
+
+- id: S-FDA-CEREUS
+  title: "FDA Bad Bug Book (2nd ed., 2012) - Bacillus cereus and heat-stable emetic toxin (cereulide)"
+  tier: A
+  license: Public Domain
+  accessed: "2026-09-29"
+
+- id: S-UCDAVIS-PRODUCE
+  title: "UC Davis Postharvest Technology - Produce Facts (Ethylene susceptibility, chilling injury, potato greening)"
+  tier: B
+  license: Open Access Educational
+  accessed: "2026-09-29"

@@ -1,0 +1,102 @@
+# archetypes/fresh_starch_soy.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: FRESH_STARCH_SOY
+name_vi: "Tinh bột tươi và sản phẩm đậu nành"
+applies_to_groups: ["bún tươi", "bánh phở", "bánh canh", "mì tươi", "đậu hũ trắng", "đậu phụ chiên"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Sợi tơi mềm, màu trắng ngà tự nhiên; đậu hũ bề mặt mịn màng, miếng vuông vức, không nhớt"
+    touch: "Sợi tơi xốp không dính bết tay; đậu hũ núng nính đàn hồi, không trơn trượt"
+    smell: "Thơm dịu mùi bột gạo mới hoặc mùi thơm béo tự nhiên của đậu nành, không chua gắt"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Sợi hơi dính nhẹ vào nhau, màu sắc bình thường; đậu hũ hơi mềm"
+    touch: "Hơi dính tay nhẹ khi bốc sợi nhưng chưa nhớt trơn"
+    smell: "Thoang thoảng mùi chua nhẹ đặc trưng của quá trình lên men bột tự nhiên"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Sợi bết dính thành tảng khó gỡ, bề mặt hơi xỉn màu; đậu hũ bề mặt hơi ngả vàng"
+    touch: "Cảm giác hơi nhớt nhẹ ở đầu ngón tay"
+    smell: "Mùi chua rõ rệt, bắt đầu lấn át mùi thơm của gạo/đậu"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Chảy dịch vàng nhớt, sợi bở nát kéo tơ hoặc xuất hiện mốc xanh/đỏ/đen"
+    touch: "Nhớt trơn tuột nhớt nháp, bở nát dính chặt"
+    smell: "Mùi chua gắt khó chịu, mùi ôi thiu hoặc mùi thối nồng nặc"
+
+inspection_rubric:
+  - axis: texture_and_stickiness
+    question_vi: "Sờ và kiểm tra độ tơi dính của sợi bún/bánh phở hoặc bề mặt đậu hũ?"
+    stop_if: [nhot_keo_to_dich_vang_moc]
+    options:
+      - value: toi_mem_kho_min
+        label_vi: "Sợi tơi mềm, không dính tay; đậu hũ khô ráo, săn mịn"
+        penalty: 0.0
+        claim: C-LOCAL-STARCH-SLIME
+      - value: bet_dinh_nhe
+        label_vi: "Sợi hơi bết dính nhẹ / đậu hũ hơi mềm nhưng chưa trơn trượt"
+        penalty: 0.2
+        reason_vi: "Hồ hóa tinh bột bề mặt do độ ẩm cao hoặc hấp thụ hơi nước"
+        claim: C-LOCAL-STARCH-SLIME
+      - value: nhot_tron_tay
+        label_vi: "Bề mặt nhớt trơn rõ rệt, sợi dính bết thành cục khó tách"
+        penalty: 0.55
+        reason_vi: "Vi khuẩn ngoại sinh hình thành màng nhầy sinh học (biofilm) trên bề mặt"
+        claim: C-LOCAL-STARCH-SLIME
+      - value: nhot_keo_to_dich_vang_moc
+        label_vi: "Nhớt kéo tơ dính, chảy dịch vàng đục hoặc xuất hiện đốm mốc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Màng sinh học biofilm phát triển dày đặc do vi khuẩn phân hủy protein và tinh bột, sinh ngoại độc tố"
+        claim: C-LOCAL-STARCH-SLIME
+
+  - axis: smell
+    question_vi: "Ngửi gần khối bún/phở hoặc miếng đậu hũ?"
+    stop_if: [chua_gat_thoi_thiu]
+    options:
+      - value: thom_tu_nhien
+        label_vi: "Thơm dịu mùi bột tươi hoặc mùi béo thanh của đậu nành"
+        penalty: 0.0
+        claim: C-FK-TOFU-STORAGE
+      - value: hoi_chua_nhe
+        label_vi: "Hơi chua thoang thoảng do lên men bột tự nhiên"
+        penalty: 0.2
+        reason_vi: "Vi khuẩn lactic tự nhiên lên men carbohydrate sinh acid lactic"
+        claim: C-LOCAL-STARCH-SLIME
+      - value: chua_gat_thoi_thiu
+        label_vi: "Mùi chua gắt nồng nặc, mùi thiu ủng hoặc hôi thối khó chịu"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Quá trình lên men acid butyric và phân hủy protein sâu sinh amin bay hơi độc hại"
+        claim: C-LOCAL-STARCH-SLIME
+
+  - axis: color
+    question_vi: "Quan sát màu sắc sợi tinh bột hoặc miếng đậu hũ?"
+    stop_if: [o_vang_xanh_do_moc]
+    options:
+      - value: trang_nga_tu_nhien
+        label_vi: "Trắng ngà tự nhiên (bún, phở), trắng kem mịn (đậu hũ)"
+        penalty: 0.0
+        claim: C-FK-TOFU-STORAGE
+      - value: hoi_xin_mau
+        label_vi: "Hơi xỉn màu nhẹ hoặc ngả màu sẫm do tiếp xúc không khí"
+        penalty: 0.15
+        reason_vi: "Phản ứng thoái hóa tinh bột bề mặt hoặc oxy hóa lipid đậu nành"
+        claim: C-LOCAL-STARCH-SLIME
+      - value: o_vang_xanh_do_moc
+        label_vi: "Ố vàng sẫm, chuyển màu xanh/đỏ hoặc có chấm mốc lạ"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Nhiễm vi khuẩn sinh sắc tố (như Serratia marcescens, Pseudomonas) hoặc nấm mốc độc sinh mycotoxin"
+        claim: C-LOCAL-STARCH-SLIME
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["Bún tươi và bánh phở khuyên dùng ngay trong ngày; nếu cất tủ lạnh nên chần qua nước sôi 1 phút trước khi ăn", "Đậu hũ trắng nên ngâm ngập hoàn toàn trong hộp nước sạch để ngăn mát tủ lạnh và thay nước mỗi ngày"]
+  bad: ["Để bún tươi/đậu hũ ở nhiệt độ phòng nóng ẩm (>30°C) quá 4 giờ (vi khuẩn sinh sôi cực nhanh làm chua và nhớt)", "Để đậu hũ hở không ngâm nước trong tủ lạnh (làm khô cứng mặt và nhiễm khuẩn chéo)"]
+
+business_rules: [consume_within_day_recommended, soak_water_for_tofu, tier3_must_cook, tier4_discard]
