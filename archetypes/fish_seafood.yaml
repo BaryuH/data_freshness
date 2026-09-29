@@ -1,0 +1,119 @@
+# archetypes/fish_seafood.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: FISH_SEAFOOD
+name_vi: "Cá và hải sản có vây / mực / tôm"
+applies_to_groups: ["cá lóc", "cá điêu hồng", "tôm", "mực", "bạch tuộc"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Mắt trong, lồi; mang đỏ tươi, khép chặt"
+    touch: "Thịt săn chắc, bụng nguyên vẹn"
+    smell: "Mùi biển/tanh nhẹ tự nhiên"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Mắt phẳng, hơi đục; mang hồng nhạt hoặc hơi thẫm"
+    touch: "Thịt hơi mềm"
+    smell: "Tanh vừa"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Mắt hơi lõm, đục; mang nâu nhạt, có nhớt trong"
+    touch: "Thịt mềm, ấn còn vết lõm"
+    smell: "Tanh nồng, gắt"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Mắt lõm sâu, đục hoàn toàn; mang xám nâu, nhớt đục/hôi"
+    touch: "Vỡ bụng, thịt nhũn nát"
+    smell: "Hôi thối, khai amoniac"
+
+inspection_rubric:
+  - axis: gills
+    question_vi: "Lật nắp mang, quan sát màu mang?"
+    stop_if: [xam_nau_nhot]
+    options:
+      - value: do_tuoi
+        label_vi: "Đỏ tươi, sạch, khép chặt"
+        penalty: 0.0
+        claim: C-TCVN5277-GILLS
+      - value: hong_nhat
+        label_vi: "Hồng nhạt hoặc hơi thẫm, nhớt nhẹ"
+        penalty: 0.15
+        reason_vi: "Hemoglobin trong mang oxy hóa, dịch nhầy bắt đầu tiết ra"
+        claim: C-TCVN5277-GILLS
+      - value: xam_nau_nhot
+        label_vi: "Xám nâu, nhớt đục"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn phân hủy máu và mô mang, tạo màng nhầy dày"
+        claim: C-TCVN5277-GILLS
+      - value: khong_ap_dung
+        label_vi: "Không áp dụng — mang nằm trong xoang áo/dưới giáp đầu ngực, không có nắp mang để lật (mực, bạch tuộc, tôm)"
+        penalty: 0.0
+        claim: C-LOCAL-AXIS-NA
+
+  - axis: eyes
+    question_vi: "Quan sát mắt cá?"
+    options:
+      - value: trong_loi
+        label_vi: "Trong, lồi"
+        penalty: 0.0
+        claim: C-TCVN5277-EYES
+      - value: phang_hoi_duc
+        label_vi: "Phẳng, hơi đục"
+        penalty: 0.15
+        reason_vi: "Giác mạc mất nước, protein bắt đầu biến tính"
+        claim: C-TCVN5277-EYES
+      - value: lom_duc_hoan_toan
+        label_vi: "Lõm sâu, đục hoàn toàn"
+        penalty: 0.5
+        reason_vi: "Mất áp lực dịch trong nhãn cầu, protein biến tính nặng"
+        claim: C-TCVN5277-EYES
+
+  - axis: flesh_belly
+    question_vi: "Ấn nhẹ vào thân và bụng?"
+    stop_if: [vo_bung_nhun]
+    options:
+      - value: chac_nguyen
+        label_vi: "Thịt săn chắc, bụng nguyên vẹn"
+        penalty: 0.0
+        claim: C-TCVN5277-TOUCH
+      - value: hoi_mem
+        label_vi: "Thịt hơi mềm"
+        penalty: 0.2
+        reason_vi: "Enzyme nội sinh (tự phân) bắt đầu làm mềm mô cơ"
+        claim: C-TCVN5277-TOUCH
+      - value: vo_bung_nhun
+        label_vi: "Vỡ bụng, thịt nhũn nát"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Enzyme tiêu hóa và vi khuẩn đường ruột phân giải thành bụng và mô cơ"
+        claim: C-TCVN5277-TOUCH
+
+  - axis: smell
+    question_vi: "Ngửi gần mang và bụng?"
+    stop_if: [amoniac_thoi]
+    options:
+      - value: nhe_tu_nhien
+        label_vi: "Mùi biển/tanh nhẹ tự nhiên"
+        penalty: 0.0
+        claim: C-TCVN5277-ODOR
+      - value: tanh_manh
+        label_vi: "Tanh nồng"
+        penalty: 0.2
+        reason_vi: "Vi khuẩn khử TMAO thành trimethylamine (TMA)"
+        claim: C-TCVN5277-ODOR
+      - value: amoniac_thoi
+        label_vi: "Khai amoniac/hôi thối"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn khử TMAO thành TMA, khử amin sinh amoniac và phân giải axit amin chứa lưu huỳnh sinh H2S"
+        claim: C-TCVN5277-ODOR
+
+preservation_protocols:
+  recommended: [fridge_2_4c, ice_0c]
+  prep: ["Mổ bỏ mang và nội tạng càng sớm càng tốt", "Rửa sạch nhớt và máu đông, để ráo trước khi cho vào hộp kín"]
+  bad: ["Ngâm trong nước ở nhiệt độ phòng để rã đông (vi khuẩn gây ươn phát triển nhanh ở nhiệt độ ấm, sinh TMA và H2S)"]
+
+business_rules: [tier3_must_cook, tier4_discard]

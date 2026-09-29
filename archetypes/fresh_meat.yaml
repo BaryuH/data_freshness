@@ -1,0 +1,135 @@
+# archetypes/fresh_meat.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: FRESH_MEAT
+name_vi: "Thịt tươi"
+applies_to_groups: ["thịt heo", "thịt bò", "gia cầm"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Hồng tươi/đỏ tươi, mỡ trắng ngà"
+    touch: "Bề mặt khô, ấn lõm phẳng lại ngay"
+    smell: "Thơm thịt tươi"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Hơi nhạt hoặc hơi thẫm"
+    touch: "Bề mặt hơi ướt, đàn hồi giảm"
+    smell: "Nhạt, chưa chua"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Xỉn xám, có mảng thâm"
+    touch: "Bề mặt dính nhớt, ấn còn vết lõm"
+    smell: "Hơi chua, ôi nhẹ"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Xám xanh, có mốc"
+    touch: "Rất nhớt, nhũn nát"
+    smell: "Khai amoniac, hôi thối nồng"
+
+inspection_rubric:
+  - axis: color
+    question_vi: "Màu sắc phần nạc và mỡ?"
+    stop_if: [xam_xanh]
+    options:
+      - value: hong_tuoi
+        label_vi: "Hồng tươi/đỏ tươi, mỡ trắng ngà"
+        penalty: 0.0
+        claim: C-TCVN7046-COLOR
+      - value: hoi_nhat_tham
+        label_vi: "Hơi nhạt hoặc hơi thẫm"
+        penalty: 0.15
+        reason_vi: "Thịt ngâm nước/mất dịch hoặc bắt đầu oxy hóa bề mặt"
+        claim: C-TCVN7046-COLOR
+      - value: xin_xam
+        label_vi: "Xỉn xám, có mảng thâm"
+        penalty: 0.45
+        reason_vi: "Myoglobin oxy hóa thành metmyoglobin (nâu xám)"
+        claim: C-TCVN7046-COLOR
+      - value: xam_xanh
+        label_vi: "Xám xanh/xanh lục, có mốc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn sinh H2S tạo sulfmyoglobin (sắc xanh); nấm mốc phát triển"
+        claim: C-TCVN7046-COLOR
+
+  - axis: stickiness
+    question_vi: "Sờ bề mặt miếng thịt?"
+    stop_if: [rat_nhot]
+    options:
+      - value: kho_rao
+        label_vi: "Khô ráo, sạch"
+        penalty: 0.0
+        claim: C-TCVN7046-TOUCH
+      - value: hoi_uot
+        label_vi: "Hơi ướt, chưa dính tay"
+        penalty: 0.15
+        reason_vi: "Rỉ dịch do bảo quản lâu hoặc rã đông"
+        claim: C-TCVN7046-TOUCH
+      - value: dinh_nhot
+        label_vi: "Dính nhớt nhẹ"
+        penalty: 0.45
+        reason_vi: "Vi khuẩn bề mặt phát triển, bắt đầu tạo màng nhầy"
+        claim: C-TCVN7046-TOUCH
+      - value: rat_nhot
+        label_vi: "Rất nhớt, kéo sợi"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Màng nhầy vi khuẩn dày — mật độ vi sinh đã ở mức hư hỏng"
+        claim: C-TCVN7046-TOUCH
+
+  - axis: elasticity
+    question_vi: "Ấn ngón tay vào thịt rồi bỏ ra?"
+    options:
+      - value: hoi_ngay
+        label_vi: "Vết lõm phẳng lại ngay"
+        penalty: 0.0
+        claim: C-TCVN7046-TOUCH
+      - value: hoi_cham
+        label_vi: "Phẳng lại chậm"
+        penalty: 0.15
+        reason_vi: "Mô cơ mất nước, cấu trúc protein bắt đầu suy giảm"
+        claim: C-TCVN7046-TOUCH
+      - value: con_vet_lom
+        label_vi: "Còn vết lõm, không hồi lại"
+        penalty: 0.45
+        reason_vi: "Enzyme và vi khuẩn phân giải protein cơ, mất đàn hồi"
+        claim: C-TCVN7046-TOUCH
+      - value: nhun_nat
+        label_vi: "Nhũn nát"
+        penalty: 0.75
+        reason_vi: "Protein cơ bị phân hủy nặng"
+        claim: C-TCVN7046-TOUCH
+
+  - axis: smell
+    question_vi: "Ngửi gần miếng thịt?"
+    stop_if: [chua_khai_ro]
+    options:
+      - value: thom_tuoi
+        label_vi: "Thơm thịt tươi"
+        penalty: 0.0
+        claim: C-TCVN7046-ODOR
+      - value: nhat
+        label_vi: "Nhạt, không thơm"
+        penalty: 0.15
+        reason_vi: "Hợp chất mùi tươi giảm theo thời gian bảo quản"
+        claim: C-TCVN7046-ODOR
+      - value: hoi_chua
+        label_vi: "Hơi chua, ôi nhẹ"
+        penalty: 0.45
+        reason_vi: "Vi khuẩn lên men và oxy hóa chất béo bắt đầu"
+        claim: C-TCVN7046-ODOR
+      - value: chua_khai_ro
+        label_vi: "Chua/khai amoniac/hôi thối rõ"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Phân hủy protein sinh amin, amoniac và H2S"
+        claim: C-TCVN7046-ODOR
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["Thấm khô bề mặt trước khi cất", "Chia phần theo bữa trước khi cấp đông"]
+  bad: ["Để chung đĩa với đồ ăn chín (lây nhiễm chéo)"]
+
+business_rules: [tier3_must_cook, tier4_discard]

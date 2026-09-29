@@ -1,0 +1,46 @@
+# claims/sources.yaml — Registry of evidence sources (handbook §4, §5.3)
+# Tiers: A = standards & regulators · B = monographs & peer-reviewed
+#        C = reputable consumer guidance · D = team-derived conservative rules
+# Store the PDF/snapshot for each source under sources/raw/.
+
+- id: S-TCVN7046
+  title: "TCVN 7046:2019 - Fresh Meat: Technical requirements and sensory evaluation methods"
+  tier: A
+  license: Public Standard
+  accessed: "2026-09-29"
+
+- id: S-TCVN5277
+  title: "TCVN 5277 - Fishery products: Sensory evaluation methods"
+  tier: A
+  license: Public Standard
+  accessed: "2026-09-29"
+
+- id: S-FK
+  title: "USDA FSIS FoodKeeper Data"
+  tier: A
+  license: CC0
+  accessed: "2026-09-29"
+
+- id: S-FDA-BADBUG
+  title: "FDA Bad Bug Book (Vibrio spp. in molluscan shellfish)"
+  tier: A
+  license: Public Domain
+  accessed: "2026-09-29"
+
+- id: S-FAO-HUSS
+  title: "FAO Fisheries Technical Paper 348 (Huss, 1995: Quality and quality changes in fresh fish)"
+  tier: B
+  license: Open Access
+  accessed: "2026-09-29"
+
+- id: S-FDA-SEAFOOD
+  title: "FDA: Selecting and Serving Fresh and Frozen Seafood Safely"
+  tier: A
+  license: Public Domain
+  accessed: "2026-09-29"
+
+- id: S-LOCAL-RULES
+  title: "Quy tắc suy luận nội bộ dựa trên nguyên lý khí học"
+  tier: D
+  license: Internal
+  accessed: "2026-09-29"

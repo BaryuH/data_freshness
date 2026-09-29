@@ -1,0 +1,102 @@
+# archetypes/egg.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: EGG
+name_vi: "Trứng gia cầm"
+applies_to_groups: ["trứng gà", "trứng vịt", "trứng cút"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Vỏ nhám, còn lớp phấn tự nhiên; lòng đỏ cao tròn, lòng trắng đặc"
+    touch: "Thả nước chìm, nằm ngang"
+    smell: "Không mùi lạ"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Vỏ hơi bóng; lòng đỏ hơi dẹt, lòng trắng hơi loãng"
+    touch: "Thả nước chìm nhưng đầu tù chếch lên"
+    smell: "Không mùi lạ"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Màng lòng đỏ rất dễ vỡ, lòng trắng loãng hoàn toàn"
+    touch: "Thả nước dựng đứng do buồng khí lớn"
+    smell: "Chưa có mùi hôi"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Vỏ nứt/rỉ dịch/mốc; lòng đỏ lẫn lòng trắng hoặc có mốc"
+    touch: "Nổi hẳn trên mặt nước, lắc nghe óc ách"
+    smell: "Mùi lưu huỳnh (H2S)/thối nồng"
+
+inspection_rubric:
+  - axis: shell_integrity
+    question_vi: "Quan sát bề mặt vỏ trứng?"
+    stop_if: [nut_vo_ri_dich]
+    options:
+      - value: nguyen_ven_nham
+        label_vi: "Nguyên vẹn, nhám, còn lớp phấn"
+        penalty: 0.0
+        claim: C-FK-EGG-CRACKED
+      - value: bong_lang
+        label_vi: "Bóng, láng"
+        penalty: 0.15
+        reason_vi: "Lớp màng cuticle đã mòn (trứng cũ hoặc đã rửa), lỗ vỏ hở hơn"
+        claim: C-FK-EGG-CRACKED
+      - value: nut_vo_ri_dich
+        label_vi: "Nứt vỡ, rỉ dịch"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn Salmonella xâm nhập trực tiếp qua vết nứt"
+        claim: C-FK-EGG-CRACKED
+
+  - axis: water_float_test
+    question_vi: "Thả trứng vào cốc nước?"
+    stop_if: [noi_han]
+    options:
+      - value: chim_nam_ngang
+        label_vi: "Chìm, nằm ngang"
+        penalty: 0.0
+        claim: C-LOCAL-EGG-FLOAT
+      - value: chim_dung_dau
+        label_vi: "Chìm nhưng dựng đứng"
+        penalty: 0.2
+        reason_vi: "Buồng khí lớn dần do trứng mất nước và CO2 qua lỗ vỏ"
+        claim: C-LOCAL-EGG-FLOAT
+      - value: noi_lo_lung
+        label_vi: "Nổi lơ lửng gần mặt nước"
+        penalty: 0.6
+        reason_vi: "Buồng khí rất lớn, trứng đã cũ"
+        claim: C-LOCAL-EGG-FLOAT
+      - value: noi_han
+        label_vi: "Nổi bồng bềnh hẳn trên mặt nước"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Buồng khí giãn rất lớn do trứng mất nước và CO2 qua lỗ vỏ trong thời gian dài — trứng rất cũ"
+        claim: C-LOCAL-EGG-FLOAT
+
+  - axis: broken_yolk_white
+    question_vi: "Đập trứng sống ra bát?"
+    stop_if: [vo_den_h2s]
+    options:
+      - value: long_do_cao
+        label_vi: "Lòng đỏ cao tròn, lòng trắng đặc"
+        penalty: 0.0
+        claim: C-FK-EGG-SPOILED
+      - value: long_do_det
+        label_vi: "Lòng đỏ dẹt"
+        penalty: 0.2
+        reason_vi: "Màng lòng đỏ yếu dần, lòng trắng loãng do CO2 thoát ra làm tăng pH"
+        claim: C-FK-EGG-SPOILED
+      - value: vo_den_h2s
+        label_vi: "Lòng đỏ vỡ, đen/xanh, loãng hoặc mùi lưu huỳnh (H2S)"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn phân giải protein chứa lưu huỳnh, sinh H2S"
+        claim: C-FK-EGG-SPOILED
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["Bảo quản trong hộp kín hoặc khay giấy, để đầu tù hướng lên trên"]
+  bad: ["Rửa vỏ trứng bằng nước (làm mất lớp màng cuticle bảo vệ, vi khuẩn dễ xâm nhập)", "Để ở cánh cửa tủ lạnh (nhiệt độ dao động mạnh)"]
+
+business_rules: [no_wash_before_storage, tier3_must_cook, tier4_discard]

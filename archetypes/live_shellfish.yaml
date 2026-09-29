@@ -1,0 +1,99 @@
+# archetypes/live_shellfish.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
+# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
+# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
+
+archetype: LIVE_SHELLFISH
+name_vi: "Nhuyễn thể và giáp xác sống"
+applies_to_groups: ["nghêu", "sò", "ốc", "hến", "cua sống", "ghẹ sống"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Vỏ khép chặt hoặc khép ngay khi chạm; cua/ghẹ cử động khỏe"
+    touch: "Phản xạ nhanh"
+    smell: "Mùi biển/rong biển tươi"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Vỏ khép chậm nhưng vẫn khép kín; cua/ghẹ cử động chậm"
+    touch: "Phản xạ hơi chậm"
+    smell: "Không có mùi lạ"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Vỏ há, chỉ khép một phần hoặc khép chậm khi gõ mạnh; cua/ghẹ gần như bất động"
+    touch: "Phản xạ yếu"
+    smell: "Mùi bùn/tanh nồng"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Vỏ há đơ, không phản xạ; cua/ghẹ chết, rụng khớp"
+    touch: "Không phản xạ, khớp nhũn"
+    smell: "Hôi thối, mùi bùn thối/trứng thối (H2S)"
+
+inspection_rubric:
+  - axis: shell_reflex
+    question_vi: "Gõ nhẹ vào vỏ (nhuyễn thể) hoặc chạm vào càng/chân (cua, ghẹ)?"
+    stop_if: [chet_khong_phan_xa]
+    options:
+      - value: khep_ngay
+        label_vi: "Khép chặt ngay / cử động khỏe"
+        penalty: 0.0
+        claim: C-FDA-VIBRIO-DEAD
+      - value: khep_cham
+        label_vi: "Khép chậm / cử động yếu"
+        penalty: 0.2
+        reason_vi: "Con vật suy yếu do thiếu oxy hoặc bảo quản sai nhiệt độ"
+        claim: C-FDA-VIBRIO-DEAD
+      - value: chet_khong_phan_xa
+        label_vi: "Vỏ há đơ không khép / cua ghẹ chết, rụng khớp"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Con vật đã chết mất cơ chế phòng vệ, vi khuẩn (kể cả Vibrio) và enzyme nội sinh phân hủy mô rất nhanh"
+        claim: C-FDA-VIBRIO-DEAD
+
+  - axis: buoyancy
+    question_vi: "Thả vào chậu nước sạch?"
+    options:
+      - value: chim_han
+        label_vi: "Chìm hẳn"
+        penalty: 0.0
+        claim: C-LOCAL-SHELLFISH-FLOAT
+      - value: lo_lung
+        label_vi: "Lơ lửng"
+        penalty: 0.3
+        reason_vi: "Có thể đã tích khí hoặc mất nước bên trong vỏ"
+        claim: C-LOCAL-SHELLFISH-FLOAT
+      - value: noi_hoan_toan
+        label_vi: "Nổi hoàn toàn"
+        penalty: 0.75
+        reason_vi: "Tích tụ khí do vi khuẩn phân hủy bên trong vỏ"
+        claim: C-LOCAL-SHELLFISH-FLOAT
+      - value: khong_ap_dung
+        label_vi: "Không áp dụng (cua, ghẹ, ốc)"
+        penalty: 0.0
+        claim: C-LOCAL-AXIS-NA
+
+  - axis: smell
+    question_vi: "Ngửi gần vỏ/mai?"
+    stop_if: [hoi_thoi_h2s]
+    options:
+      - value: bien_tuoi
+        label_vi: "Mùi biển/bùn tươi tự nhiên"
+        penalty: 0.0
+        claim: C-TCVN5277-ODOR
+      - value: tanh_gat
+        label_vi: "Tanh gắt"
+        penalty: 0.2
+        reason_vi: "Vi khuẩn bắt đầu phân giải protein, sinh amin bay hơi"
+        claim: C-TCVN5277-ODOR
+      - value: hoi_thoi_h2s
+        label_vi: "Hôi thối khắm / mùi trứng thối (H2S)"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Phân hủy protein sinh H2S, amoniac và amin bay hơi"
+        claim: C-TCVN5277-ODOR
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["Phủ khăn ẩm lên trên để giữ ẩm và cho phép nhuyễn thể hô hấp"]
+  bad: ["Để trong túi nylon buộc kín (thiếu oxy, con vật chết ngạt)", "Ngâm nhuyễn thể biển (nghêu, sò) trong nước ngọt (sốc thẩm thấu, chết đồng loạt)"]
+
+business_rules: [live_status_strictly_required, tier4_discard]
