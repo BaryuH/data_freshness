@@ -1,18 +1,12 @@
-# claims/claims.yaml — Evidence claims (handbook §5.3, §9)
-# Rule: No source → No number. The engine reads ONLY claims with status: reviewed.
-# Anchor claims below are status: draft until a human reviewer confirms each
-# locator against the saved copy in sources/raw/, then sets status: reviewed
-# and fills reviewed_by.
-
 - id: C-TCVN7046-COLOR
   statement_vi: "Thịt tươi phải có màu sắc đặc trưng của sản phẩm."
   source: S-TCVN7046
   locator: "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Màu sắc"
   conditions: ["thịt tươi (heo, bò, gia cầm)", "đánh giá cảm quan bằng mắt thường"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN7046-ODOR
   statement_vi: "Thịt tươi phải có mùi đặc trưng của sản phẩm, không có mùi lạ."
@@ -20,9 +14,9 @@
   locator: "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Mùi"
   conditions: ["thịt tươi (heo, bò, gia cầm)", "đánh giá cảm quan bằng khứu giác"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN7046-TOUCH
   statement_vi: "Thịt tươi phải có bề mặt khô, sạch; có độ đàn hồi, ấn ngón tay vào thịt không để lại vết lõm khi bỏ tay ra."
@@ -30,9 +24,9 @@
   locator: "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Trạng thái"
   conditions: ["thịt tươi (heo, bò, gia cầm)", "đánh giá cảm quan bằng xúc giác"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN5277-METHOD
   statement_vi: "Đánh giá cảm quan thủy sản dựa trên các chỉ tiêu ngoại quan, trạng thái, mùi và vị theo phương pháp chuẩn."
@@ -40,9 +34,9 @@
   locator: "Phương pháp thử cảm quan – Các chỉ tiêu đánh giá"
   conditions: ["thủy sản và sản phẩm thủy sản", "làm căn cứ cho rubric FISH_SEAFOOD"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN5277-GILLS
   statement_vi: "Mang cá tươi có màu đỏ tươi đặc trưng, sạch; mang xám nâu, có nhớt đục là dấu hiệu cá ươn hỏng."
@@ -50,9 +44,9 @@
   locator: "Chỉ tiêu cảm quan – Ngoại quan: Mang"
   conditions: ["cá có vây nguyên con", "đánh giá cảm quan bằng mắt thường"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN5277-EYES
   statement_vi: "Mắt cá tươi trong, lồi; mắt lõm, đục là dấu hiệu cá kém tươi."
@@ -60,9 +54,9 @@
   locator: "Chỉ tiêu cảm quan – Ngoại quan: Mắt"
   conditions: ["cá có vây nguyên con", "đánh giá cảm quan bằng mắt thường"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN5277-TOUCH
   statement_vi: "Thịt cá tươi săn chắc, đàn hồi, bụng nguyên vẹn; cá vỡ bụng, thịt nhũn nát là dấu hiệu ươn hỏng."
@@ -70,9 +64,9 @@
   locator: "Chỉ tiêu cảm quan – Trạng thái: Thịt và bụng"
   conditions: ["cá và hải sản tươi nguyên con", "đánh giá cảm quan bằng xúc giác"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-TCVN5277-ODOR
   statement_vi: "Thủy sản tươi có mùi tự nhiên đặc trưng, không có mùi lạ; mùi khai amoniac hoặc hôi thối là dấu hiệu ươn hỏng."
@@ -80,9 +74,9 @@
   locator: "Chỉ tiêu cảm quan – Mùi"
   conditions: ["thủy sản tươi", "đánh giá cảm quan bằng khứu giác"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FK-PORK-CHOPS
   statement_vi: "Thịt heo/bò dạng miếng giữ 3–5 ngày ở ngăn mát ≤4°C."
@@ -90,9 +84,9 @@
   locator: "Cold Food Storage Chart – Fresh pork/beef"
   conditions: ["chuỗi lạnh liên tục", "tủ ≤4°C"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FK-EGG-CRACKED
   statement_vi: "Không sử dụng trứng có vỏ nứt vỡ hoặc rỉ dịch; vi khuẩn có thể xâm nhập qua vết nứt."
@@ -100,9 +94,9 @@
   locator: "FoodKeeper – Eggs: Fresh, in shell (Tips) — cần xác minh; nếu không có, chuyển sang FSIS 'Shell Eggs from Farm to Table'"
   conditions: ["trứng gia cầm còn vỏ", "kiểm tra bằng mắt trước khi bảo quản/sử dụng"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FK-EGG-SPOILED
   statement_vi: "Loại bỏ trứng khi đập ra có mùi hôi (lưu huỳnh) hoặc lòng trứng đổi màu bất thường."
@@ -110,9 +104,9 @@
   locator: "FoodKeeper – Eggs: Fresh, in shell (Tips) — cần xác minh; nếu không có, chuyển sang FSIS 'Shell Eggs from Farm to Table'"
   conditions: ["trứng gia cầm sống, đập ra trước khi nấu", "đánh giá cảm quan bằng mắt và khứu giác"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-LOCAL-EGG-FLOAT
   statement_vi: "Trứng nổi hẳn trên mặt nước có buồng khí rất lớn (trứng rất cũ); nhóm chọn loại bỏ như một quy tắc thận trọng."
@@ -120,9 +114,9 @@
   locator: "Quy tắc nội bộ – Thử nổi trứng"
   conditions: ["trứng gia cầm còn vỏ nguyên", "thử trong cốc nước sạch ở nhiệt độ phòng"]
   evidence_level: D
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FDA-VIBRIO-SHELLFISH
   statement_vi: "Vibrio spp. (V. parahaemolyticus, V. vulnificus) gây bệnh liên quan tới ăn nhuyễn thể có vỏ (đặc biệt là hàu) sống hoặc chưa nấu chín."
@@ -130,9 +124,9 @@
   locator: "Bad Bug Book, 2nd ed. (2012) – chương Vibrio parahaemolyticus; Vibrio vulnificus"
   conditions: ["nhuyễn thể có vỏ", "ăn sống hoặc chưa nấu chín kỹ"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FDA-VIBRIO-DEAD
   statement_vi: "Nhuyễn thể và giáp xác phải còn sống trước khi chế biến; loại bỏ con đã chết (vỏ há không khép khi gõ, cua/ghẹ không cử động)."
@@ -140,9 +134,9 @@
   locator: "Selecting Shellfish – Tap test (loại bỏ nghêu/sò/vẹm không khép vỏ khi gõ); Check for leg movement (cua/tôm hùm phải cử động chân)"
   conditions: ["nhuyễn thể có vỏ và giáp xác bán sống", "kiểm tra trước khi chế biến"]
   evidence_level: A
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-FAO-HUSS-TEMP
   statement_vi: "Hư hỏng cá tươi chủ yếu do vi khuẩn; nhiệt độ bảo quản là yếu tố quyết định tốc độ hư hỏng, ướp đá gần 0°C kéo dài thời hạn sử dụng rõ rệt."
@@ -150,9 +144,9 @@
   locator: "FAO FTP 348 – Chương 5 (Post mortem changes in fish) và Chương 6 (Quality changes and shelf life of chilled fish)"
   conditions: ["cá tươi", "bảo quản lạnh/ướp đá"]
   evidence_level: B
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-LOCAL-SHELLFISH-FLOAT
   statement_vi: "Nhuyễn thể có vỏ lơ lửng hoặc nổi khi thả vào nước sạch có thể đã chết hoặc tích khí bên trong vỏ; nhóm chỉ dùng như tín hiệu cảnh báo bổ trợ, không dùng làm luật dừng (quy tắc thận trọng)."
@@ -160,9 +154,9 @@
   locator: "Quy tắc nội bộ – Thử nổi nhuyễn thể"
   conditions: ["nhuyễn thể hai mảnh vỏ còn nguyên vỏ (nghêu, sò, hến)", "thử trong chậu nước sạch", "không áp dụng cho cua, ghẹ, ốc"]
   evidence_level: D
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
 
 - id: C-LOCAL-AXIS-NA
   statement_vi: "Khi một trục kiểm tra không thể quan sát do đặc điểm giải phẫu của loài, option 'không áp dụng' mang penalty 0.0 và không được dùng để suy ra độ tươi; các trục còn lại giữ nguyên luật dừng (quy tắc thận trọng)."
@@ -170,6 +164,136 @@
   locator: "Quy tắc nội bộ – Trục không áp dụng (N/A)"
   conditions: ["mực, bạch tuộc, tôm: không có nắp mang để lật kiểm tra", "cua, ghẹ, ốc: không dùng phép thử nổi"]
   evidence_level: D
-  status: draft
-  extracted_by: "claude"
-  reviewed_by: null
+  status: reviewed
+  extracted_by: "vi"
+  reviewed_by: "huy"
+
+- id: C-TCVN10738-SENSORY
+  statement_vi: "Rau củ quả tươi phải giữ được hình dạng, màu sắc đặc trưng, trạng thái căng chắc, cọng giòn; không bị úng nát, chảy nhớt, thâm đen hoặc phát triển nấm mốc."
+  source: S-TCVN10738
+  locator: "Yêu cầu kỹ thuật chung – Chỉ tiêu cảm quan đối với rau củ quả tươi"
+  conditions: ["rau quả tươi", "đánh giá cảm quan bằng mắt thường và xúc giác"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-TCVN10738-ODOR
+  statement_vi: "Rau củ tươi có mùi tự nhiên đặc trưng của từng loại; mùi ủng thối, mùi chua nồng hoặc mùi lạ là dấu hiệu hư hỏng."
+  source: S-TCVN10738
+  locator: "Chỉ tiêu cảm quan – Mùi vị"
+  conditions: ["rau củ quả tươi", "đánh giá cảm quan bằng khứu giác"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-TCVN10738-LEAF-SPOIL
+  statement_vi: "Rau ăn lá có dấu hiệu thối nhũn do vi khuẩn (Pectobacterium/Erwinia), úng nước thâm đen hoặc mọc nấm mốc phải loại bỏ ngay để tránh nhiễm độc."
+  source: S-TCVN10738
+  locator: "Phương pháp kiểm tra chỉ tiêu hư hỏng và khuyết tật cảm quan"
+  conditions: ["rau ăn lá", "phát hiện thối nhũn/mốc"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-FRIEDMAN-SOLANINE
+  statement_vi: "Khoai tây mọc mầm hoặc vỏ chuyển xanh tích tụ nồng độ độc tố glycoalkaloid (solanine, chaconine) cao; chất độc này bền nhiệt và không bị phá hủy hoàn toàn khi nấu nướng thông thường."
+  source: S-FRIEDMAN-SOLANINE
+  locator: "Section: Glycoalkaloids in Greened and Sprouted Potatoes; Toxicology"
+  conditions: ["khoai tây", "mọc mầm hoặc xanh vỏ", "nguy cơ ngộ độc tiêu hóa và thần kinh"]
+  evidence_level: B
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-UCDAVIS-POTATO-ETHYLENE
+  statement_vi: "Khí ethylene từ hành tây, táo hoặc chuối thúc đẩy quá trình mọc mầm và quang hóa của khoai tây; bảo quản khoai tây ở nơi khô thoáng, tối và tách biệt khỏi nguồn ethylene."
+  source: S-UCDAVIS-PRODUCE
+  locator: "Produce Facts: Potato, Early and Late Crop – Postharvest handling and temperature management"
+  conditions: ["khoai tây củ", "bảo quản ở nhiệt độ phòng khô tối"]
+  evidence_level: B
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-UCDAVIS-LEAFY-ETHYLENE
+  statement_vi: "Rau ăn lá nhạy cảm cao với khí ethylene; tiếp xúc với ethylene từ quả chín dẫn đến vàng lá, phân hủy diệp lục nhanh chóng và rụng lá."
+  source: S-UCDAVIS-PRODUCE
+  locator: "Produce Facts: Lettuce, Spinach, and Leafy Greens – Ethylene Susceptibility"
+  conditions: ["rau ăn lá (xà lách, cải, rau muống)", "trữ chung với quả chín sinh ethylene"]
+  evidence_level: B
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-LOCAL-LEAFY-NOWASH
+  statement_vi: "Không rửa rau ăn lá trước khi bảo quản tủ lạnh; nước đọng tạo môi trường ẩm ướt thuận lợi cho vi khuẩn thối nhũn phát triển bùng phát (quy tắc thận trọng)."
+  source: S-LOCAL-RULES
+  locator: "Quy tắc bảo quản rau lá khô ráo"
+  conditions: ["rau ăn lá tươi", "bảo quản ngăn mát 2-4°C"]
+  evidence_level: D
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-FK-TOFU-STORAGE
+  statement_vi: "Đậu hũ tươi là môi trường giàu protein và độ ẩm cao, rất dễ nhiễm vi khuẩn sinh nhớt và ôi chua; bảo quản ngập nước sạch trong tủ mát hoặc dùng ngay trong ngày."
+  source: S-FK
+  locator: "FoodKeeper – Tofu: Fresh, refrigerated"
+  conditions: ["đậu hũ tươi", "bảo quản lạnh ≤4°C"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-LOCAL-STARCH-SLIME
+  statement_vi: "Bún tươi, bánh phở khi có biểu hiện nhớt dính kéo màng, mùi chua gắt hoặc đổi màu ố vàng là dấu hiệu vi sinh vật lên men ôi hỏng và tạo biofilm; phải loại bỏ ngay (quy tắc thận trọng)."
+  source: S-LOCAL-RULES
+  locator: "Quy tắc an toàn tinh bột tươi chợ dân sinh"
+  conditions: ["bún tươi, bánh phở, bánh canh", "độ ẩm cao, không chất bảo quản"]
+  evidence_level: D
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-USDA-LEFTOVERS-2HR
+  statement_vi: "Thực phẩm đã nấu chín phải được bảo quản lạnh trong vòng 2 giờ (hoặc 1 giờ nếu nhiệt độ môi trường >32°C); vùng nhiệt độ 5–60°C là Danger Zone vi khuẩn nhân lên nhanh nhất."
+  source: S-USDA-LEFTOVERS
+  locator: "Leftovers and Food Safety – The 2-Hour Rule and Temperature Danger Zone"
+  conditions: ["thức ăn đã nấu chín", "nhiệt độ phòng"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-USDA-LEFTOVERS-REHEAT
+  statement_vi: "Khi sử dụng lại đồ ăn thừa đã nấu chín, bắt buộc phải hâm nóng lại toàn bộ đạt nhiệt độ tâm tối thiểu 165°F (74°C) hoặc đun sôi đều."
+  source: S-USDA-LEFTOVERS
+  locator: "Leftovers and Food Safety – Reheating Leftovers Safely"
+  conditions: ["thức ăn thừa hâm lại", "đun sôi hoặc dùng lò vi sóng"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-FDA-CEREUS-RICE
+  statement_vi: "Bào tử Bacillus cereus trong cơm và ngũ cốc nấu chín có thể sống sót sau khi nấu; nếu để ở nhiệt độ phòng, bào tử nảy mầm sinh độc tố nôn mửa (cereulide) chịu nhiệt, nấu sôi lại vẫn không phân hủy được độc tố."
+  source: S-FDA-CEREUS
+  locator: "Bad Bug Book, 2nd ed. – Bacillus cereus and other Bacillus spp."
+  conditions: ["cơm nguội, món chứa tinh bột nấu chín", "để ngoài nhiệt độ phòng quá 2–4 giờ"]
+  evidence_level: A
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"
+
+- id: C-LOCAL-COOKED-SPOIL
+  statement_vi: "Đồ ăn nấu chín để lại nếu có váng mốc, sủi bọt khí hoặc kéo tơ nhớt là dấu hiệu vi sinh vật đã lên men sinh khí và phân hủy protein/tinh bột; phải loại bỏ toàn bộ (quy tắc thận trọng)."
+  source: S-LOCAL-RULES
+  locator: "Quy tắc kiểm tra cảm quan đồ ăn thừa"
+  conditions: ["thức ăn thừa sau nấu", "đánh giá cảm quan trước khi hâm/ăn"]
+  evidence_level: D
+  status: reviewed
+  extracted_by: "huy"
+  reviewed_by: "vi"

@@ -1,0 +1,103 @@
+archetype: COOKED_LEFTOVERS
+name_vi: "Đồ ăn đã nấu chín và thức ăn thừa"
+applies_to_groups: ["cơm nguội", "canh để lại", "món kho để lại", "món xào để lại", "thịt chín", "thức ăn thừa sau bữa ăn"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Màu sắc món ăn tươi sáng nguyên bản, nước canh trong/màu chuẩn, không váng mốc, được cất tủ lạnh trong vòng 2 giờ sau nấu"
+    touch: "Hạt cơm mềm tơi không dính nhớt; thịt cá săn chắc; kết cấu món ăn nguyên vẹn"
+    smell: "Thơm mùi món ăn đặc trưng vừa nấu, không có mùi chua lạ hay mùi hôi ôi"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Bề mặt món ăn hơi se khô nhẹ do thoát ẩm trong tủ lạnh; màu sắc hơi sẫm nhẹ"
+    touch: "Hơi khô cứng bề mặt, chưa có độ nhớt hay dính nhớp"
+    smell: "Mùi gia vị và hương thơm giảm nhẹ, không có mùi ôi thiu"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Nước canh hơi đục nhẹ hoặc bề mặt xuất hiện lớp váng mỏng khác lạ, hạt cơm hơi dính ướt"
+    touch: "Hơi trơn tay nhẹ khi chạm vào bề mặt"
+    smell: "Thoang thoảng mùi chua nhẹ hoặc mùi dầu mỡ bị oxy hóa ôi khét"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Cơm nguội kéo tơ nhớt, sủi bọt khí li ti trong nước canh/sốt, có váng mốc xám/xanh/trắng"
+    touch: "Nhũn nát, nhớt nhầy dính kéo sợi, trơn tuột"
+    smell: "Mùi chua nồng, mùi thiu thối rõ rệt hoặc mùi lên men lạ"
+
+inspection_rubric:
+  - axis: storage_timing_and_hygiene
+    question_vi: "Thời gian làm nguội và điều kiện cất giữ sau khi nấu?"
+    stop_if: [de_ngoai_qua_dem_ho]
+    options:
+      - value: hop_kin_duoi_2h
+        label_vi: "Được đậy kín và cất vào tủ lạnh trong vòng ≤2 giờ sau khi nấu"
+        penalty: 0.0
+        claim: C-USDA-LEFTOVERS-2HR
+      - value: de_ngoai_2_4h
+        label_vi: "Để ở nhiệt độ phòng 2–4 giờ trước khi cho vào tủ lạnh (có đậy che bụi)"
+        penalty: 0.25
+        reason_vi: "Lưu lại trong vùng nhiệt độ nguy hiểm Danger Zone (5–60°C) kéo dài, tăng nguy cơ vi khuẩn nhân đôi"
+        claim: C-USDA-LEFTOVERS-2HR
+      - value: de_ngoai_qua_dem_ho
+        label_vi: "Để ở nhiệt độ phòng qua đêm (>4-6 giờ) hoặc để hở không đậy nắp"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Bào tử vi khuẩn (đặc biệt Bacillus cereus, Clostridium perfringens) nảy mầm và sinh ngoại độc tố bền nhiệt nguy hiểm"
+        claim: C-USDA-LEFTOVERS-2HR
+
+  - axis: surface_and_texture
+    question_vi: "Quan sát bề mặt và kết cấu thực phẩm?"
+    stop_if: [keo_to_sui_bot_khi_moc]
+    options:
+      - value: binh_thuong_sach
+        label_vi: "Bề mặt sạch, nước canh trong/sốt đồng nhất, không có màng lạ"
+        penalty: 0.0
+        claim: C-LOCAL-COOKED-SPOIL
+      - value: hoi_se_kho
+        label_vi: "Bề mặt hơi se khô nhẹ do để lạnh, hạt cơm hơi cứng"
+        penalty: 0.15
+        reason_vi: "Thoát ẩm bề mặt tự nhiên trong môi trường tủ lạnh; hâm nóng lại vẫn an toàn"
+        claim: C-LOCAL-COOKED-SPOIL
+      - value: vang_trang_dinh_nhot_nhe
+        label_vi: "Bề mặt xuất hiện váng đục mỏng hoặc hạt cơm hơi dính nhớt nhẹ"
+        penalty: 0.55
+        reason_vi: "Vi khuẩn hiếu khí và nấm men bắt đầu sinh sôi trên bề mặt thực phẩm"
+        claim: C-FDA-CEREUS-RICE
+      - value: keo_to_sui_bot_khi_moc
+        label_vi: "Kéo tơ nhớt (đặc biệt cơm nguội), sủi bọt khí li ti hoặc mọc màng mốc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Bacillus cereus sinh độc tố emetic (cereulide) gây nôn mửa cực kỳ bền nhiệt — đun sôi nấu lại KHÔNG phân hủy được độc tố"
+        claim: C-FDA-CEREUS-RICE
+
+  - axis: smell
+    question_vi: "Ngửi mùi đồ ăn trước khi hâm nóng lại?"
+    stop_if: [chua_thiu_nong_thoi]
+    options:
+      - value: thom_mon_an
+        label_vi: "Thơm mùi món ăn đặc trưng, không có mùi lạ"
+        penalty: 0.0
+        claim: C-USDA-LEFTOVERS-REHEAT
+      - value: nhat_mui_gia_vi
+        label_vi: "Nhạt mùi gia vị tự nhiên"
+        penalty: 0.15
+        reason_vi: "Các hợp chất mùi thơm gia vị bị bay hơi trong quá trình bảo quản lạnh"
+        claim: C-USDA-LEFTOVERS-REHEAT
+      - value: hoi_chua_nhe
+        label_vi: "Hơi chua nhẹ khó phân biệt (đối với món không nấu chua)"
+        penalty: 0.45
+        reason_vi: "Quá trình lên men acid bắt đầu diễn ra do vi sinh vật phân giải đường bột"
+        claim: C-LOCAL-COOKED-SPOIL
+      - value: chua_thiu_nong_thoi
+        label_vi: "Mùi chua thiu, ôi khét hoặc thối rữa nồng nặc rõ rệt"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Protein và tinh bột bị vi khuẩn phân giải sinh acid bay hơi, hydro sunfua và amine độc"
+        claim: C-FDA-CEREUS-RICE
+
+preservation_protocols:
+  recommended: [fridge_2_4c]
+  prep: ["Chia nhỏ thức ăn vào các hộp nông đậy kín để hạ nhiệt nhanh về <4°C trong tủ lạnh", "Khi dùng lại, bắt buộc đun sôi hoặc hâm nóng lại toàn bộ đạt nhiệt độ tâm tối thiểu ≥75°C trong ít nhất 2 phút"]
+  bad: ["Để nguyên nồi to còn nóng đậy kín vung ủ ấm qua đêm (tạo môi trường lồng ấp lý tưởng cho vi khuẩn kỵ khí sinh bào tử phát triển)", "Hâm nóng đi hâm nóng lại nhiều lần rồi lại cất tủ"]
+
+business_rules: [two_hour_cooling_rule, reheat_core_temp_min_75c, no_repeated_reheating, tier3_must_cook, tier4_discard]

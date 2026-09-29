@@ -1,7 +1,3 @@
-# archetypes/live_shellfish.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
-# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
-# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
-
 archetype: LIVE_SHELLFISH
 name_vi: "Nhuyễn thể và giáp xác sống"
 applies_to_groups: ["nghêu", "sò", "ốc", "hến", "cua sống", "ghẹ sống"]

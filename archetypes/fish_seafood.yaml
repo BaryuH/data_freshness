@@ -1,7 +1,3 @@
-# archetypes/fish_seafood.yaml — Tầng 1 archetype, viết tay (handbook §5.1)
-# penalty là trọng số rubric do nhóm hiệu chỉnh (0.0–1.0), không phải số trích từ nguồn.
-# Mọi option đều gắn claim của tiêu chí cảm quan (handbook §5.1); option hard_stop bắt buộc (handbook §9).
-
 archetype: FISH_SEAFOOD
 name_vi: "Cá và hải sản có vây / mực / tôm"
 applies_to_groups: ["cá lóc", "cá điêu hồng", "tôm", "mực", "bạch tuộc"]

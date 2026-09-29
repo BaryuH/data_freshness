@@ -1,0 +1,104 @@
+archetype: TUBER_ROOT
+name_vi: "Củ tinh bột và thân rễ"
+applies_to_groups: ["khoai tây", "khoai lang", "cà rốt", "củ cải", "hành tây", "tỏi", "gừng", "khoai môn"]
+
+sensory_tiers:
+  tier_1_fresh:
+    score_range: [8.5, 10.0]
+    appearance: "Vỏ căng phẳng, khô ráo, không mầm, không xanh vỏ, màu sắc đặc trưng"
+    touch: "Cứng chắc, đanh tay, không có vùng mềm xốp"
+    smell: "Thơm mùi đất hoặc mùi củ tự nhiên, không mùi lạ"
+  tier_2_acceptable:
+    score_range: [6.0, 8.5]
+    appearance: "Vỏ hơi nhăn, có vết sẹo khô lành ngoài vỏ nhưng chưa mọc mầm"
+    touch: "Hơi dẻo nhẹ do thoát nước nhưng thịt củ bên trong vẫn chắc"
+    smell: "Mùi tự nhiên nhạt, chưa có mùi chua hay ủng"
+  tier_3_warning:
+    score_range: [3.0, 6.0]
+    appearance: "Vỏ nhăn nheo rõ, teo tóp hoặc có mắt mầm hơi nhú nhẹ (<1mm ở củ không phải khoai tây)"
+    touch: "Xốp mềm, mất độ đanh chắc"
+    smell: "Hơi nồng hắc hoặc hơi ẩm mốc nhẹ ngoài vỏ"
+  tier_4_spoiled:
+    score_range: [0.0, 3.0]
+    appearance: "Khoai tây mọc mầm/vỏ chuyển xanh; củ thối nhũn, rỉ nước, có mốc đen/trắng"
+    touch: "Mềm nhũn nát, ấn lõm chảy dịch thối rữa"
+    smell: "Mùi thối rữa nồng nặc, mùi chua gắt hoặc mốc thối"
+
+inspection_rubric:
+  - axis: sprout_and_greening
+    question_vi: "Quan sát mầm và màu sắc vỏ củ (đặc biệt khoai tây)?"
+    stop_if: [moc_mam_vo_xanh, thoi_nhun_ri_dich_moc]
+    options:
+      - value: sach_kho_khong_mam
+        label_vi: "Cứng chắc, vỏ khô, tuyệt đối không có mầm hay vết xanh"
+        penalty: 0.0
+        claim: C-TCVN10738-SENSORY
+      - value: vo_nhan_seo_kho
+        label_vi: "Vỏ hơi nhăn, có vết sẹo khô lành, không có mầm"
+        penalty: 0.15
+        reason_vi: "Mất nước bề mặt nhẹ, gọt sâu vỏ vẫn đảm bảo an toàn"
+        claim: C-TCVN10738-SENSORY
+      - value: moc_mam_vo_xanh
+        label_vi: "Mọc mầm hoặc vỏ chuyển sang màu xanh lục (khoai tây)"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Tích tụ độc tố thần kinh Glycoalkaloid (Solanine, Chaconine) — nhiệt độ nấu nướng thông thường KHÔNG phá hủy được độc tố"
+        claim: C-FRIEDMAN-SOLANINE
+      - value: thoi_nhun_ri_dich_moc
+        label_vi: "Củ thối rữa, rỉ nước nhớt, có mốc đen/xám/trắng bám bề mặt"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Vi khuẩn thối ướt (Pectobacterium) và nấm mốc hoại sinh xâm lấn phá hủy hoàn toàn mô củ"
+        claim: C-TCVN10738-SENSORY
+
+  - axis: firmness
+    question_vi: "Nắn/bóp nhẹ quanh thân củ?"
+    stop_if: [nhun_chay_dich]
+    options:
+      - value: cung_chac
+        label_vi: "Cứng chắc, đanh tay đồng đều"
+        penalty: 0.0
+        claim: C-TCVN10738-SENSORY
+      - value: hoi_mem_xop
+        label_vi: "Hơi mềm, xốp nhẹ do mất nước"
+        penalty: 0.2
+        reason_vi: "Thoát hơi nước làm giảm áp suất trương bào của tế bào thực vật"
+        claim: C-TCVN10738-SENSORY
+      - value: rong_xop_nhun_mot_phan
+        label_vi: "Ruột xốp rỗng hoặc có vùng nhũn mềm cục bộ"
+        penalty: 0.55
+        reason_vi: "Enzyme nội sinh phân giải tinh bột và mô xơ, dinh dưỡng thoái hóa nặng"
+        claim: C-TCVN10738-SENSORY
+      - value: nhun_chay_dich
+        label_vi: "Mềm nhũn nát toàn phần, ấn lõm chảy dịch hôi"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Cấu trúc tế bào bị tiêu hủy hoàn toàn do vi khuẩn thối rữa"
+        claim: C-TCVN10738-SENSORY
+
+  - axis: smell
+    question_vi: "Ngửi gần phần thân và cuống củ?"
+    stop_if: [thoi_rua_chua_khung]
+    options:
+      - value: thom_tu_nhien
+        label_vi: "Thơm mùi đất ẩm hoặc mùi củ tự nhiên, không mùi lạ"
+        penalty: 0.0
+        claim: C-TCVN10738-ODOR
+      - value: nhat_hoi_am
+        label_vi: "Nhạt mùi, thoang thoảng mùi ẩm nhẹ"
+        penalty: 0.15
+        reason_vi: "Giảm hợp chất thơm dễ bay hơi đặc trưng"
+        claim: C-TCVN10738-ODOR
+      - value: thoi_rua_chua_khung
+        label_vi: "Mùi thối rữa, chua gắt hoặc hôi mốc nồng nặc"
+        penalty: 1.0
+        hard_stop: true
+        reason_vi: "Lên men yếm khí và thối rữa hữu cơ sinh các hợp chất acid bay hơi và amine độc"
+        claim: C-TCVN10738-ODOR
+
+preservation_protocols:
+  recommended: [room_dry_dark]
+  prep: ["Bảo quản nơi khô ráo, thoáng mát, thông gió tốt và tránh ánh sáng trực tiếp", "Không rửa nước trước khi cất trữ (ẩm ướt kích thích mọc mầm và nấm mốc)"]
+  bad: ["Không để khoai tây chung với hành tây (khí ethylene từ hành tây kích thích khoai tây nảy mầm nhanh)", "Tránh để khoai tây trong ngăn mát tủ lạnh lâu ngày (gây hiện tượng ngọt hóa do lạnh - cold-induced sweetening chuyển tinh bột thành đường khử)", "Tránh tiếp xúc ánh sáng mặt trời (quang hóa kích hoạt tổng hợp chlorophyll và độc tố solanine)"]
+
+business_rules: [no_wash_before_storage, isolate_from_ethylene_sources, solanine_risk_hard_stop, tier4_discard]
