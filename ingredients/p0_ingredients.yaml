@@ -1,0 +1,541 @@
+- id: thit_ba_chi_heo
+  code: '7018'
+  names_vi:
+  - thịt ba chỉ heo
+  - ba rọi
+  - ba chỉ heo
+  - thịt ba chỉ
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nac_heo
+  code: '7085'
+  names_vi:
+  - thịt nạc heo
+  - nạc thăn heo
+  - thịt lợn nạc
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: suon_heo
+  code: '7053'
+  names_vi:
+  - sườn heo
+  - sườn lợn
+  - sườn non
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_bo_than
+  code: '7005'
+  names_vi:
+  - thịt thăn bò
+  - thịt bò
+  - bắp bò
+  - thịt bò tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_ga_ta
+  code: '7013'
+  names_vi:
+  - thịt gà ta
+  - gà làm sẵn
+  - thịt gà
+  - ức gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 8640.0
+      claim: C-FK-POULTRY-FREEZE
+- id: ca_loc
+  code: '8022'
+  names_vi:
+  - cá lóc
+  - cá quả
+  - cá chuối
+  archetype: FISH_SEAFOOD
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 3.0
+      claim: C-LOCAL-FISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-FISH-LEAN
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-FISH-FREEZE
+- id: ca_dieu_hong
+  code: '8024'
+  names_vi:
+  - cá điêu hồng
+  - cá rô phi
+  - rô phi đỏ
+  archetype: FISH_SEAFOOD
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 3.0
+      claim: C-LOCAL-FISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-FISH-LEAN
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-FISH-FREEZE
+- id: tom_bien
+  code: '8051'
+  names_vi:
+  - tôm biển
+  - tôm thẻ
+  - tôm sú
+  - tôm tươi
+  archetype: FISH_SEAFOOD
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-FISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SHRIMP-FRESH
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-SHRIMP-FREEZE
+- id: muc_tuoi
+  code: '8040'
+  names_vi:
+  - mực tươi
+  - mực ống
+  - mực lá
+  archetype: FISH_SEAFOOD
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-FISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SQUID-FRESH
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-SQUID-FREEZE
+- id: bach_tuoc_tuoi
+  code: '20053'
+  names_vi:
+  - bạch tuộc tươi
+  - bạch tuộc
+  archetype: FISH_SEAFOOD
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-FISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SQUID-FRESH
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-SQUID-FREEZE
+- id: ngheu_song
+  code: '8066'
+  names_vi:
+  - ngao sống
+  - nghêu sống
+  - nghêu
+  - ngao
+  archetype: LIVE_SHELLFISH
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-SHELLFISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SHELLFISH-LIVE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-SHELLFISH-FREEZE
+- id: so_huyet
+  code: '8048'
+  names_vi:
+  - sò huyết
+  - sò
+  - sò lông
+  archetype: LIVE_SHELLFISH
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-SHELLFISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SHELLFISH-LIVE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-SHELLFISH-FREEZE
+- id: oc_buou
+  code: '8041'
+  names_vi:
+  - ốc bươu
+  - ốc nhồi
+  - ốc hương sống
+  archetype: LIVE_SHELLFISH
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-SHELLFISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SHELLFISH-LIVE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-SHELLFISH-FREEZE
+- id: cua_dong
+  code: '8034'
+  names_vi:
+  - cua đồng
+  - cua biển
+  - ghẹ sống
+  archetype: LIVE_SHELLFISH
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-SHELLFISH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-SHELLFISH-LIVE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-SHELLFISH-FREEZE
+- id: trung_ga
+  code: '9001'
+  names_vi:
+  - trứng gà
+  - trứng gà ta
+  - trứng gà công nghiệp
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 240.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-EGG-STORAGE
+- id: trung_vit
+  code: '9004'
+  names_vi:
+  - trứng vịt
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 240.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-EGG-STORAGE
+- id: trung_cut
+  code: '9007'
+  names_vi:
+  - trứng cút
+  - trứng chim cút
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 168.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-EGG-STORAGE
+- id: khoai_tay
+  code: '2014'
+  names_vi:
+  - khoai tây
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 720.0
+      claim: C-FK-POTATO-PANTRY
+    fridge_2_4c:
+      value: 168.0
+      claim: C-FK-POTATO-FRIDGE
+- id: khoai_lang
+  code: '2008'
+  names_vi:
+  - khoai lang
+  - khoai lang mật
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 336.0
+      claim: C-FK-SWEETPOTATO-PANTRY
+- id: ca_rot
+  code: '4007'
+  names_vi:
+  - cà rốt
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 72.0
+      claim: C-TCVN10738-SENSORY
+    fridge_2_4c:
+      value: 336.0
+      claim: C-FK-CARROT-FRIDGE
+    freezer_-18c:
+      value: 7200.0
+      claim: C-TCVN10738-SENSORY
+- id: cu_cai_trang
+  code: '4021'
+  names_vi:
+  - củ cải trắng
+  - củ cải
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 72.0
+      claim: C-TCVN10738-SENSORY
+    fridge_2_4c:
+      value: 240.0
+      claim: C-FK-RADISH-FRIDGE
+- id: hanh_tay
+  code: '4039'
+  names_vi:
+  - hành tây
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 720.0
+      claim: C-FK-ONION-PANTRY
+    fridge_2_4c:
+      value: 1440.0
+      claim: C-FK-ONION-PANTRY
+- id: rau_muong
+  code: '4083'
+  names_vi:
+  - rau muống
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 36.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: cai_ngot
+  code: '4108'
+  names_vi:
+  - cải ngọt
+  - rau cải ngọt
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 36.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: cai_thia
+  code: '4015'
+  names_vi:
+  - cải thìa
+  - cải bẹ trắng
+  - cải chíp
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 36.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: xa_lach
+  code: '4090'
+  names_vi:
+  - xà lách
+  - rau xà lách
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 24.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 168.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: hanh_la
+  code: '4038'
+  names_vi:
+  - hành lá
+  - hành hoa
+  - ngò rí
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 24.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: bun_tuoi
+  code: '1020'
+  names_vi:
+  - bún tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_pho_tuoi
+  code: '1013'
+  names_vi:
+  - bánh phở tươi
+  - bánh phở
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-NOODLE-FRESH
+- id: dau_hu_trang
+  code: '3025'
+  names_vi:
+  - đậu hũ trắng
+  - đậu phụ trắng
+  - đậu hũ tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: dau_hu_chien
+  code: '3026'
+  names_vi:
+  - đậu hũ chiên
+  - đậu phụ rán
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-TOFU-STORAGE
+- id: com_nguoi
+  code: '1004'
+  names_vi:
+  - cơm nguội
+  - cơm trắng đã nấu
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-RICE-FRIDGE
+    freezer_-18c:
+      value: 4320.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: canh_de_lai
+  code: '4084'
+  names_vi:
+  - canh để lại
+  - canh rau thịt
+  - nước dùng để lại
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: thit_ca_kho_de_lai
+  code: '7003'
+  names_vi:
+  - thịt kho để lại
+  - cá kho để lại
+  - món mặn để lại
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 720.0
+      claim: C-FK-LEFTOVERS-FREEZE

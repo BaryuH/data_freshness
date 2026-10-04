@@ -1,0 +1,3187 @@
+{
+  "kb_version": "0.3.0",
+  "generated_at": "2026-10-01T14:37:02.750882+00:00",
+  "stats": {
+    "total_archetypes": 8,
+    "total_ingredients": 34,
+    "total_claims": 63,
+    "total_sources": 12
+  },
+  "sources": [
+    {
+      "id": "S-TCVN7046",
+      "title": "TCVN 7046:2019 - Fresh Meat: Technical requirements and sensory evaluation methods",
+      "tier": "A",
+      "license": "Public Standard",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-TCVN5277",
+      "title": "TCVN 5277 - Fishery products: Sensory evaluation methods",
+      "tier": "A",
+      "license": "Public Standard",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FK",
+      "title": "USDA FSIS FoodKeeper Data",
+      "tier": "A",
+      "license": "CC0",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FDA-BADBUG",
+      "title": "FDA Bad Bug Book (Vibrio spp. in molluscan shellfish)",
+      "tier": "A",
+      "license": "Public Domain",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FAO-HUSS",
+      "title": "FAO Fisheries Technical Paper 348 (Huss, 1995: Quality and quality changes in fresh fish)",
+      "tier": "B",
+      "license": "Open Access",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FDA-SEAFOOD",
+      "title": "FDA: Selecting and Serving Fresh and Frozen Seafood Safely",
+      "tier": "A",
+      "license": "Public Domain",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-LOCAL-RULES",
+      "title": "Quy tắc suy luận nội bộ dựa trên nguyên lý khí học",
+      "tier": "D",
+      "license": "Internal",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-TCVN10738",
+      "title": "TCVN 10738:2015 - Fresh fruits and vegetables: Requirements and sensory evaluation methods",
+      "tier": "A",
+      "license": "Public Standard",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FRIEDMAN-SOLANINE",
+      "title": "Friedman, M. (2006) - Potato Glycoalkaloids (Solanine, Chaconine) and Adverse Effects in Humans. J. Agric. Food Chem.",
+      "tier": "B",
+      "license": "Peer-reviewed",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-USDA-LEFTOVERS",
+      "title": "USDA FSIS - Leftovers and Food Safety (Danger Zone, 2-Hour Rule, Reheating to 165°F/74°C)",
+      "tier": "A",
+      "license": "Public Domain",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-FDA-CEREUS",
+      "title": "FDA Bad Bug Book (2nd ed., 2012) - Bacillus cereus and heat-stable emetic toxin (cereulide)",
+      "tier": "A",
+      "license": "Public Domain",
+      "accessed": "2026-09-29"
+    },
+    {
+      "id": "S-UCDAVIS-PRODUCE",
+      "title": "UC Davis Postharvest Technology - Produce Facts (Ethylene susceptibility, chilling injury, potato greening)",
+      "tier": "B",
+      "license": "Open Access Educational",
+      "accessed": "2026-09-29"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-TCVN7046-COLOR",
+      "statement_vi": "Thịt tươi phải có màu sắc đặc trưng của sản phẩm.",
+      "source": "S-TCVN7046",
+      "locator": "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Màu sắc",
+      "conditions": [
+        "thịt tươi (heo, bò, gia cầm)",
+        "đánh giá cảm quan bằng mắt thường"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN7046-ODOR",
+      "statement_vi": "Thịt tươi phải có mùi đặc trưng của sản phẩm, không có mùi lạ.",
+      "source": "S-TCVN7046",
+      "locator": "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Mùi",
+      "conditions": [
+        "thịt tươi (heo, bò, gia cầm)",
+        "đánh giá cảm quan bằng khứu giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN7046-TOUCH",
+      "statement_vi": "Thịt tươi phải có bề mặt khô, sạch; có độ đàn hồi, ấn ngón tay vào thịt không để lại vết lõm khi bỏ tay ra.",
+      "source": "S-TCVN7046",
+      "locator": "Yêu cầu kỹ thuật – Chỉ tiêu cảm quan: Trạng thái",
+      "conditions": [
+        "thịt tươi (heo, bò, gia cầm)",
+        "đánh giá cảm quan bằng xúc giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN5277-METHOD",
+      "statement_vi": "Đánh giá cảm quan thủy sản dựa trên các chỉ tiêu ngoại quan, trạng thái, mùi và vị theo phương pháp chuẩn.",
+      "source": "S-TCVN5277",
+      "locator": "Phương pháp thử cảm quan – Các chỉ tiêu đánh giá",
+      "conditions": [
+        "thủy sản và sản phẩm thủy sản",
+        "làm căn cứ cho rubric FISH_SEAFOOD"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN5277-GILLS",
+      "statement_vi": "Mang cá tươi có màu đỏ tươi đặc trưng, sạch; mang xám nâu, có nhớt đục là dấu hiệu cá ươn hỏng.",
+      "source": "S-TCVN5277",
+      "locator": "Chỉ tiêu cảm quan – Ngoại quan: Mang",
+      "conditions": [
+        "cá có vây nguyên con",
+        "đánh giá cảm quan bằng mắt thường"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN5277-EYES",
+      "statement_vi": "Mắt cá tươi trong, lồi; mắt lõm, đục là dấu hiệu cá kém tươi.",
+      "source": "S-TCVN5277",
+      "locator": "Chỉ tiêu cảm quan – Ngoại quan: Mắt",
+      "conditions": [
+        "cá có vây nguyên con",
+        "đánh giá cảm quan bằng mắt thường"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN5277-TOUCH",
+      "statement_vi": "Thịt cá tươi săn chắc, đàn hồi, bụng nguyên vẹn; cá vỡ bụng, thịt nhũn nát là dấu hiệu ươn hỏng.",
+      "source": "S-TCVN5277",
+      "locator": "Chỉ tiêu cảm quan – Trạng thái: Thịt và bụng",
+      "conditions": [
+        "cá và hải sản tươi nguyên con",
+        "đánh giá cảm quan bằng xúc giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN5277-ODOR",
+      "statement_vi": "Thủy sản tươi có mùi tự nhiên đặc trưng, không có mùi lạ; mùi khai amoniac hoặc hôi thối là dấu hiệu ươn hỏng.",
+      "source": "S-TCVN5277",
+      "locator": "Chỉ tiêu cảm quan – Mùi",
+      "conditions": [
+        "thủy sản tươi",
+        "đánh giá cảm quan bằng khứu giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FK-PORK-CHOPS",
+      "statement_vi": "Thịt heo/bò dạng miếng giữ 3–5 ngày ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "Cold Food Storage Chart – Fresh pork/beef",
+      "conditions": [
+        "chuỗi lạnh liên tục",
+        "tủ ≤4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FK-EGG-CRACKED",
+      "statement_vi": "Không sử dụng trứng có vỏ nứt vỡ hoặc rỉ dịch; vi khuẩn có thể xâm nhập qua vết nứt.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Eggs: Fresh, in shell (Tips) — cần xác minh; nếu không có, chuyển sang FSIS 'Shell Eggs from Farm to Table'",
+      "conditions": [
+        "trứng gia cầm còn vỏ",
+        "kiểm tra bằng mắt trước khi bảo quản/sử dụng"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FK-EGG-SPOILED",
+      "statement_vi": "Loại bỏ trứng khi đập ra có mùi hôi (lưu huỳnh) hoặc lòng trứng đổi màu bất thường.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Eggs: Fresh, in shell (Tips) — cần xác minh; nếu không có, chuyển sang FSIS 'Shell Eggs from Farm to Table'",
+      "conditions": [
+        "trứng gia cầm sống, đập ra trước khi nấu",
+        "đánh giá cảm quan bằng mắt và khứu giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-LOCAL-EGG-FLOAT",
+      "statement_vi": "Trứng nổi hẳn trên mặt nước có buồng khí rất lớn (trứng rất cũ); nhóm chọn loại bỏ như một quy tắc thận trọng.",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc nội bộ – Thử nổi trứng",
+      "conditions": [
+        "trứng gia cầm còn vỏ nguyên",
+        "thử trong cốc nước sạch ở nhiệt độ phòng"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FDA-VIBRIO-SHELLFISH",
+      "statement_vi": "Vibrio spp. (V. parahaemolyticus, V. vulnificus) gây bệnh liên quan tới ăn nhuyễn thể có vỏ (đặc biệt là hàu) sống hoặc chưa nấu chín.",
+      "source": "S-FDA-BADBUG",
+      "locator": "Bad Bug Book, 2nd ed. (2012) – chương Vibrio parahaemolyticus; Vibrio vulnificus",
+      "conditions": [
+        "nhuyễn thể có vỏ",
+        "ăn sống hoặc chưa nấu chín kỹ"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FDA-VIBRIO-DEAD",
+      "statement_vi": "Nhuyễn thể và giáp xác phải còn sống trước khi chế biến; loại bỏ con đã chết (vỏ há không khép khi gõ, cua/ghẹ không cử động).",
+      "source": "S-FDA-SEAFOOD",
+      "locator": "Selecting Shellfish – Tap test (loại bỏ nghêu/sò/vẹm không khép vỏ khi gõ); Check for leg movement (cua/tôm hùm phải cử động chân)",
+      "conditions": [
+        "nhuyễn thể có vỏ và giáp xác bán sống",
+        "kiểm tra trước khi chế biến"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-FAO-HUSS-TEMP",
+      "statement_vi": "Hư hỏng cá tươi chủ yếu do vi khuẩn; nhiệt độ bảo quản là yếu tố quyết định tốc độ hư hỏng, ướp đá gần 0°C kéo dài thời hạn sử dụng rõ rệt.",
+      "source": "S-FAO-HUSS",
+      "locator": "FAO FTP 348 – Chương 5 (Post mortem changes in fish) và Chương 6 (Quality changes and shelf life of chilled fish)",
+      "conditions": [
+        "cá tươi",
+        "bảo quản lạnh/ướp đá"
+      ],
+      "evidence_level": "B",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-LOCAL-SHELLFISH-FLOAT",
+      "statement_vi": "Nhuyễn thể có vỏ lơ lửng hoặc nổi khi thả vào nước sạch có thể đã chết hoặc tích khí bên trong vỏ; nhóm chỉ dùng như tín hiệu cảnh báo bổ trợ, không dùng làm luật dừng (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc nội bộ – Thử nổi nhuyễn thể",
+      "conditions": [
+        "nhuyễn thể hai mảnh vỏ còn nguyên vỏ (nghêu, sò, hến)",
+        "thử trong chậu nước sạch",
+        "không áp dụng cho cua, ghẹ, ốc"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-LOCAL-AXIS-NA",
+      "statement_vi": "Khi một trục kiểm tra không thể quan sát do đặc điểm giải phẫu của loài, option 'không áp dụng' mang penalty 0.0 và không được dùng để suy ra độ tươi; các trục còn lại giữ nguyên luật dừng (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc nội bộ – Trục không áp dụng (N/A)",
+      "conditions": [
+        "mực, bạch tuộc, tôm: không có nắp mang để lật kiểm tra",
+        "cua, ghẹ, ốc: không dùng phép thử nổi"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "vi",
+      "reviewed_by": "huy"
+    },
+    {
+      "id": "C-TCVN10738-SENSORY",
+      "statement_vi": "Rau củ quả tươi phải giữ được hình dạng, màu sắc đặc trưng, trạng thái căng chắc, cọng giòn; không bị úng nát, chảy nhớt, thâm đen hoặc phát triển nấm mốc.",
+      "source": "S-TCVN10738",
+      "locator": "Yêu cầu kỹ thuật chung – Chỉ tiêu cảm quan đối với rau củ quả tươi",
+      "conditions": [
+        "rau quả tươi",
+        "đánh giá cảm quan bằng mắt thường và xúc giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-TCVN10738-ODOR",
+      "statement_vi": "Rau củ tươi có mùi tự nhiên đặc trưng của từng loại; mùi ủng thối, mùi chua nồng hoặc mùi lạ là dấu hiệu hư hỏng.",
+      "source": "S-TCVN10738",
+      "locator": "Chỉ tiêu cảm quan – Mùi vị",
+      "conditions": [
+        "rau củ quả tươi",
+        "đánh giá cảm quan bằng khứu giác"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-TCVN10738-LEAF-SPOIL",
+      "statement_vi": "Rau ăn lá có dấu hiệu thối nhũn do vi khuẩn (Pectobacterium/Erwinia), úng nước thâm đen hoặc mọc nấm mốc phải loại bỏ ngay để tránh nhiễm độc.",
+      "source": "S-TCVN10738",
+      "locator": "Phương pháp kiểm tra chỉ tiêu hư hỏng và khuyết tật cảm quan",
+      "conditions": [
+        "rau ăn lá",
+        "phát hiện thối nhũn/mốc"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FRIEDMAN-SOLANINE",
+      "statement_vi": "Khoai tây mọc mầm hoặc vỏ chuyển xanh tích tụ nồng độ độc tố glycoalkaloid (solanine, chaconine) cao; chất độc này bền nhiệt và không bị phá hủy hoàn toàn khi nấu nướng thông thường.",
+      "source": "S-FRIEDMAN-SOLANINE",
+      "locator": "Section: Glycoalkaloids in Greened and Sprouted Potatoes; Toxicology",
+      "conditions": [
+        "khoai tây",
+        "mọc mầm hoặc xanh vỏ",
+        "nguy cơ ngộ độc tiêu hóa và thần kinh"
+      ],
+      "evidence_level": "B",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-UCDAVIS-POTATO-ETHYLENE",
+      "statement_vi": "Khí ethylene từ hành tây, táo hoặc chuối thúc đẩy quá trình mọc mầm và quang hóa của khoai tây; bảo quản khoai tây ở nơi khô thoáng, tối và tách biệt khỏi nguồn ethylene.",
+      "source": "S-UCDAVIS-PRODUCE",
+      "locator": "Produce Facts: Potato, Early and Late Crop – Postharvest handling and temperature management",
+      "conditions": [
+        "khoai tây củ",
+        "bảo quản ở nhiệt độ phòng khô tối"
+      ],
+      "evidence_level": "B",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-UCDAVIS-LEAFY-ETHYLENE",
+      "statement_vi": "Rau ăn lá nhạy cảm cao với khí ethylene; tiếp xúc với ethylene từ quả chín dẫn đến vàng lá, phân hủy diệp lục nhanh chóng và rụng lá.",
+      "source": "S-UCDAVIS-PRODUCE",
+      "locator": "Produce Facts: Lettuce, Spinach, and Leafy Greens – Ethylene Susceptibility",
+      "conditions": [
+        "rau ăn lá (xà lách, cải, rau muống)",
+        "trữ chung với quả chín sinh ethylene"
+      ],
+      "evidence_level": "B",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-LEAFY-NOWASH",
+      "statement_vi": "Không rửa rau ăn lá trước khi bảo quản tủ lạnh; nước đọng tạo môi trường ẩm ướt thuận lợi cho vi khuẩn thối nhũn phát triển bùng phát (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc bảo quản rau lá khô ráo",
+      "conditions": [
+        "rau ăn lá tươi",
+        "bảo quản ngăn mát 2-4°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-TOFU-STORAGE",
+      "statement_vi": "Đậu hũ tươi là môi trường giàu protein và độ ẩm cao, rất dễ nhiễm vi khuẩn sinh nhớt và ôi chua; bảo quản ngập nước sạch trong tủ mát hoặc dùng ngay trong ngày.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Tofu: Fresh, refrigerated",
+      "conditions": [
+        "đậu hũ tươi",
+        "bảo quản lạnh ≤4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-STARCH-SLIME",
+      "statement_vi": "Bún tươi, bánh phở khi có biểu hiện nhớt dính kéo màng, mùi chua gắt hoặc đổi màu ố vàng là dấu hiệu vi sinh vật lên men ôi hỏng và tạo biofilm; phải loại bỏ ngay (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc an toàn tinh bột tươi chợ dân sinh",
+      "conditions": [
+        "bún tươi, bánh phở, bánh canh",
+        "độ ẩm cao, không chất bảo quản"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-USDA-LEFTOVERS-2HR",
+      "statement_vi": "Thực phẩm đã nấu chín phải được bảo quản lạnh trong vòng 2 giờ (hoặc 1 giờ nếu nhiệt độ môi trường >32°C); vùng nhiệt độ 5–60°C là Danger Zone vi khuẩn nhân lên nhanh nhất.",
+      "source": "S-USDA-LEFTOVERS",
+      "locator": "Leftovers and Food Safety – The 2-Hour Rule and Temperature Danger Zone",
+      "conditions": [
+        "thức ăn đã nấu chín",
+        "nhiệt độ phòng"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-USDA-LEFTOVERS-REHEAT",
+      "statement_vi": "Khi sử dụng lại đồ ăn thừa đã nấu chín, bắt buộc phải hâm nóng lại toàn bộ đạt nhiệt độ tâm tối thiểu 165°F (74°C) hoặc đun sôi đều.",
+      "source": "S-USDA-LEFTOVERS",
+      "locator": "Leftovers and Food Safety – Reheating Leftovers Safely",
+      "conditions": [
+        "thức ăn thừa hâm lại",
+        "đun sôi hoặc dùng lò vi sóng"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FDA-CEREUS-RICE",
+      "statement_vi": "Bào tử Bacillus cereus trong cơm và ngũ cốc nấu chín có thể sống sót sau khi nấu; nếu để ở nhiệt độ phòng, bào tử nảy mầm sinh độc tố nôn mửa (cereulide) chịu nhiệt, nấu sôi lại vẫn không phân hủy được độc tố.",
+      "source": "S-FDA-CEREUS",
+      "locator": "Bad Bug Book, 2nd ed. – Bacillus cereus and other Bacillus spp.",
+      "conditions": [
+        "cơm nguội, món chứa tinh bột nấu chín",
+        "để ngoài nhiệt độ phòng quá 2–4 giờ"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-COOKED-SPOIL",
+      "statement_vi": "Đồ ăn nấu chín để lại nếu có váng mốc, sủi bọt khí hoặc kéo tơ nhớt là dấu hiệu vi sinh vật đã lên men sinh khí và phân hủy protein/tinh bột; phải loại bỏ toàn bộ (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc kiểm tra cảm quan đồ ăn thừa",
+      "conditions": [
+        "thức ăn thừa sau nấu",
+        "đánh giá cảm quan trước khi hâm/ăn"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-PORK-FREEZE",
+      "statement_vi": "Thịt heo cấp đông ở -18°C giữ được từ 4–12 tháng (2880h–8640h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Pork: Fresh, cuts (DOP Freeze)",
+      "conditions": [
+        "thịt heo tươi cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-BEEF-STEAK",
+      "statement_vi": "Thịt bò tươi dạng miếng/thăn giữ 3–5 ngày (72h–120h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Beef: Steaks, roasts (DOP Refrigerate)",
+      "conditions": [
+        "thịt bò tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-BEEF-FREEZE",
+      "statement_vi": "Thịt bò tươi cấp đông ở -18°C giữ được từ 4–12 tháng (2880h–8640h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Beef: Steaks, roasts (DOP Freeze)",
+      "conditions": [
+        "thịt bò cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-POULTRY-PARTS",
+      "statement_vi": "Thịt gia cầm tươi (gà, vịt) dạng miếng hoặc nguyên con giữ 1–2 ngày (24h–48h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Chicken: Whole or parts (DOP Refrigerate)",
+      "conditions": [
+        "thịt gà, vịt tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-POULTRY-FREEZE",
+      "statement_vi": "Thịt gia cầm tươi cấp đông ở -18°C giữ được từ 9–12 tháng (6480h–8640h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Chicken: Whole or parts (DOP Freeze)",
+      "conditions": [
+        "thịt gia cầm cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-FISH-LEAN",
+      "statement_vi": "Cá nạc tươi (cá lóc, cá rô phi, cá điêu hồng...) giữ 1–2 ngày (24h–36h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Fish: Lean fish (DOP Refrigerate)",
+      "conditions": [
+        "cá nạc tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-FISH-FATTY",
+      "statement_vi": "Cá béo tươi (cá hồi, cá thu, cá basa...) giữ 1–2 ngày (24h–36h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Fish: Fatty fish (DOP Refrigerate)",
+      "conditions": [
+        "cá béo tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-FISH-FREEZE",
+      "statement_vi": "Cá tươi cấp đông ở -18°C giữ được từ 6–8 tháng (4320h–5760h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Fish: Lean and fatty fish (DOP Freeze)",
+      "conditions": [
+        "cá cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SHRIMP-FRESH",
+      "statement_vi": "Tôm tươi giữ 1–2 ngày (24h–48h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Crustaceans: Shrimp, crayfish (DOP Refrigerate)",
+      "conditions": [
+        "tôm tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SHRIMP-FREEZE",
+      "statement_vi": "Tôm tươi cấp đông ở -18°C giữ được từ 6–18 tháng (4320h–12960h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Crustaceans: Shrimp, crayfish (DOP Freeze)",
+      "conditions": [
+        "tôm cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SQUID-FRESH",
+      "statement_vi": "Mực và bạch tuộc tươi giữ 1–2 ngày (24h–48h) ở ngăn mát ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Mollusks: Squid (DOP Refrigerate)",
+      "conditions": [
+        "mực, bạch tuộc tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SQUID-FREEZE",
+      "statement_vi": "Mực và bạch tuộc tươi cấp đông ở -18°C giữ được từ 6–18 tháng (4320h–12960h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Mollusks: Squid (DOP Freeze)",
+      "conditions": [
+        "mực, bạch tuộc cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SHELLFISH-LIVE",
+      "statement_vi": "Nhuyễn thể và giáp xác còn sống (nghêu, sò, cua...) phủ khăn ẩm ở ngăn mát 2–4°C giữ được 1–2 ngày (24h–48h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Shellfish: Live in shell (DOP Refrigerate)",
+      "conditions": [
+        "nhuyễn thể sống",
+        "ngăn mát 2–4°C",
+        "không ngâm nước ngọt"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SHELLFISH-FREEZE",
+      "statement_vi": "Thịt nhuyễn thể và cua ghẹ sau khi sơ chế/luộc chín cấp đông ở -18°C giữ được từ 2–3 tháng (1440h–2160h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Shellfish: Shucked or cooked (DOP Freeze)",
+      "conditions": [
+        "thịt nhuyễn thể, cua ghẹ đã sơ chế chín",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-EGG-STORAGE",
+      "statement_vi": "Trứng gia cầm nguyên vỏ giữ được từ 3–5 tuần (504h–840h) trong ngăn mát tủ lạnh ≤4°C.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Eggs: Fresh in shell (DOP Refrigerate)",
+      "conditions": [
+        "trứng nguyên vỏ",
+        "ngăn mát 2–4°C",
+        "đầu to hướng lên"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-POTATO-PANTRY",
+      "statement_vi": "Khoai tây nguyên củ bảo quản nơi khô ráo, thoáng mát và tối giữ được 1–2 tháng (720h–1440h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Potatoes (DOP Pantry)",
+      "conditions": [
+        "khoai tây nguyên củ",
+        "nơi khô mát tối",
+        "không trữ cùng hành tây"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-POTATO-FRIDGE",
+      "statement_vi": "Khoai tây để ngăn mát giữ được 1–2 tuần (168h–336h), tuy nhiên FoodKeeper khuyến cáo tránh tủ mát vì gây ngọt hóa củ.",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Potatoes (DOP Refrigerate)",
+      "conditions": [
+        "khoai tây",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-SWEETPOTATO-PANTRY",
+      "statement_vi": "Khoai lang nguyên củ bảo quản nơi khô thoáng ở nhiệt độ phòng giữ được 2–3 tuần (336h–504h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Yams/sweet potatoes (DOP Pantry)",
+      "conditions": [
+        "khoai lang nguyên củ",
+        "nhiệt độ phòng khô thoáng"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-ONION-PANTRY",
+      "statement_vi": "Hành tây nguyên củ bảo quản nơi khô ráo, thông gió tốt ở nhiệt độ phòng giữ được 1 tháng (720h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Onions (DOP Pantry)",
+      "conditions": [
+        "hành tây nguyên củ",
+        "nhiệt độ phòng khô ráo"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-CARROT-FRIDGE",
+      "statement_vi": "Cà rốt bảo quản trong ngăn mát tủ lạnh giữ được 2–3 tuần (336h–504h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Carrots (DOP Refrigerate)",
+      "conditions": [
+        "cà rốt nguyên củ",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-RADISH-FRIDGE",
+      "statement_vi": "Củ cải trắng bảo quản trong ngăn mát tủ lạnh giữ được 1–2 tuần (168h–336h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Radishes (DOP Refrigerate)",
+      "conditions": [
+        "củ cải trắng",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-LEAFY-FRIDGE",
+      "statement_vi": "Rau ăn lá tươi đóng gói giữ trong ngăn mát tủ lạnh đạt 3–5 ngày (72h–120h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Vegetables: Bagged greens, leaf (DOP Refrigerate)",
+      "conditions": [
+        "rau ăn lá",
+        "ngăn mát 2–4°C",
+        "không đọng nước"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-NOODLE-FRESH",
+      "statement_vi": "Sợi mì tươi, bún tươi bảo quản ngăn mát tủ lạnh giữ được 1–2 ngày (24h–48h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Grains: Fresh pasta (Refrigerate)",
+      "conditions": [
+        "sợi tươi",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-RICE-FRIDGE",
+      "statement_vi": "Cơm nấu chín cất kín trong ngăn mát tủ lạnh giữ được 4–6 ngày (96h–144h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Grains: Cooked rice (DOP Refrigerate)",
+      "conditions": [
+        "cơm nguội đậy kín",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-LEFTOVERS-FRIDGE",
+      "statement_vi": "Đồ ăn thừa nấu chín (canh, món hầm, món kho) cất hộp kín trong ngăn mát tủ lạnh giữ được 3–4 ngày (72h–96h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Deli & Leftovers: Leftovers / Soup, stews (DOP Refrigerate)",
+      "conditions": [
+        "thức ăn thừa nấu chín",
+        "ngăn mát 2–4°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-FK-LEFTOVERS-FREEZE",
+      "statement_vi": "Đồ ăn thừa nấu chín cấp đông ở -18°C giữ được từ 1–3 tháng (720h–2160h).",
+      "source": "S-FK",
+      "locator": "FoodKeeper – Deli & Leftovers: Leftovers / Soup, stews (DOP Freeze)",
+      "conditions": [
+        "thức ăn thừa cấp đông",
+        "ngăn đá ≤-18°C"
+      ],
+      "evidence_level": "A",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-HOTMEAT",
+      "statement_vi": "Thịt nóng ở chợ truyền thống không có chuỗi lạnh, chỉ nên để ở nhiệt độ phòng 25–30°C tối đa 4–6 giờ (quy tắc thận trọng).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc an toàn thịt nóng chợ dân sinh",
+      "conditions": [
+        "thịt tươi mới mổ",
+        "nhiệt độ phòng 25–30°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-SOFTFREEZE",
+      "statement_vi": "Ngăn đông mềm -3°C giữ thịt, cá tươi từ 5–7 ngày (120h–168h) mà không làm rách vách tế bào do tinh thể đá (quy tắc thực nghiệm tủ lạnh Việt Nam).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc ngăn đông mềm tủ lạnh gia đình Việt Nam",
+      "conditions": [
+        "thịt, cá tươi",
+        "ngăn đông mềm -3°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-FISH-ROOM",
+      "statement_vi": "Cá và thủy hải sản tươi để ở nhiệt độ phòng nóng ẩm không ướp đá chỉ nên giữ tối đa 2–4 giờ.",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc an toàn thủy hải sản chợ dân sinh",
+      "conditions": [
+        "thủy hải sản tươi",
+        "nhiệt độ phòng không ướp đá"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-LEAFY-ROOM",
+      "statement_vi": "Rau ăn lá ở nhiệt độ phòng nhiệt đới mất nước héo úa trong 24–48 giờ.",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc bảo quản rau lá nhiệt độ phòng",
+      "conditions": [
+        "rau ăn lá tươi",
+        "nhiệt độ phòng 25–30°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-STARCH-ROOM",
+      "statement_vi": "Bún tươi, bánh phở ở nhiệt độ phòng chợ Việt Nam chỉ nên dùng trong vòng 6–12 giờ trước khi lên men chua.",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc an toàn bún tươi truyền thống",
+      "conditions": [
+        "bún tươi, bánh phở",
+        "nhiệt độ phòng 25–30°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-EGG-ROOM",
+      "statement_vi": "Trứng gia cầm giữ ở nhiệt độ phòng thoáng mát 25–30°C dùng tốt trong vòng 7–14 ngày (168h–336h).",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc bảo quản trứng gia cầm nhiệt độ phòng",
+      "conditions": [
+        "trứng gia cầm nguyên vỏ",
+        "nơi khô mát 25–30°C"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    },
+    {
+      "id": "C-LOCAL-SHELLFISH-ROOM",
+      "statement_vi": "Nghêu, sò, cua, ốc sống ở nhiệt độ phòng cần giữ ẩm, không để ngập nước đọng, bảo quản tối đa 4–8 giờ.",
+      "source": "S-LOCAL-RULES",
+      "locator": "Quy tắc bảo quản nhuyễn thể sống nhiệt độ phòng",
+      "conditions": [
+        "nhuyễn thể sống",
+        "nhiệt độ phòng có khăn ẩm"
+      ],
+      "evidence_level": "D",
+      "status": "reviewed",
+      "extracted_by": "huy",
+      "reviewed_by": "vi"
+    }
+  ],
+  "archetypes": {
+    "COOKED_LEFTOVERS": {
+      "archetype": "COOKED_LEFTOVERS",
+      "name_vi": "Đồ ăn đã nấu chín và thức ăn thừa",
+      "applies_to_groups": [
+        "cơm nguội",
+        "canh để lại",
+        "món kho để lại",
+        "món xào để lại",
+        "thịt chín",
+        "thức ăn thừa sau bữa ăn"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Màu sắc món ăn tươi sáng nguyên bản, nước canh trong/màu chuẩn, không váng mốc, được cất tủ lạnh trong vòng 2 giờ sau nấu",
+          "touch": "Hạt cơm mềm tơi không dính nhớt; thịt cá săn chắc; kết cấu món ăn nguyên vẹn",
+          "smell": "Thơm mùi món ăn đặc trưng vừa nấu, không có mùi chua lạ hay mùi hôi ôi"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Bề mặt món ăn hơi se khô nhẹ do thoát ẩm trong tủ lạnh; màu sắc hơi sẫm nhẹ",
+          "touch": "Hơi khô cứng bề mặt, chưa có độ nhớt hay dính nhớp",
+          "smell": "Mùi gia vị và hương thơm giảm nhẹ, không có mùi ôi thiu"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Nước canh hơi đục nhẹ hoặc bề mặt xuất hiện lớp váng mỏng khác lạ, hạt cơm hơi dính ướt",
+          "touch": "Hơi trơn tay nhẹ khi chạm vào bề mặt",
+          "smell": "Thoang thoảng mùi chua nhẹ hoặc mùi dầu mỡ bị oxy hóa ôi khét"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Cơm nguội kéo tơ nhớt, sủi bọt khí li ti trong nước canh/sốt, có váng mốc xám/xanh/trắng",
+          "touch": "Nhũn nát, nhớt nhầy dính kéo sợi, trơn tuột",
+          "smell": "Mùi chua nồng, mùi thiu thối rõ rệt hoặc mùi lên men lạ"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "storage_timing_and_hygiene",
+          "question_vi": "Thời gian làm nguội và điều kiện cất giữ sau khi nấu?",
+          "stop_if": [
+            "de_ngoai_qua_dem_ho"
+          ],
+          "options": [
+            {
+              "value": "hop_kin_duoi_2h",
+              "label_vi": "Được đậy kín và cất vào tủ lạnh trong vòng ≤2 giờ sau khi nấu",
+              "penalty": 0.0,
+              "claim": "C-USDA-LEFTOVERS-2HR"
+            },
+            {
+              "value": "de_ngoai_2_4h",
+              "label_vi": "Để ở nhiệt độ phòng 2–4 giờ trước khi cho vào tủ lạnh (có đậy che bụi)",
+              "penalty": 0.25,
+              "reason_vi": "Lưu lại trong vùng nhiệt độ nguy hiểm Danger Zone (5–60°C) kéo dài, tăng nguy cơ vi khuẩn nhân đôi",
+              "claim": "C-USDA-LEFTOVERS-2HR"
+            },
+            {
+              "value": "de_ngoai_qua_dem_ho",
+              "label_vi": "Để ở nhiệt độ phòng qua đêm (>4-6 giờ) hoặc để hở không đậy nắp",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Bào tử vi khuẩn (đặc biệt Bacillus cereus, Clostridium perfringens) nảy mầm và sinh ngoại độc tố bền nhiệt nguy hiểm",
+              "claim": "C-USDA-LEFTOVERS-2HR"
+            }
+          ]
+        },
+        {
+          "axis": "surface_and_texture",
+          "question_vi": "Quan sát bề mặt và kết cấu thực phẩm?",
+          "stop_if": [
+            "keo_to_sui_bot_khi_moc"
+          ],
+          "options": [
+            {
+              "value": "binh_thuong_sach",
+              "label_vi": "Bề mặt sạch, nước canh trong/sốt đồng nhất, không có màng lạ",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-COOKED-SPOIL"
+            },
+            {
+              "value": "hoi_se_kho",
+              "label_vi": "Bề mặt hơi se khô nhẹ do để lạnh, hạt cơm hơi cứng",
+              "penalty": 0.15,
+              "reason_vi": "Thoát ẩm bề mặt tự nhiên trong môi trường tủ lạnh; hâm nóng lại vẫn an toàn",
+              "claim": "C-LOCAL-COOKED-SPOIL"
+            },
+            {
+              "value": "vang_trang_dinh_nhot_nhe",
+              "label_vi": "Bề mặt xuất hiện váng đục mỏng hoặc hạt cơm hơi dính nhớt nhẹ",
+              "penalty": 0.55,
+              "reason_vi": "Vi khuẩn hiếu khí và nấm men bắt đầu sinh sôi trên bề mặt thực phẩm",
+              "claim": "C-FDA-CEREUS-RICE"
+            },
+            {
+              "value": "keo_to_sui_bot_khi_moc",
+              "label_vi": "Kéo tơ nhớt (đặc biệt cơm nguội), sủi bọt khí li ti hoặc mọc màng mốc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Bacillus cereus sinh độc tố emetic (cereulide) gây nôn mửa cực kỳ bền nhiệt — đun sôi nấu lại KHÔNG phân hủy được độc tố",
+              "claim": "C-FDA-CEREUS-RICE"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi mùi đồ ăn trước khi hâm nóng lại?",
+          "stop_if": [
+            "chua_thiu_nong_thoi"
+          ],
+          "options": [
+            {
+              "value": "thom_mon_an",
+              "label_vi": "Thơm mùi món ăn đặc trưng, không có mùi lạ",
+              "penalty": 0.0,
+              "claim": "C-USDA-LEFTOVERS-REHEAT"
+            },
+            {
+              "value": "nhat_mui_gia_vi",
+              "label_vi": "Nhạt mùi gia vị tự nhiên",
+              "penalty": 0.15,
+              "reason_vi": "Các hợp chất mùi thơm gia vị bị bay hơi trong quá trình bảo quản lạnh",
+              "claim": "C-USDA-LEFTOVERS-REHEAT"
+            },
+            {
+              "value": "hoi_chua_nhe",
+              "label_vi": "Hơi chua nhẹ khó phân biệt (đối với món không nấu chua)",
+              "penalty": 0.45,
+              "reason_vi": "Quá trình lên men acid bắt đầu diễn ra do vi sinh vật phân giải đường bột",
+              "claim": "C-LOCAL-COOKED-SPOIL"
+            },
+            {
+              "value": "chua_thiu_nong_thoi",
+              "label_vi": "Mùi chua thiu, ôi khét hoặc thối rữa nồng nặc rõ rệt",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Protein và tinh bột bị vi khuẩn phân giải sinh acid bay hơi, hydro sunfua và amine độc",
+              "claim": "C-FDA-CEREUS-RICE"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "Chia nhỏ thức ăn vào các hộp nông đậy kín để hạ nhiệt nhanh về <4°C trong tủ lạnh",
+          "Khi dùng lại, bắt buộc đun sôi hoặc hâm nóng lại toàn bộ đạt nhiệt độ tâm tối thiểu ≥75°C trong ít nhất 2 phút"
+        ],
+        "bad": [
+          "Để nguyên nồi to còn nóng đậy kín vung ủ ấm qua đêm (tạo môi trường lồng ấp lý tưởng cho vi khuẩn kỵ khí sinh bào tử phát triển)",
+          "Hâm nóng đi hâm nóng lại nhiều lần rồi lại cất tủ"
+        ]
+      },
+      "business_rules": [
+        "two_hour_cooling_rule",
+        "reheat_core_temp_min_75c",
+        "no_repeated_reheating",
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "EGG": {
+      "archetype": "EGG",
+      "name_vi": "Trứng gia cầm",
+      "applies_to_groups": [
+        "trứng gà",
+        "trứng vịt",
+        "trứng cút"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Vỏ nhám, còn lớp phấn tự nhiên; lòng đỏ cao tròn, lòng trắng đặc",
+          "touch": "Thả nước chìm, nằm ngang",
+          "smell": "Không mùi lạ"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Vỏ hơi bóng; lòng đỏ hơi dẹt, lòng trắng hơi loãng",
+          "touch": "Thả nước chìm nhưng đầu tù chếch lên",
+          "smell": "Không mùi lạ"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Màng lòng đỏ rất dễ vỡ, lòng trắng loãng hoàn toàn",
+          "touch": "Thả nước dựng đứng do buồng khí lớn",
+          "smell": "Chưa có mùi hôi"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Vỏ nứt/rỉ dịch/mốc; lòng đỏ lẫn lòng trắng hoặc có mốc",
+          "touch": "Nổi hẳn trên mặt nước, lắc nghe óc ách",
+          "smell": "Mùi lưu huỳnh (H2S)/thối nồng"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "shell_integrity",
+          "question_vi": "Quan sát bề mặt vỏ trứng?",
+          "stop_if": [
+            "nut_vo_ri_dich"
+          ],
+          "options": [
+            {
+              "value": "nguyen_ven_nham",
+              "label_vi": "Nguyên vẹn, nhám, còn lớp phấn",
+              "penalty": 0.0,
+              "claim": "C-FK-EGG-CRACKED"
+            },
+            {
+              "value": "bong_lang",
+              "label_vi": "Bóng, láng",
+              "penalty": 0.15,
+              "reason_vi": "Lớp màng cuticle đã mòn (trứng cũ hoặc đã rửa), lỗ vỏ hở hơn",
+              "claim": "C-FK-EGG-CRACKED"
+            },
+            {
+              "value": "nut_vo_ri_dich",
+              "label_vi": "Nứt vỡ, rỉ dịch",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn Salmonella xâm nhập trực tiếp qua vết nứt",
+              "claim": "C-FK-EGG-CRACKED"
+            }
+          ]
+        },
+        {
+          "axis": "water_float_test",
+          "question_vi": "Thả trứng vào cốc nước?",
+          "stop_if": [
+            "noi_han"
+          ],
+          "options": [
+            {
+              "value": "chim_nam_ngang",
+              "label_vi": "Chìm, nằm ngang",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-EGG-FLOAT"
+            },
+            {
+              "value": "chim_dung_dau",
+              "label_vi": "Chìm nhưng dựng đứng",
+              "penalty": 0.2,
+              "reason_vi": "Buồng khí lớn dần do trứng mất nước và CO2 qua lỗ vỏ",
+              "claim": "C-LOCAL-EGG-FLOAT"
+            },
+            {
+              "value": "noi_lo_lung",
+              "label_vi": "Nổi lơ lửng gần mặt nước",
+              "penalty": 0.6,
+              "reason_vi": "Buồng khí rất lớn, trứng đã cũ",
+              "claim": "C-LOCAL-EGG-FLOAT"
+            },
+            {
+              "value": "noi_han",
+              "label_vi": "Nổi bồng bềnh hẳn trên mặt nước",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Buồng khí giãn rất lớn do trứng mất nước và CO2 qua lỗ vỏ trong thời gian dài — trứng rất cũ",
+              "claim": "C-LOCAL-EGG-FLOAT"
+            }
+          ]
+        },
+        {
+          "axis": "broken_yolk_white",
+          "question_vi": "Đập trứng sống ra bát?",
+          "stop_if": [
+            "vo_den_h2s"
+          ],
+          "options": [
+            {
+              "value": "long_do_cao",
+              "label_vi": "Lòng đỏ cao tròn, lòng trắng đặc",
+              "penalty": 0.0,
+              "claim": "C-FK-EGG-SPOILED"
+            },
+            {
+              "value": "long_do_det",
+              "label_vi": "Lòng đỏ dẹt",
+              "penalty": 0.2,
+              "reason_vi": "Màng lòng đỏ yếu dần, lòng trắng loãng do CO2 thoát ra làm tăng pH",
+              "claim": "C-FK-EGG-SPOILED"
+            },
+            {
+              "value": "vo_den_h2s",
+              "label_vi": "Lòng đỏ vỡ, đen/xanh, loãng hoặc mùi lưu huỳnh (H2S)",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn phân giải protein chứa lưu huỳnh, sinh H2S",
+              "claim": "C-FK-EGG-SPOILED"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "Bảo quản trong hộp kín hoặc khay giấy, để đầu tù hướng lên trên"
+        ],
+        "bad": [
+          "Rửa vỏ trứng bằng nước (làm mất lớp màng cuticle bảo vệ, vi khuẩn dễ xâm nhập)",
+          "Để ở cánh cửa tủ lạnh (nhiệt độ dao động mạnh)"
+        ]
+      },
+      "business_rules": [
+        "no_wash_before_storage",
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "FISH_SEAFOOD": {
+      "archetype": "FISH_SEAFOOD",
+      "name_vi": "Cá và hải sản có vây / mực / tôm",
+      "applies_to_groups": [
+        "cá lóc",
+        "cá điêu hồng",
+        "tôm",
+        "mực",
+        "bạch tuộc"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Mắt trong, lồi; mang đỏ tươi, khép chặt",
+          "touch": "Thịt săn chắc, bụng nguyên vẹn",
+          "smell": "Mùi biển/tanh nhẹ tự nhiên"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Mắt phẳng, hơi đục; mang hồng nhạt hoặc hơi thẫm",
+          "touch": "Thịt hơi mềm",
+          "smell": "Tanh vừa"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Mắt hơi lõm, đục; mang nâu nhạt, có nhớt trong",
+          "touch": "Thịt mềm, ấn còn vết lõm",
+          "smell": "Tanh nồng, gắt"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Mắt lõm sâu, đục hoàn toàn; mang xám nâu, nhớt đục/hôi",
+          "touch": "Vỡ bụng, thịt nhũn nát",
+          "smell": "Hôi thối, khai amoniac"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "gills",
+          "question_vi": "Lật nắp mang, quan sát màu mang?",
+          "stop_if": [
+            "xam_nau_nhot"
+          ],
+          "options": [
+            {
+              "value": "do_tuoi",
+              "label_vi": "Đỏ tươi, sạch, khép chặt",
+              "penalty": 0.0,
+              "claim": "C-TCVN5277-GILLS"
+            },
+            {
+              "value": "hong_nhat",
+              "label_vi": "Hồng nhạt hoặc hơi thẫm, nhớt nhẹ",
+              "penalty": 0.15,
+              "reason_vi": "Hemoglobin trong mang oxy hóa, dịch nhầy bắt đầu tiết ra",
+              "claim": "C-TCVN5277-GILLS"
+            },
+            {
+              "value": "xam_nau_nhot",
+              "label_vi": "Xám nâu, nhớt đục",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn phân hủy máu và mô mang, tạo màng nhầy dày",
+              "claim": "C-TCVN5277-GILLS"
+            },
+            {
+              "value": "khong_ap_dung",
+              "label_vi": "Không áp dụng — mang nằm trong xoang áo/dưới giáp đầu ngực, không có nắp mang để lật (mực, bạch tuộc, tôm)",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-AXIS-NA"
+            }
+          ]
+        },
+        {
+          "axis": "eyes",
+          "question_vi": "Quan sát mắt cá?",
+          "options": [
+            {
+              "value": "trong_loi",
+              "label_vi": "Trong, lồi",
+              "penalty": 0.0,
+              "claim": "C-TCVN5277-EYES"
+            },
+            {
+              "value": "phang_hoi_duc",
+              "label_vi": "Phẳng, hơi đục",
+              "penalty": 0.15,
+              "reason_vi": "Giác mạc mất nước, protein bắt đầu biến tính",
+              "claim": "C-TCVN5277-EYES"
+            },
+            {
+              "value": "lom_duc_hoan_toan",
+              "label_vi": "Lõm sâu, đục hoàn toàn",
+              "penalty": 0.5,
+              "reason_vi": "Mất áp lực dịch trong nhãn cầu, protein biến tính nặng",
+              "claim": "C-TCVN5277-EYES"
+            }
+          ]
+        },
+        {
+          "axis": "flesh_belly",
+          "question_vi": "Ấn nhẹ vào thân và bụng?",
+          "stop_if": [
+            "vo_bung_nhun"
+          ],
+          "options": [
+            {
+              "value": "chac_nguyen",
+              "label_vi": "Thịt săn chắc, bụng nguyên vẹn",
+              "penalty": 0.0,
+              "claim": "C-TCVN5277-TOUCH"
+            },
+            {
+              "value": "hoi_mem",
+              "label_vi": "Thịt hơi mềm",
+              "penalty": 0.2,
+              "reason_vi": "Enzyme nội sinh (tự phân) bắt đầu làm mềm mô cơ",
+              "claim": "C-TCVN5277-TOUCH"
+            },
+            {
+              "value": "vo_bung_nhun",
+              "label_vi": "Vỡ bụng, thịt nhũn nát",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Enzyme tiêu hóa và vi khuẩn đường ruột phân giải thành bụng và mô cơ",
+              "claim": "C-TCVN5277-TOUCH"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi gần mang và bụng?",
+          "stop_if": [
+            "amoniac_thoi"
+          ],
+          "options": [
+            {
+              "value": "nhe_tu_nhien",
+              "label_vi": "Mùi biển/tanh nhẹ tự nhiên",
+              "penalty": 0.0,
+              "claim": "C-TCVN5277-ODOR"
+            },
+            {
+              "value": "tanh_manh",
+              "label_vi": "Tanh nồng",
+              "penalty": 0.2,
+              "reason_vi": "Vi khuẩn khử TMAO thành trimethylamine (TMA)",
+              "claim": "C-TCVN5277-ODOR"
+            },
+            {
+              "value": "amoniac_thoi",
+              "label_vi": "Khai amoniac/hôi thối",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn khử TMAO thành TMA, khử amin sinh amoniac và phân giải axit amin chứa lưu huỳnh sinh H2S",
+              "claim": "C-TCVN5277-ODOR"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c",
+          "ice_0c"
+        ],
+        "prep": [
+          "Mổ bỏ mang và nội tạng càng sớm càng tốt",
+          "Rửa sạch nhớt và máu đông, để ráo trước khi cho vào hộp kín"
+        ],
+        "bad": [
+          "Ngâm trong nước ở nhiệt độ phòng để rã đông (vi khuẩn gây ươn phát triển nhanh ở nhiệt độ ấm, sinh TMA và H2S)"
+        ]
+      },
+      "business_rules": [
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "FRESH_MEAT": {
+      "archetype": "FRESH_MEAT",
+      "name_vi": "Thịt tươi",
+      "applies_to_groups": [
+        "thịt heo",
+        "thịt bò",
+        "gia cầm"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Hồng tươi/đỏ tươi, mỡ trắng ngà",
+          "touch": "Bề mặt khô, ấn lõm phẳng lại ngay",
+          "smell": "Thơm thịt tươi"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Hơi nhạt hoặc hơi thẫm",
+          "touch": "Bề mặt hơi ướt, đàn hồi giảm",
+          "smell": "Nhạt, chưa chua"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Xỉn xám, có mảng thâm",
+          "touch": "Bề mặt dính nhớt, ấn còn vết lõm",
+          "smell": "Hơi chua, ôi nhẹ"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Xám xanh, có mốc",
+          "touch": "Rất nhớt, nhũn nát",
+          "smell": "Khai amoniac, hôi thối nồng"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "color",
+          "question_vi": "Màu sắc phần nạc và mỡ?",
+          "stop_if": [
+            "xam_xanh"
+          ],
+          "options": [
+            {
+              "value": "hong_tuoi",
+              "label_vi": "Hồng tươi/đỏ tươi, mỡ trắng ngà",
+              "penalty": 0.0,
+              "claim": "C-TCVN7046-COLOR"
+            },
+            {
+              "value": "hoi_nhat_tham",
+              "label_vi": "Hơi nhạt hoặc hơi thẫm",
+              "penalty": 0.15,
+              "reason_vi": "Thịt ngâm nước/mất dịch hoặc bắt đầu oxy hóa bề mặt",
+              "claim": "C-TCVN7046-COLOR"
+            },
+            {
+              "value": "xin_xam",
+              "label_vi": "Xỉn xám, có mảng thâm",
+              "penalty": 0.45,
+              "reason_vi": "Myoglobin oxy hóa thành metmyoglobin (nâu xám)",
+              "claim": "C-TCVN7046-COLOR"
+            },
+            {
+              "value": "xam_xanh",
+              "label_vi": "Xám xanh/xanh lục, có mốc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn sinh H2S tạo sulfmyoglobin (sắc xanh); nấm mốc phát triển",
+              "claim": "C-TCVN7046-COLOR"
+            }
+          ]
+        },
+        {
+          "axis": "stickiness",
+          "question_vi": "Sờ bề mặt miếng thịt?",
+          "stop_if": [
+            "rat_nhot"
+          ],
+          "options": [
+            {
+              "value": "kho_rao",
+              "label_vi": "Khô ráo, sạch",
+              "penalty": 0.0,
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "hoi_uot",
+              "label_vi": "Hơi ướt, chưa dính tay",
+              "penalty": 0.15,
+              "reason_vi": "Rỉ dịch do bảo quản lâu hoặc rã đông",
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "dinh_nhot",
+              "label_vi": "Dính nhớt nhẹ",
+              "penalty": 0.45,
+              "reason_vi": "Vi khuẩn bề mặt phát triển, bắt đầu tạo màng nhầy",
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "rat_nhot",
+              "label_vi": "Rất nhớt, kéo sợi",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Màng nhầy vi khuẩn dày — mật độ vi sinh đã ở mức hư hỏng",
+              "claim": "C-TCVN7046-TOUCH"
+            }
+          ]
+        },
+        {
+          "axis": "elasticity",
+          "question_vi": "Ấn ngón tay vào thịt rồi bỏ ra?",
+          "options": [
+            {
+              "value": "hoi_ngay",
+              "label_vi": "Vết lõm phẳng lại ngay",
+              "penalty": 0.0,
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "hoi_cham",
+              "label_vi": "Phẳng lại chậm",
+              "penalty": 0.15,
+              "reason_vi": "Mô cơ mất nước, cấu trúc protein bắt đầu suy giảm",
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "con_vet_lom",
+              "label_vi": "Còn vết lõm, không hồi lại",
+              "penalty": 0.45,
+              "reason_vi": "Enzyme và vi khuẩn phân giải protein cơ, mất đàn hồi",
+              "claim": "C-TCVN7046-TOUCH"
+            },
+            {
+              "value": "nhun_nat",
+              "label_vi": "Nhũn nát",
+              "penalty": 0.75,
+              "reason_vi": "Protein cơ bị phân hủy nặng",
+              "claim": "C-TCVN7046-TOUCH"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi gần miếng thịt?",
+          "stop_if": [
+            "chua_khai_ro"
+          ],
+          "options": [
+            {
+              "value": "thom_tuoi",
+              "label_vi": "Thơm thịt tươi",
+              "penalty": 0.0,
+              "claim": "C-TCVN7046-ODOR"
+            },
+            {
+              "value": "nhat",
+              "label_vi": "Nhạt, không thơm",
+              "penalty": 0.15,
+              "reason_vi": "Hợp chất mùi tươi giảm theo thời gian bảo quản",
+              "claim": "C-TCVN7046-ODOR"
+            },
+            {
+              "value": "hoi_chua",
+              "label_vi": "Hơi chua, ôi nhẹ",
+              "penalty": 0.45,
+              "reason_vi": "Vi khuẩn lên men và oxy hóa chất béo bắt đầu",
+              "claim": "C-TCVN7046-ODOR"
+            },
+            {
+              "value": "chua_khai_ro",
+              "label_vi": "Chua/khai amoniac/hôi thối rõ",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Phân hủy protein sinh amin, amoniac và H2S",
+              "claim": "C-TCVN7046-ODOR"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "Thấm khô bề mặt trước khi cất",
+          "Chia phần theo bữa trước khi cấp đông"
+        ],
+        "bad": [
+          "Để chung đĩa với đồ ăn chín (lây nhiễm chéo)"
+        ]
+      },
+      "business_rules": [
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "FRESH_STARCH_SOY": {
+      "archetype": "FRESH_STARCH_SOY",
+      "name_vi": "Tinh bột tươi và sản phẩm đậu nành",
+      "applies_to_groups": [
+        "bún tươi",
+        "bánh phở",
+        "bánh canh",
+        "mì tươi",
+        "đậu hũ trắng",
+        "đậu phụ chiên"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Sợi tơi mềm, màu trắng ngà tự nhiên; đậu hũ bề mặt mịn màng, miếng vuông vức, không nhớt",
+          "touch": "Sợi tơi xốp không dính bết tay; đậu hũ núng nính đàn hồi, không trơn trượt",
+          "smell": "Thơm dịu mùi bột gạo mới hoặc mùi thơm béo tự nhiên của đậu nành, không chua gắt"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Sợi hơi dính nhẹ vào nhau, màu sắc bình thường; đậu hũ hơi mềm",
+          "touch": "Hơi dính tay nhẹ khi bốc sợi nhưng chưa nhớt trơn",
+          "smell": "Thoang thoảng mùi chua nhẹ đặc trưng của quá trình lên men bột tự nhiên"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Sợi bết dính thành tảng khó gỡ, bề mặt hơi xỉn màu; đậu hũ bề mặt hơi ngả vàng",
+          "touch": "Cảm giác hơi nhớt nhẹ ở đầu ngón tay",
+          "smell": "Mùi chua rõ rệt, bắt đầu lấn át mùi thơm của gạo/đậu"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Chảy dịch vàng nhớt, sợi bở nát kéo tơ hoặc xuất hiện mốc xanh/đỏ/đen",
+          "touch": "Nhớt trơn tuột nhớt nháp, bở nát dính chặt",
+          "smell": "Mùi chua gắt khó chịu, mùi ôi thiu hoặc mùi thối nồng nặc"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "texture_and_stickiness",
+          "question_vi": "Sờ và kiểm tra độ tơi dính của sợi bún/bánh phở hoặc bề mặt đậu hũ?",
+          "stop_if": [
+            "nhot_keo_to_dich_vang_moc"
+          ],
+          "options": [
+            {
+              "value": "toi_mem_kho_min",
+              "label_vi": "Sợi tơi mềm, không dính tay; đậu hũ khô ráo, săn mịn",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-STARCH-SLIME"
+            },
+            {
+              "value": "bet_dinh_nhe",
+              "label_vi": "Sợi hơi bết dính nhẹ / đậu hũ hơi mềm nhưng chưa trơn trượt",
+              "penalty": 0.2,
+              "reason_vi": "Hồ hóa tinh bột bề mặt do độ ẩm cao hoặc hấp thụ hơi nước",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            },
+            {
+              "value": "nhot_tron_tay",
+              "label_vi": "Bề mặt nhớt trơn rõ rệt, sợi dính bết thành cục khó tách",
+              "penalty": 0.55,
+              "reason_vi": "Vi khuẩn ngoại sinh hình thành màng nhầy sinh học (biofilm) trên bề mặt",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            },
+            {
+              "value": "nhot_keo_to_dich_vang_moc",
+              "label_vi": "Nhớt kéo tơ dính, chảy dịch vàng đục hoặc xuất hiện đốm mốc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Màng sinh học biofilm phát triển dày đặc do vi khuẩn phân hủy protein và tinh bột, sinh ngoại độc tố",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi gần khối bún/phở hoặc miếng đậu hũ?",
+          "stop_if": [
+            "chua_gat_thoi_thiu"
+          ],
+          "options": [
+            {
+              "value": "thom_tu_nhien",
+              "label_vi": "Thơm dịu mùi bột tươi hoặc mùi béo thanh của đậu nành",
+              "penalty": 0.0,
+              "claim": "C-FK-TOFU-STORAGE"
+            },
+            {
+              "value": "hoi_chua_nhe",
+              "label_vi": "Hơi chua thoang thoảng do lên men bột tự nhiên",
+              "penalty": 0.2,
+              "reason_vi": "Vi khuẩn lactic tự nhiên lên men carbohydrate sinh acid lactic",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            },
+            {
+              "value": "chua_gat_thoi_thiu",
+              "label_vi": "Mùi chua gắt nồng nặc, mùi thiu ủng hoặc hôi thối khó chịu",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Quá trình lên men acid butyric và phân hủy protein sâu sinh amin bay hơi độc hại",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            }
+          ]
+        },
+        {
+          "axis": "color",
+          "question_vi": "Quan sát màu sắc sợi tinh bột hoặc miếng đậu hũ?",
+          "stop_if": [
+            "o_vang_xanh_do_moc"
+          ],
+          "options": [
+            {
+              "value": "trang_nga_tu_nhien",
+              "label_vi": "Trắng ngà tự nhiên (bún, phở), trắng kem mịn (đậu hũ)",
+              "penalty": 0.0,
+              "claim": "C-FK-TOFU-STORAGE"
+            },
+            {
+              "value": "hoi_xin_mau",
+              "label_vi": "Hơi xỉn màu nhẹ hoặc ngả màu sẫm do tiếp xúc không khí",
+              "penalty": 0.15,
+              "reason_vi": "Phản ứng thoái hóa tinh bột bề mặt hoặc oxy hóa lipid đậu nành",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            },
+            {
+              "value": "o_vang_xanh_do_moc",
+              "label_vi": "Ố vàng sẫm, chuyển màu xanh/đỏ hoặc có chấm mốc lạ",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Nhiễm vi khuẩn sinh sắc tố (như Serratia marcescens, Pseudomonas) hoặc nấm mốc độc sinh mycotoxin",
+              "claim": "C-LOCAL-STARCH-SLIME"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "Bún tươi và bánh phở khuyên dùng ngay trong ngày; nếu cất tủ lạnh nên chần qua nước sôi 1 phút trước khi ăn",
+          "Đậu hũ trắng nên ngâm ngập hoàn toàn trong hộp nước sạch để ngăn mát tủ lạnh và thay nước mỗi ngày"
+        ],
+        "bad": [
+          "Để bún tươi/đậu hũ ở nhiệt độ phòng nóng ẩm (>30°C) quá 4 giờ (vi khuẩn sinh sôi cực nhanh làm chua và nhớt)",
+          "Để đậu hũ hở không ngâm nước trong tủ lạnh (làm khô cứng mặt và nhiễm khuẩn chéo)"
+        ]
+      },
+      "business_rules": [
+        "consume_within_day_recommended",
+        "soak_water_for_tofu",
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "LEAFY_VEG": {
+      "archetype": "LEAFY_VEG",
+      "name_vi": "Rau ăn lá tươi",
+      "applies_to_groups": [
+        "rau muống",
+        "rau cải",
+        "cải ngọt",
+        "cải thìa",
+        "xà lách",
+        "mồng tơi",
+        "rau dền",
+        "hành lá",
+        "ngò rí"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Lá xanh mướt đặc trưng, cọng giòn nguyên vẹn, không dập úng, không sâu bệnh",
+          "touch": "Cọng bẻ giòn tanh tách, phiến lá căng mọng nước",
+          "smell": "Mùi ngái tươi mát tự nhiên của rau xanh, không mùi chua nồng"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Lá hơi héo rũ nhẹ hoặc ngả vàng rải rác ở mép phiến lá, cọng chưa dập",
+          "touch": "Mềm dẻo hơn do thoát hơi nước, cọng bẻ còn đàn hồi",
+          "smell": "Mùi ngái nhạt dần, không có mùi ủng thối"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Lá úa vàng trên 40-50% diện tích bó rau, cuống cọng ngả nâu, có điểm dập nhẹ",
+          "touch": "Cọng mềm nhũn, uốn cong không gãy giòn, phiến lá rũ rượi",
+          "smell": "Mùi nồng nặc, thoang thoảng mùi chua lên men của rau ủng"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Lá thâm đen, úng nước nhũn nát diện rộng, có màng nhầy dính hoặc nấm mốc",
+          "touch": "Nhũn nát, nhớt ướt chảy dịch hôi khi cầm nắm",
+          "smell": "Mùi ủng thối nồng nặc, mùi chua khắm do thối rữa vi khuẩn"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "leaf_appearance",
+          "question_vi": "Quan sát màu sắc và phiến lá rau?",
+          "stop_if": [
+            "ung_den_nhot_moc"
+          ],
+          "options": [
+            {
+              "value": "xanh_tuoi_cang",
+              "label_vi": "Xanh mướt tự nhiên, phiến lá nguyên vẹn no nước",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "nga_vang_mep_la",
+              "label_vi": "Hơi héo rũ, ngả vàng lốm đốm ở mép lá hoặc vài lá gốc",
+              "penalty": 0.2,
+              "reason_vi": "Mất nước và suy giảm sắc tố chlorophyll qua khí khổng; nhặt bỏ phần úa vẫn dùng được",
+              "claim": "C-UCDAVIS-LEAFY-ETHYLENE"
+            },
+            {
+              "value": "vang_ua_dien_rong",
+              "label_vi": "Vàng úa trên diện rộng (>40% diện tích), lá teo tóp",
+              "penalty": 0.5,
+              "reason_vi": "Lão hóa mô tế bào diện rộng do bảo quản lâu hoặc chịu ảnh hưởng khí ethylene",
+              "claim": "C-UCDAVIS-LEAFY-ETHYLENE"
+            },
+            {
+              "value": "ung_den_nhot_moc",
+              "label_vi": "Thâm đen úng nước, nhũn nát rỉ nhớt hôi hoặc xuất hiện nấm mốc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn thối nhũn thực vật (Pectobacterium carotovorum / Erwinia) phá hủy pectin vách tế bào sinh dịch nhầy độc hại",
+              "claim": "C-TCVN10738-LEAF-SPOIL"
+            }
+          ]
+        },
+        {
+          "axis": "stem_texture",
+          "question_vi": "Bẻ thử cọng/thân rau?",
+          "stop_if": [
+            "nhun_nat_chay_dich"
+          ],
+          "options": [
+            {
+              "value": "gion_tach",
+              "label_vi": "Cọng giòn cứng, bẻ nghe tiếng tách rõ ràng",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "deo_heo",
+              "label_vi": "Hơi dẻo héo, cọng uốn cong khó bẻ gãy nhưng chưa úng",
+              "penalty": 0.2,
+              "reason_vi": "Giảm áp suất trương nước của mô tế bào thực vật",
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "mem_nhun_khong_dan_hoi",
+              "label_vi": "Cọng mềm nhũn, dập thâm một phần, mất độ đàn hồi",
+              "penalty": 0.55,
+              "reason_vi": "Mô nâng đỡ bị enzyme thực vật và vi khuẩn ngoại sinh phân giải",
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "nhun_nat_chay_dich",
+              "label_vi": "Cọng nhũn nát hoàn toàn, bóp nhẹ chảy dịch nhớt thối",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Cấu trúc xenluloza và pectin bị tiêu hủy hoàn toàn do vi khuẩn hoại sinh",
+              "claim": "C-TCVN10738-LEAF-SPOIL"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi mùi bó rau?",
+          "stop_if": [
+            "chua_gat_ung_thoi"
+          ],
+          "options": [
+            {
+              "value": "thom_ngai_tuoi",
+              "label_vi": "Mùi ngái xanh tự nhiên đặc trưng, không mùi lạ",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-ODOR"
+            },
+            {
+              "value": "nhat_mui",
+              "label_vi": "Mùi ngái nhạt, hơi có mùi hầm bí ẩm",
+              "penalty": 0.15,
+              "reason_vi": "Giảm các hợp chất thơm thực vật dễ bay hơi",
+              "claim": "C-TCVN10738-ODOR"
+            },
+            {
+              "value": "chua_gat_ung_thoi",
+              "label_vi": "Mùi chua gắt, mùi ủng thối khó chịu nồng nặc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Phân hủy yếm khí của vi sinh vật sinh acid hữu cơ bay hơi và hợp chất thối indol/skatol",
+              "claim": "C-TCVN10738-ODOR"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "TUYỆT ĐỐI KHÔNG rửa nước trước khi cất tủ lạnh (nước ứ đọng tạo ổ ẩm cho vi khuẩn thối nhũn bùng phát)",
+          "Nhặt bỏ lá úng/dập trước khi bảo quản",
+          "Gói rau bằng giấy báo hoặc khăn giấy khô sạch để thấm hút ẩm dư thừa rồi cho vào túi zip thông khí"
+        ],
+        "bad": [
+          "Để chung túi với trái cây chín sinh nhiều khí ethylene như chuối, cà chua, xoài, táo (khí ethylene làm rau vàng lá và thối úng cực nhanh)",
+          "Để rau đẫm nước vào túi kín buộc chặt"
+        ]
+      },
+      "business_rules": [
+        "no_wash_before_storage",
+        "isolate_from_ethylene_sources",
+        "tier3_must_cook",
+        "tier4_discard"
+      ]
+    },
+    "LIVE_SHELLFISH": {
+      "archetype": "LIVE_SHELLFISH",
+      "name_vi": "Nhuyễn thể và giáp xác sống",
+      "applies_to_groups": [
+        "nghêu",
+        "sò",
+        "ốc",
+        "hến",
+        "cua sống",
+        "ghẹ sống"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Vỏ khép chặt hoặc khép ngay khi chạm; cua/ghẹ cử động khỏe",
+          "touch": "Phản xạ nhanh",
+          "smell": "Mùi biển/rong biển tươi"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Vỏ khép chậm nhưng vẫn khép kín; cua/ghẹ cử động chậm",
+          "touch": "Phản xạ hơi chậm",
+          "smell": "Không có mùi lạ"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Vỏ há, chỉ khép một phần hoặc khép chậm khi gõ mạnh; cua/ghẹ gần như bất động",
+          "touch": "Phản xạ yếu",
+          "smell": "Mùi bùn/tanh nồng"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Vỏ há đơ, không phản xạ; cua/ghẹ chết, rụng khớp",
+          "touch": "Không phản xạ, khớp nhũn",
+          "smell": "Hôi thối, mùi bùn thối/trứng thối (H2S)"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "shell_reflex",
+          "question_vi": "Gõ nhẹ vào vỏ (nhuyễn thể) hoặc chạm vào càng/chân (cua, ghẹ)?",
+          "stop_if": [
+            "chet_khong_phan_xa"
+          ],
+          "options": [
+            {
+              "value": "khep_ngay",
+              "label_vi": "Khép chặt ngay / cử động khỏe",
+              "penalty": 0.0,
+              "claim": "C-FDA-VIBRIO-DEAD"
+            },
+            {
+              "value": "khep_cham",
+              "label_vi": "Khép chậm / cử động yếu",
+              "penalty": 0.2,
+              "reason_vi": "Con vật suy yếu do thiếu oxy hoặc bảo quản sai nhiệt độ",
+              "claim": "C-FDA-VIBRIO-DEAD"
+            },
+            {
+              "value": "chet_khong_phan_xa",
+              "label_vi": "Vỏ há đơ không khép / cua ghẹ chết, rụng khớp",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Con vật đã chết mất cơ chế phòng vệ, vi khuẩn (kể cả Vibrio) và enzyme nội sinh phân hủy mô rất nhanh",
+              "claim": "C-FDA-VIBRIO-DEAD"
+            }
+          ]
+        },
+        {
+          "axis": "buoyancy",
+          "question_vi": "Thả vào chậu nước sạch?",
+          "options": [
+            {
+              "value": "chim_han",
+              "label_vi": "Chìm hẳn",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-SHELLFISH-FLOAT"
+            },
+            {
+              "value": "lo_lung",
+              "label_vi": "Lơ lửng",
+              "penalty": 0.3,
+              "reason_vi": "Có thể đã tích khí hoặc mất nước bên trong vỏ",
+              "claim": "C-LOCAL-SHELLFISH-FLOAT"
+            },
+            {
+              "value": "noi_hoan_toan",
+              "label_vi": "Nổi hoàn toàn",
+              "penalty": 0.75,
+              "reason_vi": "Tích tụ khí do vi khuẩn phân hủy bên trong vỏ",
+              "claim": "C-LOCAL-SHELLFISH-FLOAT"
+            },
+            {
+              "value": "khong_ap_dung",
+              "label_vi": "Không áp dụng (cua, ghẹ, ốc)",
+              "penalty": 0.0,
+              "claim": "C-LOCAL-AXIS-NA"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi gần vỏ/mai?",
+          "stop_if": [
+            "hoi_thoi_h2s"
+          ],
+          "options": [
+            {
+              "value": "bien_tuoi",
+              "label_vi": "Mùi biển/bùn tươi tự nhiên",
+              "penalty": 0.0,
+              "claim": "C-TCVN5277-ODOR"
+            },
+            {
+              "value": "tanh_gat",
+              "label_vi": "Tanh gắt",
+              "penalty": 0.2,
+              "reason_vi": "Vi khuẩn bắt đầu phân giải protein, sinh amin bay hơi",
+              "claim": "C-TCVN5277-ODOR"
+            },
+            {
+              "value": "hoi_thoi_h2s",
+              "label_vi": "Hôi thối khắm / mùi trứng thối (H2S)",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Phân hủy protein sinh H2S, amoniac và amin bay hơi",
+              "claim": "C-TCVN5277-ODOR"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "fridge_2_4c"
+        ],
+        "prep": [
+          "Phủ khăn ẩm lên trên để giữ ẩm và cho phép nhuyễn thể hô hấp"
+        ],
+        "bad": [
+          "Để trong túi nylon buộc kín (thiếu oxy, con vật chết ngạt)",
+          "Ngâm nhuyễn thể biển (nghêu, sò) trong nước ngọt (sốc thẩm thấu, chết đồng loạt)"
+        ]
+      },
+      "business_rules": [
+        "live_status_strictly_required",
+        "tier4_discard"
+      ]
+    },
+    "TUBER_ROOT": {
+      "archetype": "TUBER_ROOT",
+      "name_vi": "Củ tinh bột và thân rễ",
+      "applies_to_groups": [
+        "khoai tây",
+        "khoai lang",
+        "cà rốt",
+        "củ cải",
+        "hành tây",
+        "tỏi",
+        "gừng",
+        "khoai môn"
+      ],
+      "sensory_tiers": {
+        "tier_1_fresh": {
+          "score_range": [
+            8.5,
+            10.0
+          ],
+          "appearance": "Vỏ căng phẳng, khô ráo, không mầm, không xanh vỏ, màu sắc đặc trưng",
+          "touch": "Cứng chắc, đanh tay, không có vùng mềm xốp",
+          "smell": "Thơm mùi đất hoặc mùi củ tự nhiên, không mùi lạ"
+        },
+        "tier_2_acceptable": {
+          "score_range": [
+            6.0,
+            8.5
+          ],
+          "appearance": "Vỏ hơi nhăn, có vết sẹo khô lành ngoài vỏ nhưng chưa mọc mầm",
+          "touch": "Hơi dẻo nhẹ do thoát nước nhưng thịt củ bên trong vẫn chắc",
+          "smell": "Mùi tự nhiên nhạt, chưa có mùi chua hay ủng"
+        },
+        "tier_3_warning": {
+          "score_range": [
+            3.0,
+            6.0
+          ],
+          "appearance": "Vỏ nhăn nheo rõ, teo tóp hoặc có mắt mầm hơi nhú nhẹ (<1mm ở củ không phải khoai tây)",
+          "touch": "Xốp mềm, mất độ đanh chắc",
+          "smell": "Hơi nồng hắc hoặc hơi ẩm mốc nhẹ ngoài vỏ"
+        },
+        "tier_4_spoiled": {
+          "score_range": [
+            0.0,
+            3.0
+          ],
+          "appearance": "Khoai tây mọc mầm/vỏ chuyển xanh; củ thối nhũn, rỉ nước, có mốc đen/trắng",
+          "touch": "Mềm nhũn nát, ấn lõm chảy dịch thối rữa",
+          "smell": "Mùi thối rữa nồng nặc, mùi chua gắt hoặc mốc thối"
+        }
+      },
+      "inspection_rubric": [
+        {
+          "axis": "sprout_and_greening",
+          "question_vi": "Quan sát mầm và màu sắc vỏ củ (đặc biệt khoai tây)?",
+          "stop_if": [
+            "moc_mam_vo_xanh",
+            "thoi_nhun_ri_dich_moc"
+          ],
+          "options": [
+            {
+              "value": "sach_kho_khong_mam",
+              "label_vi": "Cứng chắc, vỏ khô, tuyệt đối không có mầm hay vết xanh",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "vo_nhan_seo_kho",
+              "label_vi": "Vỏ hơi nhăn, có vết sẹo khô lành, không có mầm",
+              "penalty": 0.15,
+              "reason_vi": "Mất nước bề mặt nhẹ, gọt sâu vỏ vẫn đảm bảo an toàn",
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "moc_mam_vo_xanh",
+              "label_vi": "Mọc mầm hoặc vỏ chuyển sang màu xanh lục (khoai tây)",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Tích tụ độc tố thần kinh Glycoalkaloid (Solanine, Chaconine) — nhiệt độ nấu nướng thông thường KHÔNG phá hủy được độc tố",
+              "claim": "C-FRIEDMAN-SOLANINE"
+            },
+            {
+              "value": "thoi_nhun_ri_dich_moc",
+              "label_vi": "Củ thối rữa, rỉ nước nhớt, có mốc đen/xám/trắng bám bề mặt",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Vi khuẩn thối ướt (Pectobacterium) và nấm mốc hoại sinh xâm lấn phá hủy hoàn toàn mô củ",
+              "claim": "C-TCVN10738-SENSORY"
+            }
+          ]
+        },
+        {
+          "axis": "firmness",
+          "question_vi": "Nắn/bóp nhẹ quanh thân củ?",
+          "stop_if": [
+            "nhun_chay_dich"
+          ],
+          "options": [
+            {
+              "value": "cung_chac",
+              "label_vi": "Cứng chắc, đanh tay đồng đều",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "hoi_mem_xop",
+              "label_vi": "Hơi mềm, xốp nhẹ do mất nước",
+              "penalty": 0.2,
+              "reason_vi": "Thoát hơi nước làm giảm áp suất trương bào của tế bào thực vật",
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "rong_xop_nhun_mot_phan",
+              "label_vi": "Ruột xốp rỗng hoặc có vùng nhũn mềm cục bộ",
+              "penalty": 0.55,
+              "reason_vi": "Enzyme nội sinh phân giải tinh bột và mô xơ, dinh dưỡng thoái hóa nặng",
+              "claim": "C-TCVN10738-SENSORY"
+            },
+            {
+              "value": "nhun_chay_dich",
+              "label_vi": "Mềm nhũn nát toàn phần, ấn lõm chảy dịch hôi",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Cấu trúc tế bào bị tiêu hủy hoàn toàn do vi khuẩn thối rữa",
+              "claim": "C-TCVN10738-SENSORY"
+            }
+          ]
+        },
+        {
+          "axis": "smell",
+          "question_vi": "Ngửi gần phần thân và cuống củ?",
+          "stop_if": [
+            "thoi_rua_chua_khung"
+          ],
+          "options": [
+            {
+              "value": "thom_tu_nhien",
+              "label_vi": "Thơm mùi đất ẩm hoặc mùi củ tự nhiên, không mùi lạ",
+              "penalty": 0.0,
+              "claim": "C-TCVN10738-ODOR"
+            },
+            {
+              "value": "nhat_hoi_am",
+              "label_vi": "Nhạt mùi, thoang thoảng mùi ẩm nhẹ",
+              "penalty": 0.15,
+              "reason_vi": "Giảm hợp chất thơm dễ bay hơi đặc trưng",
+              "claim": "C-TCVN10738-ODOR"
+            },
+            {
+              "value": "thoi_rua_chua_khung",
+              "label_vi": "Mùi thối rữa, chua gắt hoặc hôi mốc nồng nặc",
+              "penalty": 1.0,
+              "hard_stop": true,
+              "reason_vi": "Lên men yếm khí và thối rữa hữu cơ sinh các hợp chất acid bay hơi và amine độc",
+              "claim": "C-TCVN10738-ODOR"
+            }
+          ]
+        }
+      ],
+      "preservation_protocols": {
+        "recommended": [
+          "room_dry_dark"
+        ],
+        "prep": [
+          "Bảo quản nơi khô ráo, thoáng mát, thông gió tốt và tránh ánh sáng trực tiếp",
+          "Không rửa nước trước khi cất trữ (ẩm ướt kích thích mọc mầm và nấm mốc)"
+        ],
+        "bad": [
+          "Không để khoai tây chung với hành tây (khí ethylene từ hành tây kích thích khoai tây nảy mầm nhanh)",
+          "Tránh để khoai tây trong ngăn mát tủ lạnh lâu ngày (gây hiện tượng ngọt hóa do lạnh - cold-induced sweetening chuyển tinh bột thành đường khử)",
+          "Tránh tiếp xúc ánh sáng mặt trời (quang hóa kích hoạt tổng hợp chlorophyll và độc tố solanine)"
+        ]
+      },
+      "business_rules": [
+        "no_wash_before_storage",
+        "isolate_from_ethylene_sources",
+        "solanine_risk_hard_stop",
+        "tier4_discard"
+      ]
+    }
+  },
+  "ingredients": {
+    "thit_ba_chi_heo": {
+      "id": "thit_ba_chi_heo",
+      "code": "7018",
+      "names_vi": [
+        "thịt ba chỉ heo",
+        "ba rọi",
+        "ba chỉ heo",
+        "thịt ba chỉ"
+      ],
+      "archetype": "FRESH_MEAT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-HOTMEAT"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-PORK-CHOPS"
+        },
+        "soft_freeze_-3c": {
+          "value": 168.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 2880.0,
+          "claim": "C-FK-PORK-FREEZE"
+        }
+      }
+    },
+    "thit_nac_heo": {
+      "id": "thit_nac_heo",
+      "code": "7085",
+      "names_vi": [
+        "thịt nạc heo",
+        "nạc thăn heo",
+        "thịt lợn nạc"
+      ],
+      "archetype": "FRESH_MEAT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-HOTMEAT"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-PORK-CHOPS"
+        },
+        "soft_freeze_-3c": {
+          "value": 168.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 2880.0,
+          "claim": "C-FK-PORK-FREEZE"
+        }
+      }
+    },
+    "suon_heo": {
+      "id": "suon_heo",
+      "code": "7053",
+      "names_vi": [
+        "sườn heo",
+        "sườn lợn",
+        "sườn non"
+      ],
+      "archetype": "FRESH_MEAT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-HOTMEAT"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-PORK-CHOPS"
+        },
+        "soft_freeze_-3c": {
+          "value": 168.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 2880.0,
+          "claim": "C-FK-PORK-FREEZE"
+        }
+      }
+    },
+    "thit_bo_than": {
+      "id": "thit_bo_than",
+      "code": "7005",
+      "names_vi": [
+        "thịt thăn bò",
+        "thịt bò",
+        "bắp bò",
+        "thịt bò tươi"
+      ],
+      "archetype": "FRESH_MEAT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-HOTMEAT"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-BEEF-STEAK"
+        },
+        "soft_freeze_-3c": {
+          "value": 168.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 2880.0,
+          "claim": "C-FK-BEEF-FREEZE"
+        }
+      }
+    },
+    "thit_ga_ta": {
+      "id": "thit_ga_ta",
+      "code": "7013",
+      "names_vi": [
+        "thịt gà ta",
+        "gà làm sẵn",
+        "thịt gà",
+        "ức gà"
+      ],
+      "archetype": "FRESH_MEAT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-HOTMEAT"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-POULTRY-PARTS"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 8640.0,
+          "claim": "C-FK-POULTRY-FREEZE"
+        }
+      }
+    },
+    "ca_loc": {
+      "id": "ca_loc",
+      "code": "8022",
+      "names_vi": [
+        "cá lóc",
+        "cá quả",
+        "cá chuối"
+      ],
+      "archetype": "FISH_SEAFOOD",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 3.0,
+          "claim": "C-LOCAL-FISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-FISH-LEAN"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-FISH-FREEZE"
+        }
+      }
+    },
+    "ca_dieu_hong": {
+      "id": "ca_dieu_hong",
+      "code": "8024",
+      "names_vi": [
+        "cá điêu hồng",
+        "cá rô phi",
+        "rô phi đỏ"
+      ],
+      "archetype": "FISH_SEAFOOD",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 3.0,
+          "claim": "C-LOCAL-FISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-FISH-LEAN"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-FISH-FREEZE"
+        }
+      }
+    },
+    "tom_bien": {
+      "id": "tom_bien",
+      "code": "8051",
+      "names_vi": [
+        "tôm biển",
+        "tôm thẻ",
+        "tôm sú",
+        "tôm tươi"
+      ],
+      "archetype": "FISH_SEAFOOD",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-LOCAL-FISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SHRIMP-FRESH"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-SHRIMP-FREEZE"
+        }
+      }
+    },
+    "muc_tuoi": {
+      "id": "muc_tuoi",
+      "code": "8040",
+      "names_vi": [
+        "mực tươi",
+        "mực ống",
+        "mực lá"
+      ],
+      "archetype": "FISH_SEAFOOD",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-LOCAL-FISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SQUID-FRESH"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-SQUID-FREEZE"
+        }
+      }
+    },
+    "bach_tuoc_tuoi": {
+      "id": "bach_tuoc_tuoi",
+      "code": "20053",
+      "names_vi": [
+        "bạch tuộc tươi",
+        "bạch tuộc"
+      ],
+      "archetype": "FISH_SEAFOOD",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-LOCAL-FISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SQUID-FRESH"
+        },
+        "soft_freeze_-3c": {
+          "value": 120.0,
+          "claim": "C-LOCAL-SOFTFREEZE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-SQUID-FREEZE"
+        }
+      }
+    },
+    "ngheu_song": {
+      "id": "ngheu_song",
+      "code": "8066",
+      "names_vi": [
+        "ngao sống",
+        "nghêu sống",
+        "nghêu",
+        "ngao"
+      ],
+      "archetype": "LIVE_SHELLFISH",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 6.0,
+          "claim": "C-LOCAL-SHELLFISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SHELLFISH-LIVE"
+        },
+        "freezer_-18c": {
+          "value": 1440.0,
+          "claim": "C-FK-SHELLFISH-FREEZE"
+        }
+      }
+    },
+    "so_huyet": {
+      "id": "so_huyet",
+      "code": "8048",
+      "names_vi": [
+        "sò huyết",
+        "sò",
+        "sò lông"
+      ],
+      "archetype": "LIVE_SHELLFISH",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 6.0,
+          "claim": "C-LOCAL-SHELLFISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SHELLFISH-LIVE"
+        },
+        "freezer_-18c": {
+          "value": 1440.0,
+          "claim": "C-FK-SHELLFISH-FREEZE"
+        }
+      }
+    },
+    "oc_buou": {
+      "id": "oc_buou",
+      "code": "8041",
+      "names_vi": [
+        "ốc bươu",
+        "ốc nhồi",
+        "ốc hương sống"
+      ],
+      "archetype": "LIVE_SHELLFISH",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 6.0,
+          "claim": "C-LOCAL-SHELLFISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SHELLFISH-LIVE"
+        },
+        "freezer_-18c": {
+          "value": 1440.0,
+          "claim": "C-FK-SHELLFISH-FREEZE"
+        }
+      }
+    },
+    "cua_dong": {
+      "id": "cua_dong",
+      "code": "8034",
+      "names_vi": [
+        "cua đồng",
+        "cua biển",
+        "ghẹ sống"
+      ],
+      "archetype": "LIVE_SHELLFISH",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 4.0,
+          "claim": "C-LOCAL-SHELLFISH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-SHELLFISH-LIVE"
+        },
+        "freezer_-18c": {
+          "value": 1440.0,
+          "claim": "C-FK-SHELLFISH-FREEZE"
+        }
+      }
+    },
+    "trung_ga": {
+      "id": "trung_ga",
+      "code": "9001",
+      "names_vi": [
+        "trứng gà",
+        "trứng gà ta",
+        "trứng gà công nghiệp"
+      ],
+      "archetype": "EGG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 240.0,
+          "claim": "C-LOCAL-EGG-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 504.0,
+          "claim": "C-FK-EGG-STORAGE"
+        }
+      }
+    },
+    "trung_vit": {
+      "id": "trung_vit",
+      "code": "9004",
+      "names_vi": [
+        "trứng vịt"
+      ],
+      "archetype": "EGG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 240.0,
+          "claim": "C-LOCAL-EGG-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 504.0,
+          "claim": "C-FK-EGG-STORAGE"
+        }
+      }
+    },
+    "trung_cut": {
+      "id": "trung_cut",
+      "code": "9007",
+      "names_vi": [
+        "trứng cút",
+        "trứng chim cút"
+      ],
+      "archetype": "EGG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 168.0,
+          "claim": "C-LOCAL-EGG-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 504.0,
+          "claim": "C-FK-EGG-STORAGE"
+        }
+      }
+    },
+    "khoai_tay": {
+      "id": "khoai_tay",
+      "code": "2014",
+      "names_vi": [
+        "khoai tây"
+      ],
+      "archetype": "TUBER_ROOT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 720.0,
+          "claim": "C-FK-POTATO-PANTRY"
+        },
+        "fridge_2_4c": {
+          "value": 168.0,
+          "claim": "C-FK-POTATO-FRIDGE"
+        }
+      }
+    },
+    "khoai_lang": {
+      "id": "khoai_lang",
+      "code": "2008",
+      "names_vi": [
+        "khoai lang",
+        "khoai lang mật"
+      ],
+      "archetype": "TUBER_ROOT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 336.0,
+          "claim": "C-FK-SWEETPOTATO-PANTRY"
+        }
+      }
+    },
+    "ca_rot": {
+      "id": "ca_rot",
+      "code": "4007",
+      "names_vi": [
+        "cà rốt"
+      ],
+      "archetype": "TUBER_ROOT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 72.0,
+          "claim": "C-TCVN10738-SENSORY"
+        },
+        "fridge_2_4c": {
+          "value": 336.0,
+          "claim": "C-FK-CARROT-FRIDGE"
+        },
+        "freezer_-18c": {
+          "value": 7200.0,
+          "claim": "C-TCVN10738-SENSORY"
+        }
+      }
+    },
+    "cu_cai_trang": {
+      "id": "cu_cai_trang",
+      "code": "4021",
+      "names_vi": [
+        "củ cải trắng",
+        "củ cải"
+      ],
+      "archetype": "TUBER_ROOT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 72.0,
+          "claim": "C-TCVN10738-SENSORY"
+        },
+        "fridge_2_4c": {
+          "value": 240.0,
+          "claim": "C-FK-RADISH-FRIDGE"
+        }
+      }
+    },
+    "hanh_tay": {
+      "id": "hanh_tay",
+      "code": "4039",
+      "names_vi": [
+        "hành tây"
+      ],
+      "archetype": "TUBER_ROOT",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 720.0,
+          "claim": "C-FK-ONION-PANTRY"
+        },
+        "fridge_2_4c": {
+          "value": 1440.0,
+          "claim": "C-FK-ONION-PANTRY"
+        }
+      }
+    },
+    "rau_muong": {
+      "id": "rau_muong",
+      "code": "4083",
+      "names_vi": [
+        "rau muống"
+      ],
+      "archetype": "LEAFY_VEG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 36.0,
+          "claim": "C-LOCAL-LEAFY-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEAFY-FRIDGE"
+        }
+      }
+    },
+    "cai_ngot": {
+      "id": "cai_ngot",
+      "code": "4108",
+      "names_vi": [
+        "cải ngọt",
+        "rau cải ngọt"
+      ],
+      "archetype": "LEAFY_VEG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 36.0,
+          "claim": "C-LOCAL-LEAFY-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEAFY-FRIDGE"
+        }
+      }
+    },
+    "cai_thia": {
+      "id": "cai_thia",
+      "code": "4015",
+      "names_vi": [
+        "cải thìa",
+        "cải bẹ trắng",
+        "cải chíp"
+      ],
+      "archetype": "LEAFY_VEG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 36.0,
+          "claim": "C-LOCAL-LEAFY-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEAFY-FRIDGE"
+        }
+      }
+    },
+    "xa_lach": {
+      "id": "xa_lach",
+      "code": "4090",
+      "names_vi": [
+        "xà lách",
+        "rau xà lách"
+      ],
+      "archetype": "LEAFY_VEG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 24.0,
+          "claim": "C-LOCAL-LEAFY-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 168.0,
+          "claim": "C-FK-LEAFY-FRIDGE"
+        }
+      }
+    },
+    "hanh_la": {
+      "id": "hanh_la",
+      "code": "4038",
+      "names_vi": [
+        "hành lá",
+        "hành hoa",
+        "ngò rí"
+      ],
+      "archetype": "LEAFY_VEG",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 24.0,
+          "claim": "C-LOCAL-LEAFY-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEAFY-FRIDGE"
+        }
+      }
+    },
+    "bun_tuoi": {
+      "id": "bun_tuoi",
+      "code": "1020",
+      "names_vi": [
+        "bún tươi"
+      ],
+      "archetype": "FRESH_STARCH_SOY",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 12.0,
+          "claim": "C-LOCAL-STARCH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-NOODLE-FRESH"
+        }
+      }
+    },
+    "banh_pho_tuoi": {
+      "id": "banh_pho_tuoi",
+      "code": "1013",
+      "names_vi": [
+        "bánh phở tươi",
+        "bánh phở"
+      ],
+      "archetype": "FRESH_STARCH_SOY",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 12.0,
+          "claim": "C-LOCAL-STARCH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 24.0,
+          "claim": "C-FK-NOODLE-FRESH"
+        }
+      }
+    },
+    "dau_hu_trang": {
+      "id": "dau_hu_trang",
+      "code": "3025",
+      "names_vi": [
+        "đậu hũ trắng",
+        "đậu phụ trắng",
+        "đậu hũ tươi"
+      ],
+      "archetype": "FRESH_STARCH_SOY",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 6.0,
+          "claim": "C-LOCAL-STARCH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-TOFU-STORAGE"
+        }
+      }
+    },
+    "dau_hu_chien": {
+      "id": "dau_hu_chien",
+      "code": "3026",
+      "names_vi": [
+        "đậu hũ chiên",
+        "đậu phụ rán"
+      ],
+      "archetype": "FRESH_STARCH_SOY",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 12.0,
+          "claim": "C-LOCAL-STARCH-ROOM"
+        },
+        "fridge_2_4c": {
+          "value": 96.0,
+          "claim": "C-FK-TOFU-STORAGE"
+        }
+      }
+    },
+    "com_nguoi": {
+      "id": "com_nguoi",
+      "code": "1004",
+      "names_vi": [
+        "cơm nguội",
+        "cơm trắng đã nấu"
+      ],
+      "archetype": "COOKED_LEFTOVERS",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-USDA-LEFTOVERS-2HR"
+        },
+        "fridge_2_4c": {
+          "value": 96.0,
+          "claim": "C-FK-RICE-FRIDGE"
+        },
+        "freezer_-18c": {
+          "value": 4320.0,
+          "claim": "C-FK-LEFTOVERS-FREEZE"
+        }
+      }
+    },
+    "canh_de_lai": {
+      "id": "canh_de_lai",
+      "code": "4084",
+      "names_vi": [
+        "canh để lại",
+        "canh rau thịt",
+        "nước dùng để lại"
+      ],
+      "archetype": "COOKED_LEFTOVERS",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-USDA-LEFTOVERS-2HR"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEFTOVERS-FRIDGE"
+        },
+        "freezer_-18c": {
+          "value": 1440.0,
+          "claim": "C-FK-LEFTOVERS-FREEZE"
+        }
+      }
+    },
+    "thit_ca_kho_de_lai": {
+      "id": "thit_ca_kho_de_lai",
+      "code": "7003",
+      "names_vi": [
+        "thịt kho để lại",
+        "cá kho để lại",
+        "món mặn để lại"
+      ],
+      "archetype": "COOKED_LEFTOVERS",
+      "base_shelf_life_hours": {
+        "room_temp_25_30c": {
+          "value": 2.0,
+          "claim": "C-USDA-LEFTOVERS-2HR"
+        },
+        "fridge_2_4c": {
+          "value": 72.0,
+          "claim": "C-FK-LEFTOVERS-FRIDGE"
+        },
+        "freezer_-18c": {
+          "value": 720.0,
+          "claim": "C-FK-LEFTOVERS-FREEZE"
+        }
+      }
+    }
+  }
+}
