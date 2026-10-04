@@ -1,0 +1,1049 @@
+- id: thit_ga_ta_tha_vuon
+  code: '7013'
+  names_vi:
+  - thịt gà ta thả vườn
+  - gà ta thả vườn
+  - gà thả vườn
+  - thịt gà ta làm sẵn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ga_cong_nghiep
+  code: '7013'
+  names_vi:
+  - thịt gà công nghiệp
+  - gà công nghiệp
+  - gà thịt công nghiệp
+  - thịt gà trắng
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_ga_goc_tu
+  code: '7088'
+  names_vi:
+  - đùi gà góc tư
+  - má đùi góc tư
+  - đùi gà nguyên má
+  - đùi gà liền má
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: toi_ga
+  code: '7088'
+  names_vi:
+  - tỏi gà
+  - đùi tỏi gà
+  - đùi gà tỏi
+  - bắp đùi gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: uc_ga
+  code: '7089'
+  names_vi:
+  - ức gà
+  - lườn gà
+  - phi lê ức gà
+  - ức gà không da
+  - thịt ức gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: canh_ga
+  code: '7087'
+  names_vi:
+  - cánh gà
+  - cánh gà tươi
+  - cánh gà khúc giữa
+  - đầu cánh gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: chan_ga
+  code: '20133'
+  names_vi:
+  - chân gà
+  - chân gà tươi
+  - chân gà rút xương
+  - chân gà làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: me_ga
+  code: '7048'
+  names_vi:
+  - mề gà
+  - mề gà tươi
+  - dạ dày gà
+  - mề gà làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: gan_ga
+  code: '7040'
+  names_vi:
+  - gan gà
+  - gan gà tươi
+  - lá gan gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: tim_ga
+  code: '7056'
+  names_vi:
+  - tim gà
+  - tim gà tươi
+  - trái tim gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: long_ga
+  code: '7082'
+  names_vi:
+  - lòng gà
+  - lòng gà tươi
+  - bộ lòng gà
+  - lòng mề gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: sun_ga
+  code: '20311'
+  names_vi:
+  - sụn gà
+  - sụn ức gà
+  - sụn khớp gà
+  - sụn gà tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: co_ga
+  code: '7013'
+  names_vi:
+  - cổ gà
+  - cổ gà tươi
+  - cổ gà làm sạch
+  - cổ họng gà
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: phao_cau_ga
+  code: '7013'
+  names_vi:
+  - phao câu gà
+  - phao câu
+  - phao câu gà tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: ga_ac
+  code: '20272'
+  names_vi:
+  - gà ác
+  - gà ác tiềm
+  - gà ác nguyên con
+  - gà ri đen
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ga_den_hmong
+  code: '20271'
+  names_vi:
+  - thịt gà đen H'mông
+  - gà đen H'mông
+  - gà Mông
+  - gà H'mông đen
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: ngoc_ke_ga
+  code: '20721'
+  names_vi:
+  - ngọc kê gà
+  - kê gà tươi
+  - hạt kê gà
+  - ngọc kê
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: trung_ga_non
+  code: '20743'
+  names_vi:
+  - trứng gà non
+  - trứng non lòng gà
+  - trứng non
+  - buồng trứng gà non
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ga_tay
+  code: '7014'
+  names_vi:
+  - thịt gà tây
+  - gà tây
+  - gà tây nguyên con
+  - thịt gà tây tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ga_rung
+  code: '7012'
+  names_vi:
+  - thịt gà rừng
+  - gà rừng
+  - thịt gà rừng lai
+  - gà rừng tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_vit_co
+  code: '7028'
+  names_vi:
+  - thịt vịt cỏ
+  - vịt cỏ
+  - vịt cỏ Vân Đình
+  - thịt vịt cỏ thả đồng
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_vit
+  code: '7028'
+  names_vi:
+  - đùi vịt
+  - đùi vịt tươi
+  - má đùi vịt
+  - đùi vịt góc tư
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: canh_vit
+  code: '7028'
+  names_vi:
+  - cánh vịt
+  - cánh vịt tươi
+  - cánh vịt làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: uc_vit
+  code: '7028'
+  names_vi:
+  - ức vịt
+  - lườn vịt
+  - phi lê ức vịt
+  - thịt ức vịt
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: chan_vit
+  code: '7028'
+  names_vi:
+  - chân vịt
+  - chân vịt tươi
+  - chân vịt rút xương
+  - chân vịt làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: long_vit
+  code: '20296'
+  names_vi:
+  - lòng vịt
+  - lòng vịt tươi
+  - bộ lòng vịt
+  - lòng mề vịt
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: me_vit
+  code: '7028'
+  names_vi:
+  - mề vịt
+  - mề vịt tươi
+  - mề vịt làm sạch
+  - dạ dày vịt
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: gan_vit
+  code: '7042'
+  names_vi:
+  - gan vịt
+  - gan vịt tươi
+  - lá gan vịt
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: luoi_vit
+  code: '7028'
+  names_vi:
+  - lưỡi vịt
+  - lưỡi vịt tươi
+  - lưỡi vịt làm sạch
+  - lưỡi vịt phá lấu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: vit_xiem
+  code: '7028'
+  names_vi:
+  - vịt xiêm
+  - thịt vịt xiêm
+  - vịt xiêm tươi
+  - ngan đen
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: co_vit
+  code: '7028'
+  names_vi:
+  - cổ vịt
+  - cổ vịt tươi
+  - cổ vịt làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: phao_cau_vit
+  code: '7028'
+  names_vi:
+  - phao câu vịt
+  - phao câu vịt tươi
+  - phao câu vịt béo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ngan_re
+  code: '7090'
+  names_vi:
+  - thịt ngan ré
+  - ngan ré
+  - ngan dé
+  - thịt ngan dé
+  - thịt ngan ré tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_ngan
+  code: '7090'
+  names_vi:
+  - đùi ngan
+  - đùi ngan tươi
+  - má đùi ngan
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: uc_ngan
+  code: '7090'
+  names_vi:
+  - ức ngan
+  - lườn ngan
+  - phi lê ức ngan
+  - ức ngan tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: canh_ngan
+  code: '7090'
+  names_vi:
+  - cánh ngan
+  - cánh ngan tươi
+  - cánh ngan làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ngong
+  code: '7019'
+  names_vi:
+  - thịt ngỗng
+  - ngỗng tươi
+  - ngỗng nguyên con
+  - thịt ngỗng cỏ
+  - thịt ngỗng làm sẵn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_ngong
+  code: '7019'
+  names_vi:
+  - đùi ngỗng
+  - đùi ngỗng tươi
+  - thịt đùi ngỗng
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: gan_ngong
+  code: '7019'
+  names_vi:
+  - gan ngỗng
+  - gan ngỗng tươi
+  - foie gras tươi
+  - lá gan ngỗng
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-POULTRY-FREEZE
+- id: luon_ngong_hun_khoi
+  code: '7019'
+  names_vi:
+  - lườn ngỗng hun khói
+  - ức ngỗng xông khói
+  - lườn ngỗng hun khói Nga
+  - ức ngỗng hun khói
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: chim_cut_tuoi
+  code: '20089'
+  names_vi:
+  - chim cút tươi
+  - chim cút
+  - thịt chim cút
+  - chim cút làm sẵn
+  - chim cút nguyên con
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: chim_bo_cau
+  code: '7007'
+  names_vi:
+  - chim bồ câu
+  - bồ câu ra ràng
+  - thịt bồ câu
+  - bồ câu non
+  - thịt bồ câu tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_chim_se
+  code: '20089'
+  names_vi:
+  - thịt chim sẻ
+  - chim sẻ
+  - chim mía
+  - chim sẻ đồng
+  - thịt chim mía
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_ech_dong
+  code: '20105'
+  names_vi:
+  - thịt ếch đồng
+  - ếch đồng
+  - thịt ếch
+  - ếch đồng tươi
+  - ếch làm sẵn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_ech
+  code: '20105'
+  names_vi:
+  - đùi ếch
+  - đùi ếch tươi
+  - thịt đùi ếch
+  - đùi ếch làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: da_ech
+  code: '20105'
+  names_vi:
+  - da ếch
+  - da ếch tươi
+  - da ếch làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: luon_dong_tuoi
+  code: '8038'
+  names_vi:
+  - lươn đồng tươi
+  - lươn đồng
+  - thịt lươn đồng
+  - lươn sống
+  - lươn làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: trach_dong
+  code: '8028'
+  names_vi:
+  - trạch đồng
+  - cá trạch đồng
+  - cá trạch
+  - cá chạch đồng
+  - cá trạch tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: thit_tho_tuoi
+  code: '7021'
+  names_vi:
+  - thịt thỏ tươi
+  - thịt thỏ
+  - thịt thỏ nhà
+  - thỏ nguyên con
+  - thịt thỏ làm sẵn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE
+- id: dui_tho
+  code: '7021'
+  names_vi:
+  - đùi thỏ
+  - đùi thỏ tươi
+  - thịt đùi thỏ
+  - đùi thỏ làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-POULTRY-PARTS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-POULTRY-FREEZE

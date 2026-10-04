@@ -1,0 +1,750 @@
+- id: bap_cai_trang
+  code: '4010'
+  names_vi:
+  - bắp cải trắng
+  - bắp cải
+  - cải bắp trắng
+  - cải bắp
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 120.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: cai_thao
+  code: '4109'
+  names_vi:
+  - cải thảo
+  - rau cải thảo
+  - bắp cải thảo
+  - cải bao
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 10.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: rau_ngot
+  code: '20115'
+  names_vi:
+  - rau ngót
+  - bồ ngót
+  - rau bồ ngót
+  - cây bồ ngót
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 8.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: mong_toi
+  code: '4080'
+  names_vi:
+  - mồng tơi
+  - rau mồng tơi
+  - mùng tơi
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 8.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: rau_den_do
+  code: '4073'
+  names_vi:
+  - rau dền đỏ
+  - rau dền tía
+  - rau giền đỏ
+  - rau dền
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 8.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: kho_qua
+  code: '4055'
+  names_vi:
+  - khổ qua
+  - mướp đắng
+  - trái khổ qua
+  - quả mướp đắng
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: muop_huong
+  code: '4054'
+  names_vi:
+  - mướp hương
+  - mướp ta
+  - mướp khía
+  - quả mướp
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: bau_sao
+  code: '4001'
+  names_vi:
+  - bầu sao
+  - quả bầu
+  - trái bầu
+  - bầu nậm
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: bi_dao
+  code: '4002'
+  names_vi:
+  - bí đao
+  - bí xanh
+  - trái bí đao
+  - quả bí xanh
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 120.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: bi_do
+  code: '20635'
+  names_vi:
+  - bí đỏ
+  - bí ngô
+  - bí hồ lô
+  - trái bí đỏ
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 336.0
+      claim: C-FK-POTATO-PANTRY
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-CARROT-FRIDGE
+- id: ca_chua_tuoi
+  code: '4005'
+  names_vi:
+  - cà chua tươi
+  - cà chua
+  - cà chua bi
+  - quả cà chua
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 120.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: dua_leo
+  code: '4027'
+  names_vi:
+  - dưa leo
+  - dưa chuột
+  - trái dưa leo
+  - dưa leo tươi
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: ca_tim
+  code: '4009'
+  names_vi:
+  - cà tím
+  - cà dái dê
+  - quả cà tím
+  - trái cà tím
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: dau_bap
+  code: '20086'
+  names_vi:
+  - đậu bắp
+  - bắp còi
+  - mướp tây
+  - quả đậu bắp
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 10.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: dau_co_ve
+  code: '4029'
+  names_vi:
+  - đậu cô ve
+  - đậu que
+  - đậu cô ve quả
+  - đậu que tươi
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: gia_do_tuoi
+  code: '4036'
+  names_vi:
+  - giá đỗ tươi
+  - giá đỗ
+  - giá đậu xanh
+  - giá sống
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: mang_tuoi
+  code: '4053'
+  names_vi:
+  - măng tươi
+  - măng tre tươi
+  - măng củ tươi
+  - măng vầu tươi
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 168.0
+      claim: C-FK-ONION-PANTRY
+    fridge_2_4c:
+      value: 336.0
+      claim: C-FK-RADISH-FRIDGE
+- id: nam_rom
+  code: '4129'
+  names_vi:
+  - nấm rơm
+  - nấm rơm tươi
+  - nấm rơm búp
+  - nấm rơm đen
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: nam_kim_cham
+  code: '20006'
+  names_vi:
+  - nấm kim châm
+  - nấm kim châm tươi
+  - nấm giá
+  - kim châm tươi
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: nam_dui_ga
+  code: '20007'
+  names_vi:
+  - nấm đùi gà
+  - nấm bào ngư Nhật
+  - nấm đùi gà tươi
+  - nấm đùi gà baby
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 8.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 96.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: nam_bao_ngu
+  code: '20004'
+  names_vi:
+  - nấm bào ngư
+  - nấm sò
+  - nấm bào ngư xám
+  - nấm bào ngư trắng
+  archetype: LEAFY_VEG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-LEAFY-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEAFY-FRIDGE
+- id: khoai_mon
+  code: '2010'
+  names_vi:
+  - khoai môn
+  - củ khoai môn
+  - khoai môn cao
+  - khoai sáp
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 336.0
+      claim: C-FK-POTATO-PANTRY
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-CARROT-FRIDGE
+- id: khoai_so
+  code: '2013'
+  names_vi:
+  - khoai sọ
+  - củ khoai sọ
+  - khoai sọ trắng
+  - khoai sọ dọc mùng
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 336.0
+      claim: C-FK-POTATO-PANTRY
+    fridge_2_4c:
+      value: 504.0
+      claim: C-FK-CARROT-FRIDGE
+- id: bap_ngot
+  code: '1008'
+  names_vi:
+  - bắp ngọt
+  - ngô ngọt
+  - bắp Mỹ
+  - ngô Mỹ
+  - bắp vàng
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 168.0
+      claim: C-FK-ONION-PANTRY
+    fridge_2_4c:
+      value: 336.0
+      claim: C-FK-RADISH-FRIDGE
+- id: ngo_sen_tuoi
+  code: '4059'
+  names_vi:
+  - ngó sen tươi
+  - ngó sen
+  - ngó sen củ
+  - ngó sen trắng
+  archetype: TUBER_ROOT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 168.0
+      claim: C-FK-ONION-PANTRY
+    fridge_2_4c:
+      value: 336.0
+      claim: C-FK-RADISH-FRIDGE
+- id: trung_vit_muoi
+  code: '20145'
+  names_vi:
+  - trứng vịt muối
+  - trứng muối
+  - hột vịt muối
+  - trứng vịt muối nguyên quả
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 240.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 1080.0
+      claim: C-FK-EGG-STORAGE
+- id: trung_bac_thao
+  code: '20069'
+  names_vi:
+  - trứng bắc thảo
+  - hột vịt bắc thảo
+  - trứng bách thảo
+  - hột vịt bách thảo
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 240.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 1080.0
+      claim: C-FK-EGG-STORAGE
+- id: trung_cut_lon
+  code: '20748'
+  names_vi:
+  - trứng cút lộn
+  - hột cút lộn
+  - cút lộn tươi
+  - trứng chim cút lộn
+  archetype: EGG
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 168.0
+      claim: C-LOCAL-EGG-ROOM
+    fridge_2_4c:
+      value: 720.0
+      claim: C-FK-EGG-STORAGE
+- id: tau_hu_non
+  code: '20217'
+  names_vi:
+  - tàu hũ non
+  - đậu hũ non
+  - đậu phụ non
+  - đậu hũ lụa
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: vang_dau_tuoi
+  code: '20293'
+  names_vi:
+  - váng đậu tươi
+  - tàu hũ ky tươi
+  - phù trúc tươi
+  - váng đậu lá
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-TOFU-STORAGE
+- id: dau_hu_chien_sa
+  code: '20352'
+  names_vi:
+  - đậu hũ chiên sả
+  - đậu phụ rán sả ớt
+  - tàu hũ chiên sả
+  - đậu phụ sả ớt
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: banh_pho_tuoi_soi_nho
+  code: '1013'
+  names_vi:
+  - bánh phở tươi sợi nhỏ
+  - bánh phở tươi
+  - phở sợi nhỏ tươi
+  - bánh phở nhỏ
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: bun_bo_hue_tuoi_soi_to
+  code: '1020'
+  names_vi:
+  - bún bò huế tươi sợi to
+  - bún bò huế sợi to
+  - bún cọng to
+  - bún sợi to
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: hu_tieu_nam_vang_tuoi
+  code: '20364'
+  names_vi:
+  - hủ tiếu nam vang tươi
+  - bánh hủ tiếu tươi
+  - hủ tiếu tươi
+  - sợi hủ tiếu mềm
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: mien_dong_tuoi
+  code: '2015'
+  names_vi:
+  - miến dong tươi
+  - bún tàu tươi
+  - miến tươi
+  - sợi miến tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_uot_tuoi
+  code: '1010'
+  names_vi:
+  - bánh ướt tươi
+  - bánh ướt nóng
+  - bánh ướt lá
+  - bánh ướt trắng
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_cuon_tuoi
+  code: '15009'
+  names_vi:
+  - bánh cuốn tươi
+  - bánh cuốn nóng
+  - bánh cuốn tráng tay
+  - bánh cuốn trắng
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_hoi_tuoi
+  code: '20129'
+  names_vi:
+  - bánh hỏi tươi
+  - bánh hỏi lá
+  - bánh hỏi sợi
+  - bánh hỏi bánh
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_canh_bot_gao
+  code: '20127'
+  names_vi:
+  - bánh canh bột gạo
+  - sợi bánh canh gạo
+  - bánh canh tươi
+  - bánh canh gạo tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: banh_canh_bot_loc
+  code: '15003'
+  names_vi:
+  - bánh canh bột lọc
+  - sợi bánh canh lọc
+  - bánh canh trong
+  - bánh canh bột năng
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: mi_tuoi_trung
+  code: '20087'
+  names_vi:
+  - mì tươi trứng
+  - mì trứng tươi
+  - mì sợi tươi trứng
+  - mì hoành thánh tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-NOODLE-FRESH
+- id: mi_somen_tuoi
+  code: '20199'
+  names_vi:
+  - mì somen tươi
+  - mì sợi mảnh tươi
+  - somen tươi
+  - mì somen
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: com_dua_tuoi
+  code: '3002'
+  names_vi:
+  - cơm dừa tươi
+  - cùi dừa non
+  - cơm dừa nạo
+  - cơm dừa non
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-TOFU-STORAGE
+- id: nuoc_dua_tuoi_nguyen_trai
+  code: '14006'
+  names_vi:
+  - nước dừa tươi nguyên trái
+  - nước dừa xiêm
+  - nước dừa tươi
+  - nước dừa nguyên quả
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: bot_gao_tuoi
+  code: '1017'
+  names_vi:
+  - bột gạo tươi
+  - bột gạo nước
+  - bột gạo xay ướt
+  - bột gạo tẻ tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: bot_nep_tuoi
+  code: '1016'
+  names_vi:
+  - bột nếp tươi
+  - bột nếp xay ướt
+  - bột nếp nhào tươi
+  - bột nếp nước
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 6.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: suong_sao_tuoi
+  code: '20700'
+  names_vi:
+  - sương sáo tươi
+  - thạch sương sáo
+  - thạch đen tươi
+  - thạch sương sáo tươi
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: thach_cao_quy_linh
+  code: '20836'
+  names_vi:
+  - thạch cao quy linh
+  - cao quy linh tươi
+  - quy linh cao
+  - thạch quy linh
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-TOFU-STORAGE
+- id: banh_da_cua_tuoi
+  code: '1041'
+  names_vi:
+  - bánh đa cua tươi
+  - bánh đa đỏ tươi
+  - bánh đa Hải Phòng tươi
+  - sợi bánh đa đỏ
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH
+- id: bun_la
+  code: '20772'
+  names_vi:
+  - bún lá
+  - bún lá tươi
+  - bún vắt lá
+  - bún đậu lá
+  archetype: FRESH_STARCH_SOY
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 12.0
+      claim: C-LOCAL-STARCH-ROOM
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-NOODLE-FRESH

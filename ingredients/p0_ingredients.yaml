@@ -5,6 +5,9 @@
   - ba rọi
   - ba chỉ heo
   - thịt ba chỉ
+  - thịt ba rọi
+  - ba chỉ
+  - thịt lợn ba chỉ
   archetype: FRESH_MEAT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -20,11 +23,15 @@
       value: 2880.0
       claim: C-FK-PORK-FREEZE
 - id: thit_nac_heo
-  code: '7085'
+  code: '7017'
   names_vi:
   - thịt nạc heo
   - nạc thăn heo
   - thịt lợn nạc
+  - thịt nạc
+  - nạc heo
+  - thịt heo nạc
+  - thịt lợn
   archetype: FRESH_MEAT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -45,6 +52,8 @@
   - sườn heo
   - sườn lợn
   - sườn non
+  - dẻ sườn heo
+  - sườn cây
   archetype: FRESH_MEAT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -66,6 +75,9 @@
   - thịt bò
   - bắp bò
   - thịt bò tươi
+  - thăn bò
+  - bò bắp
+  - bò nạc
   archetype: FRESH_MEAT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -86,7 +98,9 @@
   - thịt gà ta
   - gà làm sẵn
   - thịt gà
+  - thịt gà tươi
   - ức gà
+  - đùi gà
   archetype: FRESH_MEAT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -107,6 +121,7 @@
   - cá lóc
   - cá quả
   - cá chuối
+  - phi lê cá lóc
   archetype: FISH_SEAFOOD
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -127,6 +142,7 @@
   - cá điêu hồng
   - cá rô phi
   - rô phi đỏ
+  - cá diêu hồng
   archetype: FISH_SEAFOOD
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -148,6 +164,7 @@
   - tôm thẻ
   - tôm sú
   - tôm tươi
+  - tôm đất
   archetype: FISH_SEAFOOD
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -168,6 +185,7 @@
   - mực tươi
   - mực ống
   - mực lá
+  - mực nang
   archetype: FISH_SEAFOOD
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -242,6 +260,8 @@
   - ốc bươu
   - ốc nhồi
   - ốc hương sống
+  - ốc móng tay
+  - ốc
   archetype: LIVE_SHELLFISH
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -259,6 +279,7 @@
   - cua đồng
   - cua biển
   - ghẹ sống
+  - ghẹ
   archetype: LIVE_SHELLFISH
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -276,6 +297,7 @@
   - trứng gà
   - trứng gà ta
   - trứng gà công nghiệp
+  - trứng
   archetype: EGG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -288,6 +310,7 @@
   code: '9004'
   names_vi:
   - trứng vịt
+  - trứng vịt lộn
   archetype: EGG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -313,6 +336,7 @@
   code: '2014'
   names_vi:
   - khoai tây
+  - khoai tây củ
   archetype: TUBER_ROOT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -326,6 +350,8 @@
   names_vi:
   - khoai lang
   - khoai lang mật
+  - khoai lang vàng
+  - khoai lang tím
   archetype: TUBER_ROOT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -335,6 +361,7 @@
   code: '4007'
   names_vi:
   - cà rốt
+  - củ cà rốt
   archetype: TUBER_ROOT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -351,6 +378,7 @@
   names_vi:
   - củ cải trắng
   - củ cải
+  - củ cải đường
   archetype: TUBER_ROOT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -363,6 +391,8 @@
   code: '4039'
   names_vi:
   - hành tây
+  - hành tây tím
+  - củ hành tây
   archetype: TUBER_ROOT
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -375,6 +405,8 @@
   code: '4083'
   names_vi:
   - rau muống
+  - rau muống nước
+  - rau muống chẻ
   archetype: LEAFY_VEG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -388,6 +420,7 @@
   names_vi:
   - cải ngọt
   - rau cải ngọt
+  - cải xanh
   archetype: LEAFY_VEG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -402,6 +435,7 @@
   - cải thìa
   - cải bẹ trắng
   - cải chíp
+  - cải thìa tươi
   archetype: LEAFY_VEG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -415,6 +449,8 @@
   names_vi:
   - xà lách
   - rau xà lách
+  - xà lách búp
+  - xà lách lolo
   archetype: LEAFY_VEG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -429,6 +465,7 @@
   - hành lá
   - hành hoa
   - ngò rí
+  - hành
   archetype: LEAFY_VEG
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -441,6 +478,8 @@
   code: '1020'
   names_vi:
   - bún tươi
+  - bún gạo tươi
+  - bún sợi
   archetype: FRESH_STARCH_SOY
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -454,6 +493,7 @@
   names_vi:
   - bánh phở tươi
   - bánh phở
+  - phở tươi
   archetype: FRESH_STARCH_SOY
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -468,6 +508,8 @@
   - đậu hũ trắng
   - đậu phụ trắng
   - đậu hũ tươi
+  - đậu phụ
+  - đậu hũ
   archetype: FRESH_STARCH_SOY
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -477,10 +519,12 @@
       value: 72.0
       claim: C-FK-TOFU-STORAGE
 - id: dau_hu_chien
-  code: '3026'
+  code: '20352'
   names_vi:
   - đậu hũ chiên
   - đậu phụ rán
+  - đậu chiên
+  - đậu rán
   archetype: FRESH_STARCH_SOY
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -490,10 +534,12 @@
       value: 96.0
       claim: C-FK-TOFU-STORAGE
 - id: com_nguoi
-  code: '1004'
+  code: EXT025
   names_vi:
   - cơm nguội
   - cơm trắng đã nấu
+  - cơm trắng
+  - cơm
   archetype: COOKED_LEFTOVERS
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -506,11 +552,12 @@
       value: 4320.0
       claim: C-FK-LEFTOVERS-FREEZE
 - id: canh_de_lai
-  code: '4084'
+  code: '7140'
   names_vi:
   - canh để lại
   - canh rau thịt
   - nước dùng để lại
+  - canh
   archetype: COOKED_LEFTOVERS
   base_shelf_life_hours:
     room_temp_25_30c:
@@ -523,11 +570,13 @@
       value: 1440.0
       claim: C-FK-LEFTOVERS-FREEZE
 - id: thit_ca_kho_de_lai
-  code: '7003'
+  code: '7017'
   names_vi:
   - thịt kho để lại
   - cá kho để lại
   - món mặn để lại
+  - thịt kho
+  - cá kho
   archetype: COOKED_LEFTOVERS
   base_shelf_life_hours:
     room_temp_25_30c:

@@ -1,0 +1,1047 @@
+- id: bap_bo
+  code: '7094'
+  names_vi:
+  - bắp bò
+  - thịt bắp bò
+  - bắp bò hoa
+  - bò bắp
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: than_bo
+  code: '7005'
+  names_vi:
+  - thăn bò
+  - thịt thăn bò
+  - thăn lưng bò
+  - thăn phi lê bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: nam_bo
+  code: '7004'
+  names_vi:
+  - nạm bò
+  - thịt nạm bò
+  - nạm bò tươi
+  - nạm bò gân
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: gau_bo
+  code: '20742'
+  names_vi:
+  - gầu bò
+  - thịt gầu bò
+  - gầu giòn bò
+  - gầu bò tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: diem_than_bo
+  code: '7006'
+  names_vi:
+  - diềm thăn
+  - diềm thăn bò
+  - thịt diềm thăn
+  - dải bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: loi_rua_bo
+  code: '7094'
+  names_vi:
+  - lõi rùa
+  - lõi rùa bò
+  - thịt lõi rùa
+  - lõi bắp rùa bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: bap_hoa_bo
+  code: '7094'
+  names_vi:
+  - bắp hoa
+  - bắp hoa bò
+  - thịt bắp hoa
+  - bắp bò hoa
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: de_suon_bo
+  code: '20669'
+  names_vi:
+  - dẻ sườn bò
+  - thịt dẻ sườn bò
+  - dẻ sườn
+  - sườn rút xương bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: suon_bo
+  code: '20113'
+  names_vi:
+  - sườn bò
+  - sườn bò tươi
+  - sườn que bò
+  - thịt sườn bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: duoi_bo
+  code: '7037'
+  names_vi:
+  - đuôi bò
+  - thịt đuôi bò
+  - đuôi bò tươi
+  - đuôi bò làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_bo_xay
+  code: '20178'
+  names_vi:
+  - thịt bò xay
+  - bò băm
+  - thịt bò băm
+  - thịt bò xay tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: than_ngoai_bo
+  code: '7006'
+  names_vi:
+  - thăn ngoại bò
+  - thịt thăn ngoại
+  - thăn lưng bò ngoại
+  - striploin bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: than_noi_bo
+  code: '7005'
+  names_vi:
+  - thăn nội bò
+  - thịt thăn nội
+  - thăn chuột bò
+  - tenderloin bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: bit_tet_bo
+  code: '7003'
+  names_vi:
+  - bít tết bò
+  - thịt bò bít tết
+  - steak bò
+  - thịt bò steak
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: bo_cuon
+  code: '20117'
+  names_vi:
+  - bò cuộn
+  - thịt bò cuộn
+  - ba chỉ bò cuộn
+  - bò cuộn nấm
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: gan_chan_bo
+  code: '7043'
+  names_vi:
+  - gân bò
+  - gân chân bò
+  - gân bò tươi
+  - gân bò trong
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: long_bo
+  code: '20275'
+  names_vi:
+  - lòng bò
+  - lòng bò tươi
+  - bộ lòng bò
+  - ruột bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: da_truong_bo
+  code: '20595'
+  names_vi:
+  - dạ trường bò
+  - tràng bò
+  - ruột bò tươi
+  - dồi trường bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: sach_bo
+  code: '7033'
+  names_vi:
+  - sách bò
+  - lá sách bò
+  - lá sách
+  - khăn lông sách bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: to_ong_bo
+  code: '7033'
+  names_vi:
+  - tổ ong bò
+  - dạ dày tổ ong bò
+  - dạ tổ ong
+  - tổ ong tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: la_lach_bo
+  code: '7051'
+  names_vi:
+  - lá lách bò
+  - tỳ bò
+  - lách bò
+  - lá lách bò tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: gan_bo
+  code: '7039'
+  names_vi:
+  - gan bò
+  - gan bò tươi
+  - lá gan bò
+  - gan bò nếp
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: tim_bo
+  code: '7055'
+  names_vi:
+  - tim bò
+  - tim bò tươi
+  - quả tim bò
+  - thịt tim bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: cat_bo
+  code: '7029'
+  names_vi:
+  - cật bò
+  - bầu dục bò
+  - thận bò
+  - cật bò tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: tuy_bo
+  code: '7061'
+  names_vi:
+  - tủy bò
+  - tủy xương bò
+  - tủy bò tươi
+  - tủy sống bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: oc_bo
+  code: '7049'
+  names_vi:
+  - óc bò
+  - óc bò tươi
+  - bộ óc bò
+  - óc con bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: pin_bo
+  code: '7004'
+  names_vi:
+  - pín bò
+  - ngầu pín bò
+  - ngọc hành bò
+  - ngầu pín
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: luoi_bo
+  code: '7044'
+  names_vi:
+  - lưỡi bò
+  - lưỡi bò tươi
+  - lưỡi bò làm sạch
+  - thịt lưỡi bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: nam_bo_sua
+  code: '7096'
+  names_vi:
+  - nầm bò
+  - nầm bò sữa
+  - bẹ sữa bò
+  - nầm sữa bò tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: ba_chi_bo
+  code: '20117'
+  names_vi:
+  - ba chỉ bò
+  - thịt ba chỉ bò
+  - ba rọi bò
+  - thịt ba rọi bò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_be_non
+  code: '7002'
+  names_vi:
+  - thịt bê non
+  - thịt bê tươi
+  - bê tơ
+  - thịt bê tơ
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: dui_be
+  code: '7002'
+  names_vi:
+  - đùi bê
+  - thịt đùi bê
+  - bắp đùi bê
+  - đùi bê tơ
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: than_be
+  code: '7002'
+  names_vi:
+  - thăn bê
+  - thịt thăn bê
+  - thăn bê tơ
+  - thăn phi lê bê
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: be_thui
+  code: '7001'
+  names_vi:
+  - bê thui
+  - thịt bê thui
+  - bê thui Cầu Mống
+  - thịt bê thui nguyên con
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: da_be
+  code: '7001'
+  names_vi:
+  - da bê
+  - bì bê
+  - da bê non
+  - da bê tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_trau_tuoi
+  code: '7023'
+  names_vi:
+  - thịt trâu tươi
+  - thịt trâu
+  - thịt trâu nạc
+  - thịt trâu tươi sống
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: bap_trau
+  code: '7024'
+  names_vi:
+  - bắp trâu
+  - thịt trâu bắp
+  - thịt bắp trâu
+  - bắp hoa trâu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: than_trau
+  code: '7023'
+  names_vi:
+  - thăn trâu
+  - thịt thăn trâu
+  - thăn trâu tươi
+  - thăn phi lê trâu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: nam_trau
+  code: '7023'
+  names_vi:
+  - nạm trâu
+  - thịt nạm trâu
+  - nạm trâu tươi
+  - thịt trâu nạm
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: gan_trau
+  code: '7023'
+  names_vi:
+  - gân trâu
+  - gân chân trâu
+  - gân trâu tươi
+  - thịt gân trâu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: suon_trau
+  code: '7023'
+  names_vi:
+  - sườn trâu
+  - sườn que trâu
+  - dẻ sườn trâu
+  - thịt sườn trâu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_de_nui
+  code: '7011'
+  names_vi:
+  - thịt dê núi
+  - thịt dê tươi
+  - thịt dê Ninh Bình
+  - thịt dê sống
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: suon_de
+  code: '7011'
+  names_vi:
+  - sườn dê
+  - sườn dê tươi
+  - dẻ sườn dê
+  - sườn que dê
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: dui_de
+  code: '7011'
+  names_vi:
+  - đùi dê
+  - thịt đùi dê
+  - bắp đùi dê
+  - đùi dê núi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_de_tai
+  code: '7011'
+  names_vi:
+  - thịt dê tái
+  - dê tái chanh
+  - thịt dê chần
+  - dê bóp thấu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: long_de
+  code: '20649'
+  names_vi:
+  - lòng dê
+  - ruột dê
+  - bộ lòng dê
+  - dạ dày dê
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: ngoc_duong_de
+  code: '7011'
+  names_vi:
+  - ngọc dương dê
+  - cà dê
+  - ngọc hành dê
+  - dái dê
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: thit_cuu
+  code: '7010'
+  names_vi:
+  - thịt cừu
+  - thịt cừu tươi
+  - thịt cừu nạc
+  - thịt cừu Úc
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: suon_cuu
+  code: '7010'
+  names_vi:
+  - sườn cừu
+  - dẻ sườn cừu
+  - sườn cừu cắt kiểu Pháp
+  - sườn que cừu
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE
+- id: dui_cuu
+  code: '7010'
+  names_vi:
+  - đùi cừu
+  - đùi cừu tươi
+  - bắp đùi cừu
+  - thịt đùi cừu rút xương
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-BEEF-STEAK
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-BEEF-FREEZE

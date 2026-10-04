@@ -1,0 +1,1079 @@
+- id: thit_nac_vai_heo
+  code: '7083'
+  names_vi:
+  - thịt nạc vai heo
+  - nạc vai heo
+  - nạc vai lợn
+  - thịt vai heo
+  - nạc vai
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nac_mong_heo
+  code: '7084'
+  names_vi:
+  - thịt nạc mông heo
+  - nạc mông lợn
+  - nạc mông heo
+  - thịt mông heo
+  - nạc mông
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nac_than_heo
+  code: '7085'
+  names_vi:
+  - thịt nạc thăn heo
+  - nạc thăn heo
+  - nạc thăn lợn
+  - thăn chuột heo
+  - thăn heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nac_dam_heo
+  code: '20285'
+  names_vi:
+  - thịt nạc dăm heo
+  - nạc dăm heo
+  - nạc dăm
+  - thịt nạc dăm
+  - nạc giòn heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_ba_chi_rut_suon
+  code: '7018'
+  names_vi:
+  - ba chỉ rút sườn
+  - thịt ba chỉ rút sườn
+  - ba rọi rút sườn
+  - thịt ba chỉ heo rút sườn
+  - ba rọi rút xương
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: suon_non_heo
+  code: '20482'
+  names_vi:
+  - sườn non heo
+  - thịt sườn non heo
+  - sườn non lợn
+  - sườn non
+  - dẻ sườn non heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: suon_gia_heo
+  code: '7053'
+  names_vi:
+  - sườn già heo
+  - sườn già
+  - sườn già lợn
+  - sườn dẻ heo
+  - sườn que heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: suon_sun_heo
+  code: '7053'
+  names_vi:
+  - sườn sụn heo
+  - sụn sườn heo
+  - sườn sụn lợn
+  - sụn non heo
+  - sườn sụn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_dai_heo
+  code: '7017'
+  names_vi:
+  - thịt dải heo
+  - thịt dải lợn
+  - nạc dải heo
+  - thịt dải
+  - diềm thăn heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: mo_gay_heo
+  code: '7016'
+  names_vi:
+  - mỡ gáy heo
+  - mỡ gáy
+  - mỡ lưng heo
+  - mỡ khổ heo
+  - mỡ gáy lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: mo_la_heo
+  code: '7016'
+  names_vi:
+  - mỡ lá heo
+  - mỡ lá lợn
+  - mỡ lá
+  - mỡ sa heo
+  - mỡ màng heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: da_heo
+  code: '7031'
+  names_vi:
+  - da heo
+  - bì heo
+  - bì lợn
+  - da heo tươi
+  - da lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: chan_gio_truoc_heo
+  code: '7032'
+  names_vi:
+  - chân giò trước heo
+  - giò trước heo
+  - giò trước
+  - chân giò trước lợn
+  - thịt chân giò trước
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: chan_gio_sau_heo
+  code: '7032'
+  names_vi:
+  - chân giò sau heo
+  - giò sau heo
+  - giò sau
+  - chân giò sau lợn
+  - thịt chân giò sau
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: mong_gio_heo
+  code: '7032'
+  names_vi:
+  - móng giò heo
+  - móng giò
+  - móng heo
+  - móng lợn
+  - khoanh móng giò
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_thu_heo
+  code: '7036'
+  names_vi:
+  - thịt thủ heo
+  - thịt thủ
+  - thịt đầu heo
+  - thủ heo
+  - thịt đầu lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: tai_heo
+  code: '7054'
+  names_vi:
+  - tai heo
+  - tai lợn
+  - lỗ tai heo
+  - tai heo tươi
+  - tai lợn làm sạch
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: mui_heo
+  code: '20605'
+  names_vi:
+  - mũi heo
+  - mõm heo tươi
+  - mõm heo
+  - mũi lợn
+  - lỗ mũi heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: luoi_heo
+  code: '7045'
+  names_vi:
+  - lưỡi heo
+  - lưỡi lợn
+  - thịt lưỡi heo
+  - lưỡi heo tươi
+  - cuống lưỡi heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: duoi_heo
+  code: '7038'
+  names_vi:
+  - đuôi heo
+  - đuôi lợn
+  - đuôi heo tươi
+  - đuôi heo làm sạch
+  - đuôi heo chặt khúc
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nong_heo
+  code: '20239'
+  names_vi:
+  - thịt nọng heo
+  - nọng heo
+  - má heo
+  - nọng lợn
+  - thịt má heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_cot_let_heo
+  code: '20147'
+  names_vi:
+  - thịt cốt lết heo
+  - cốt lết heo
+  - sườn cốt lết
+  - cốt lết lợn
+  - sườn cốt lết heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_nac_dui_heo
+  code: '20502'
+  names_vi:
+  - thịt nạc đùi heo
+  - nạc đùi heo
+  - thịt đùi heo
+  - nạc đùi lợn
+  - thịt nạc đùi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: xuong_ong_heo
+  code: '20428'
+  names_vi:
+  - xương ống heo
+  - xương giò heo
+  - xương heo hầm
+  - xương lợn nấu canh
+  - xương ống lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: mo_chai_heo
+  code: '20338'
+  names_vi:
+  - mỡ chài heo
+  - mỡ chài
+  - mỡ màng heo
+  - mỡ chài lợn
+  - màng mỡ heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_heo_rung
+  code: '20097'
+  names_vi:
+  - thịt heo rừng
+  - heo rừng
+  - thịt lợn rừng
+  - thịt heo rừng tươi
+  - heo rừng lai
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 4.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 168.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2880.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_heo_bam
+  code: '20354'
+  names_vi:
+  - thịt heo băm
+  - thịt nạc heo băm
+  - thịt lợn băm
+  - thịt heo xay nạc
+  - thịt băm nạc
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-PORK-FREEZE
+- id: thit_heo_xay_nac_mo
+  code: '20441'
+  names_vi:
+  - thịt heo xay
+  - thịt heo xay nửa nạc nửa mỡ
+  - thịt băm heo
+  - thịt lợn xay
+  - thịt heo băm có mỡ
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-PORK-FREEZE
+- id: gio_song
+  code: '20001'
+  names_vi:
+  - giò sống
+  - mọc heo sống
+  - mọc sống
+  - chả sống
+  - thịt mọc sống
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 120.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 2160.0
+      claim: C-FK-PORK-FREEZE
+- id: tim_heo
+  code: '7057'
+  names_vi:
+  - tim heo
+  - tim lợn
+  - quả tim heo
+  - tim lợn tươi
+  - trái tim heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: gan_heo
+  code: '7041'
+  names_vi:
+  - gan heo
+  - gan lợn
+  - lá gan heo
+  - gan lợn tươi
+  - lá gan lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: cat_heo
+  code: '20096'
+  names_vi:
+  - cật heo
+  - thận lợn
+  - bầu dục heo
+  - cật lợn
+  - thận heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: bao_tu_heo
+  code: '7034'
+  names_vi:
+  - bao tử heo
+  - dạ dày heo
+  - dạ dày lợn
+  - bao tử lợn
+  - dạ dày heo tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: long_non_heo
+  code: '7047'
+  names_vi:
+  - lòng non heo
+  - lòng non lợn
+  - ruột non heo
+  - lòng heo ruột non
+  - lòng non
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: long_gia_heo
+  code: '7046'
+  names_vi:
+  - lòng già heo
+  - lòng già lợn
+  - ruột già heo
+  - khấu đuôi heo
+  - thú linh heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: doi_truong_heo
+  code: '20568'
+  names_vi:
+  - dồi trường heo
+  - dồi trường
+  - tràng heo
+  - tràng lợn
+  - dồi trường lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: pheo_non_heo
+  code: '20763'
+  names_vi:
+  - phèo non heo
+  - phèo non
+  - lòng phèo heo
+  - phèo heo tươi
+  - lòng phèo lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: cuong_hong_heo
+  code: '20335'
+  names_vi:
+  - cuống họng heo
+  - họng heo
+  - sụn cuống họng heo
+  - cuống họng lợn
+  - họng lợn tươi
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 48.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: oc_heo
+  code: '20094'
+  names_vi:
+  - óc heo
+  - óc lợn
+  - não heo
+  - óc heo tươi
+  - bộ óc heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: tuy_heo
+  code: '7062'
+  names_vi:
+  - tủy heo
+  - tủy xương lợn
+  - tủy xương heo
+  - tủy lợn
+  - tủy xương ống heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: la_lach_heo
+  code: '7041'
+  names_vi:
+  - lá lách heo
+  - lá mía heo
+  - lách lợn
+  - lá mía lợn
+  - tụy heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: phoi_heo
+  code: '7052'
+  names_vi:
+  - phổi heo
+  - phổi lợn
+  - lá phổi heo
+  - phổi lợn tươi
+  - lá phổi lợn
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: huyet_heo
+  code: '20090'
+  names_vi:
+  - huyết heo
+  - tiết lợn
+  - huyết heo tươi
+  - tiết heo tươi
+  - máu heo
+  archetype: FRESH_MEAT
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-LOCAL-HOTMEAT
+    fridge_2_4c:
+      value: 24.0
+      claim: C-FK-PORK-CHOPS
+    soft_freeze_-3c:
+      value: 72.0
+      claim: C-LOCAL-SOFTFREEZE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-PORK-FREEZE
+- id: gio_lua
+  code: '7069'
+  names_vi:
+  - giò lụa
+  - giò heo lụa
+  - khoanh giò lụa
+  - giò lụa chín
+  - giò lụa truyền thống
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: cha_lua
+  code: '20486'
+  names_vi:
+  - chả lụa
+  - chả lụa heo
+  - khoanh chả lụa
+  - chả lụa hấp
+  - chả lụa truyền thống
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: gio_thu
+  code: '7070'
+  names_vi:
+  - giò thủ
+  - giò thủ lợn
+  - giò xào
+  - chả thủ
+  - giò thủ heo
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: cha_que
+  code: '7065'
+  names_vi:
+  - chả quế
+  - chả quế lợn
+  - chả quế heo
+  - chả quế nướng
+  - chả quế truyền thống
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: cha_chien
+  code: '7064'
+  names_vi:
+  - chả chiên
+  - chả lợn chiên
+  - chả heo chiên
+  - chả mỡ chiên
+  - chả chiên vàng
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: thit_xa_xiu
+  code: '7142'
+  names_vi:
+  - thịt xá xíu
+  - thịt heo xá xíu
+  - xá xíu
+  - thịt lợn xá xíu
+  - xá xíu heo
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
+- id: thit_heo_quay
+  code: '20118'
+  names_vi:
+  - thịt heo quay
+  - heo quay
+  - thịt quay da giòn
+  - thịt lợn quay
+  - ba chỉ heo quay
+  archetype: COOKED_LEFTOVERS
+  base_shelf_life_hours:
+    room_temp_25_30c:
+      value: 2.0
+      claim: C-USDA-LEFTOVERS-2HR
+    fridge_2_4c:
+      value: 72.0
+      claim: C-FK-LEFTOVERS-FRIDGE
+    freezer_-18c:
+      value: 1440.0
+      claim: C-FK-LEFTOVERS-FREEZE
