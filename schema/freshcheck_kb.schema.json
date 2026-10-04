@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FreshCheck Knowledge Base Schema",
+  "description": "Lược đồ kiểm định cấu trúc artifact freshcheck_kb.json theo sổ tay KB §5, §10",
+  "type": "object",
+  "required": [
+    "kb_version",
+    "generated_at",
+    "sources",
+    "claims",
+    "archetypes",
+    "ingredients"
+  ],
+  "properties": {
+    "kb_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Phiên bản KB theo chuẩn semver (ví dụ 0.3.0)"
+    },
+    "generated_at": {
+      "type": "string",
+      "description": "Thời điểm build artifact theo chuẩn ISO 8601"
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "total_archetypes": { "type": "integer", "minimum": 8 },
+        "total_ingredients": { "type": "integer", "minimum": 30 },
+        "total_claims": { "type": "integer", "minimum": 1 },
+        "total_sources": { "type": "integer", "minimum": 1 }
+      },
+      "required": ["total_archetypes", "total_ingredients", "total_claims", "total_sources"]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "tier", "license", "accessed"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^S-[A-Z0-9_-]+$" },
+          "title": { "type": "string", "minLength": 5 },
+          "tier": { "type": "string", "enum": ["A", "B", "C", "D"] },
+          "license": { "type": "string" },
+          "accessed": { "type": "string" }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "statement_vi",
+          "source",
+          "locator",
+          "conditions",
+          "evidence_level",
+          "status",
+          "extracted_by",
+          "reviewed_by"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^C-[A-Z0-9_-]+$" },
+          "statement_vi": { "type": "string", "minLength": 10 },
+          "source": { "type": "string", "pattern": "^S-[A-Z0-9_-]+$" },
+          "locator": { "type": "string" },
+          "conditions": { "type": "array", "items": { "type": "string" } },
+          "evidence_level": { "type": "string", "enum": ["A", "B", "C", "D"] },
+          "status": { "type": "string", "enum": ["draft", "reviewed"] },
+          "extracted_by": { "type": "string" },
+          "reviewed_by": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "archetypes": {
+      "type": "object",
+      "minProperties": 8,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "archetype",
+          "name_vi",
+          "applies_to_groups",
+          "sensory_tiers",
+          "inspection_rubric",
+          "preservation_protocols",
+          "business_rules"
+        ],
+        "properties": {
+          "archetype": { "type": "string" },
+          "name_vi": { "type": "string" },
+          "applies_to_groups": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "sensory_tiers": {
+            "type": "object",
+            "required": ["tier_1_fresh", "tier_2_acceptable", "tier_3_warning", "tier_4_spoiled"],
+            "additionalProperties": {
+              "type": "object",
+              "required": ["score_range", "appearance", "touch", "smell"],
+              "properties": {
+                "score_range": {
+                  "type": "array",
+                  "items": { "type": "number", "minimum": 0.0, "maximum": 10.0 },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "appearance": { "type": "string" },
+                "touch": { "type": "string" },
+                "smell": { "type": "string" }
+              }
+            }
+          },
+          "inspection_rubric": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["axis", "question_vi", "options"],
+              "properties": {
+                "axis": { "type": "string" },
+                "question_vi": { "type": "string" },
+                "stop_if": { "type": "array", "items": { "type": "string" } },
+                "options": {
+                  "type": "array",
+                  "minItems": 2,
+                  "items": {
+                    "type": "object",
+                    "required": ["value", "label_vi", "penalty"],
+                    "properties": {
+                      "value": { "type": "string" },
+                      "label_vi": { "type": "string" },
+                      "penalty": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+                      "reason_vi": { "type": "string" },
+                      "hard_stop": { "type": "boolean" },
+                      "claim": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "preservation_protocols": {
+            "type": "object",
+            "required": ["recommended", "prep", "bad"],
+            "properties": {
+              "recommended": { "type": "array", "items": { "type": "string" } },
+              "prep": { "type": "array", "items": { "type": "string" } },
+              "bad": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "business_rules": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "ingredients": {
+      "type": "object",
+      "minProperties": 30,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "code", "names_vi", "archetype", "base_shelf_life_hours"],
+        "properties": {
+          "id": { "type": "string" },
+          "code": { "type": "string" },
+          "names_vi": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "archetype": { "type": "string" },
+          "base_shelf_life_hours": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "object",
+              "required": ["value", "claim"],
+              "properties": {
+                "value": { "type": "number", "exclusiveMinimum": 0.0 },
+                "claim": { "type": "string", "pattern": "^C-[A-Z0-9_-]+$" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
